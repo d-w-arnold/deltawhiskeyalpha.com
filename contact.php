@@ -1,6 +1,50 @@
 <?php
 
+require './vendor/autoload.php';
+
 $title = '∆WA : David W. Arnold - Contact';
+
+use SparkPost\SparkPost;
+use GuzzleHttp\Client as GuzzleClient;
+use Http\Adapter\Guzzle6\Client as GuzzleAdapter;
+
+$httpClient = new GuzzleAdapter(new GuzzleClient());
+$sparky = new SparkPost($httpClient, ['key'=>'a6eb87028322ad4d6bbb01edd4922d71b2d9c132']);
+$sparky->setOptions(['async' => false]);
+
+try {
+    $message = '';
+    $message .= 'Name: XXX'.PHP_EOL;
+    $message .= 'Email: XXX'.PHP_EOL;
+    $message .= 'Message:'.PHP_EOL;
+    $message .= '---'.PHP_EOL;
+    $message .= 'XXXX';
+
+    $promise = $sparky->transmissions->post([
+        'content' => [
+            'from' => [
+                'name' => 'DWA',
+                'email' => 'website@deltawhiskeyalpha.com',
+            ],
+            'subject' => 'DWA - Email from XXXX',
+            'text' => $message,
+        ],
+        'recipients' => [
+            [
+                'address' => [
+                    'name' => 'David Arnold',
+                    'email' => 'david@deltawhiskeyalpha.com',
+                ],
+            ],
+        ],
+    ]);
+}
+catch (\Exception $e) {
+    echo $e->getCode()."\n";
+    echo $e->getMessage()."\n";
+    die();
+}
+
 
 include "./topHTML.php";
 
