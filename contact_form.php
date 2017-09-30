@@ -2,57 +2,99 @@
 
 require './vendor/autoload.php';
 
-$name = $_POST['name'];
-$email = $_POST['email'];
-$messageText = $_POST['message'];
-
 use SparkPost\SparkPost;
 use GuzzleHttp\Client as GuzzleClient;
 use Http\Adapter\Guzzle6\Client as GuzzleAdapter;
 
-$httpClient = new GuzzleAdapter(new GuzzleClient());
-$sparky = new SparkPost($httpClient, ['key'=>'a6eb87028322ad4d6bbb01edd4922d71b2d9c132']);
-$sparky->setOptions(['async' => false]);
+function getRealIpAddr()
+{
+    if (!empty($_SERVER['HTTP_CLIENT_IP']))   //check ip from share internet
+    {
+        $ip=$_SERVER['HTTP_CLIENT_IP'];
+    }
+    elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))   //to check ip is pass from proxy
+    {
+        $ip=$_SERVER['HTTP_X_FORWARDED_FOR'];
+    }
+    else
+    {
+        $ip=$_SERVER['REMOTE_ADDR'];
+    }
+    return $ip;
+}
 
-try {
-    $text = '';
-    $text .= "Name: $name".PHP_EOL;
-    $text .= "Email: $email".PHP_EOL;
-    $text .= 'Message:'.PHP_EOL;
-    $text .= '---'.PHP_EOL;
-    $text .= $messageText;
+$name = $_POST['name'];
+$email = $_POST['email'];
+$message = $_POST['message'];
+$gRecaptchaResponse = $_POST['g-recaptcha-response'];
 
-    $promise = $sparky->transmissions->post([
-        'content' => [
-            'from' => [
-                'name' => 'DWA',
-                'email' => 'website@deltawhiskeyalpha.com',
-            ],
-            'reply_to' => $email,
-            'subject' => "DWA - Email from $name",
-            'text' => $text,
-        ],
-        'recipients' => [
-            [
-                'address' => [
-                    'name' => 'David Arnold',
-                    'email' => 'david@deltawhiskeyalpha.com',
-                ],
-            ],
-        ],
-    ]);
+$errorMessage = 'Cool !';
+$status = 1;
 
-    $message = 'Cool !';
-    $status = 1;
-} catch (\Exception $e) {
-//    echo $e->getCode()."\n";
-//    echo $e->getMessage()."\n";
-//    die();
+foreach (['name', 'email', 'message'] as $field) {
+    if(empty(${$field}) && $status == 1) {
+        $errorMessage = "You should provide $field";
+        $status = 0;
+    }
+}
 
-    $message = 'Some error happened, please fuck u';
+if(!filter_var($email, FILTER_VALIDATE_EMAIL) && $status == 1) {
+    $errorMessage = "That is not a fucking email";
     $status = 0;
 }
 
-$message = urlencode($message);
+$recaptcha = new ReCaptcha\ReCaptcha('6LdcpDIUAAAAABGjKLuEV8yb_PFp-OWSoxMWp4ch');
+$resp = $recaptcha->verify($gRecaptchaResponse, getRealIpAddr());
+if (!$resp->isSuccess()) {
+    // $errors = $resp->getErrorCodes();
+    // die(var_dump($errors));
+
+    $errorMessage = 'I think ur a robot sir';
+    $status = 0;
+}
+
+if ($status == 1) {
+    $httpClient = new GuzzleAdapter(new GuzzleClient());
+    $sparky = new SparkPost($httpClient, ['key'=>'a6eb87028322ad4d6bbb01edd4922d71b2d9c132']);
+    $sparky->setOptions(['async' => false]);
+
+    try {
+        $text = '';
+        $text .= "Name: $name".PHP_EOL;
+        $text .= "Email: $email".PHP_EOL;
+        $text .= 'Message:'.PHP_EOL;
+        $text .= '---'.PHP_EOL;
+        $text .= $message;
+
+        $promise = $sparky->transmissions->post([
+            'content' => [
+                'from' => [
+                    'name' => 'DWA',
+                    'email' => 'website@deltawhiskeyalpha.com',
+                ],
+                'reply_to' => $email,
+                'subject' => "DWA - Email from $name",
+                'text' => $text,
+            ],
+            'recipients' => [
+                [
+                    'address' => [
+                        'name' => 'David Arnold',
+                        'email' => 'david@deltawhiskeyalpha.com',
+                    ],
+                ],
+            ],
+        ]);
+    } catch (\Exception $e) {
+//        echo $e->getCode()."\n";
+//        echo $e->getMessage()."\n";
+//        die();
+
+        $errorMessage = 'Some error happened, please fuck u';
+        $status = 0;
+    }
+}
+
+$errorMessage = urlencode($errorMessage);
 $status = urlencode($status);
-header("Location: /contact.php?message=$message&status=$status");
+header("Location: /contact.php?message=$errorMessage&status=$status");

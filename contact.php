@@ -6,6 +6,13 @@ include "./topHTML.php";
 
 ?>
 
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script>
+    function onSubmit(token) {
+        document.getElementById("contact-form").submit();
+    }
+</script>
+
 <div style="text-align: left; margin-bottom: 4%">
     <p style="font-size: 20pt; margin-bottom: 3%"><u>Contact</u>:</p>
     <p>** If you haven't already, please find the link to my CV at the top of the screen **</p>
@@ -26,11 +33,16 @@ include "./topHTML.php";
         }
     ?>
 
-    <form action="/contact_form.php" method="POST">
+    <form id='contact-form' action="/contact_form.php" method="POST">
         <input type="text" name="name">
         <input type="text" name="email">
         <textarea name="message"></textarea>
-        <button type="submit">YOLO</button>
+        <button class="g-recaptcha"
+                data-sitekey="6LdcpDIUAAAAAM9btQ69nAV7k8cYtLXHNUeb41UP"
+                data-callback='onSubmit'
+        >
+            Submit
+        </button>
     </form>
 </div>
 
