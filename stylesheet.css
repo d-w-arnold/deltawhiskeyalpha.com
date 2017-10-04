@@ -71,3 +71,20 @@ u a {
     display: flex;
     justify-content: center;
 }
+
+#contact-form-table .response {
+    width: 50vw;
+}
+
+#contact-form-table td {
+    padding: 5px 20px 5px 0;
+    vertical-align: top;
+}
+
+#contact-form-table .row-textarea td {
+    padding-top: 10px;
+}
+
+#contact-form-table textarea {
+    height: 300px;
+}
