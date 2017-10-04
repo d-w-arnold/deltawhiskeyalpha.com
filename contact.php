@@ -23,12 +23,17 @@ include "./topHTML.php";
     <br>
 
     <?php
-        $message = @$_GET['message'];
+        $messages = @$_GET['messages'];
+        if ($messages) {
+            $messages = json_decode($messages);
+        }
         $status = @$_GET['status'] || 0;
         $color = $status == 1 ? 'green' : 'red';
 
-        if($message) {
-            echo "<span style='color: $color'>$message</span>";
+        if($messages && !empty($messages)) {
+            foreach ($messages as $m) {
+                echo "<p style='color: $color'>$m</p>";
+            }
         }
     ?>
 

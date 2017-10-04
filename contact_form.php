@@ -28,18 +28,18 @@ $email = $_POST['email'];
 $message = $_POST['message'];
 $gRecaptchaResponse = $_POST['g-recaptcha-response'];
 
-$errorMessage = "Thank you for submitting your email!";
+$errorMessages = [];
 $status = 1;
 
 foreach (['name', 'email', 'message'] as $field) {
-    if(empty(${$field}) && $status == 1) {
-        $errorMessage = "Please provide your $field.";
+    if(empty(${$field})) {
+        $errorMessages[] = "Please provide your $field.";
         $status = 0;
     }
 }
 
-if(!filter_var($email, FILTER_VALIDATE_EMAIL) && $status == 1) {
-    $errorMessage = "Please provide your email so I may contact you.";
+if(!empty($email) && !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    $errorMessages[] = "Please provide a valid email address so I may contact you.";
     $status = 0;
 }
 
@@ -49,7 +49,7 @@ if (!$resp->isSuccess()) {
     // $errors = $resp->getErrorCodes();
     // die(var_dump($errors));
 
-    $errorMessage = "Please use the security provided to prove you are not a robot.";
+    $errorMessages[] = "Please use the security provided to prove you are not a robot.";
     $status = 0;
 }
 
@@ -90,11 +90,15 @@ if ($status == 1) {
 //        echo $e->getMessage()."\n";
 //        die();
 
-        $errorMessage = "This email cannot be submitted, please try at a later time.";
+        $errorMessages[] = "This email cannot be submitted, please try at a later time.";
         $status = 0;
     }
 }
 
-$errorMessage = urlencode($errorMessage);
+if($status == 1) {
+    $errorMessages = ["Thank you for submitting your email!"];
+}
+
+$errorMessages = urlencode(json_encode($errorMessages));
 $status = urlencode($status);
-header("Location: /contact.php?message=$errorMessage&status=$status");
+header("Location: /contact.php?messages=$errorMessages&status=$status");
