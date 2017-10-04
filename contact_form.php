@@ -28,18 +28,18 @@ $email = $_POST['email'];
 $message = $_POST['message'];
 $gRecaptchaResponse = $_POST['g-recaptcha-response'];
 
-$errorMessage = 'Cool !';
+$errorMessage = "Thank you for submitting your email!";
 $status = 1;
 
 foreach (['name', 'email', 'message'] as $field) {
     if(empty(${$field}) && $status == 1) {
-        $errorMessage = "You should provide $field";
+        $errorMessage = "Please provide your $field.";
         $status = 0;
     }
 }
 
 if(!filter_var($email, FILTER_VALIDATE_EMAIL) && $status == 1) {
-    $errorMessage = "That is not a fucking email";
+    $errorMessage = "Please provide your email so I may contact you.";
     $status = 0;
 }
 
@@ -49,7 +49,7 @@ if (!$resp->isSuccess()) {
     // $errors = $resp->getErrorCodes();
     // die(var_dump($errors));
 
-    $errorMessage = 'I think ur a robot sir';
+    $errorMessage = "Please use the security provided to prove you are not a robot.";
     $status = 0;
 }
 
@@ -90,7 +90,7 @@ if ($status == 1) {
 //        echo $e->getMessage()."\n";
 //        die();
 
-        $errorMessage = 'Some error happened, please fuck u';
+        $errorMessage = "This email cannot be submitted, please try at a later time.";
         $status = 0;
     }
 }
