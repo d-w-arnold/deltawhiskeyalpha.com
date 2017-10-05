@@ -19,7 +19,7 @@
     <header>
         <p id="delta"><a href="./index.php">∆WA</a></p>
         <p id="intro"><i>Home of Computer Scientist and University of Kent undergraduate ...</i></p>
-        <p id="cv"><a class="invert" target="_blank" href="./resources/DWA.pdf?2">** CV **</a></p>
+        <p id="cv"><a class="invert" target="_blank" href="./resources/DWA.pdf?3">** CV **</a></p>
         <p id="myName">David W. Arnold</p>
         <nav>
             <ul id="menu">
