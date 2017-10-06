@@ -31,6 +31,15 @@ u a {
 
 .nav {
     padding: 10px;
+    font-family: sans-serif;
+}
+
+.title {
+    font-family: sans-serif;
+}
+
+.link {
+    font-family: serif;
 }
 
 .nav:hover {

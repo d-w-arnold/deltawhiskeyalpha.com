@@ -7,7 +7,7 @@ include "./topHTML.php";
 ?>
 
 <div style="text-align: left; margin-bottom: 4%">
-    <p style="font-size: 20pt; margin-bottom: 3%"><u>Golf</u>:</p>
+    <p class="title" style="font-size: 20pt; margin-bottom: 3%"><u>Golf</u>:</p>
     <p>Before I became a Computer Scientist, I was a golfer.</p>
     <br>
     <p>My golf career started at the age of 7.</p>

@@ -7,7 +7,7 @@ include './topHTML.php';
 ?>
 
     <div style="text-align: left; margin-bottom: 4%">
-        <p style="font-size: 20pt; margin-bottom: 3%;"><u>Home</u>:</p>
+        <p class="title" style="font-size: 20pt; margin-bottom: 3%;"><u>Home</u>:</p>
         <p>Hello, my name is David.</p>
         <br>
         <p>I live in the county of Kent, England, United Kingdom. I am a Computer Scientist in training.</p>

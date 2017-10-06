@@ -14,10 +14,10 @@ include "./topHTML.php";
 </script>
 
 <div style="text-align: left; margin-bottom: 4%">
-    <p style="font-size: 20pt; margin-bottom: 3%"><u>Contact</u>:</p>
+    <p class="title" style="font-size: 20pt; margin-bottom: 3%"><u>Contact</u>:</p>
     <p>** If you haven't already, please find the link to my CV at the top of the screen **</p>
     <br>
-    <p><a class="nav" style="padding: 0" target="_blank" href="https://www.linkedin.com/in/david-arnold-496b32147/">If you have a Linkedin account, click here for my profile.</a></p>
+    <p><a class="nav, link" style="padding: 0" target="_blank" href="https://www.linkedin.com/in/david-arnold-496b32147/">If you have a Linkedin account, click here for my profile.</a></p>
     <br>
     <p>I am only a novice website designer, if you have any advice for ways in which I can improve this website, please send me an email. Thank you!</p>
     <br>
