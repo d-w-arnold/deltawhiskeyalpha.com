@@ -13,7 +13,7 @@
     <meta name="theme-color" content="#282828">
     <meta name="description" content="∆WA : Home of Computer Scientist, David W. Arnold.">
     <title><?php echo $title ?: '∆WA : David W. Arnold'?></title>
-    <link rel="stylesheet" href="/stylesheet.css?1">
+    <link rel="stylesheet" href="/stylesheet.css?2">
 </head>
 <body>
     <header>
