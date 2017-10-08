@@ -24,19 +24,19 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a class="nav" href="./index.php">Home</a>
+                    <a class="navigation" href="./index.php">Home</a>
                 </li>
                 <li>
-                    <a class="nav" href="./education.php">Education</a>
+                    <a class="navigation" href="./education.php">Education</a>
                 </li>
                 <li>
-                    <a class="nav" href="./golf.php">Golf</a>
+                    <a class="navigation" href="./golf.php">Golf</a>
                 </li>
                 <li>
-                    <a class="nav" href="./computing.php">Computing</a>
+                    <a class="navigation" href="./computing.php">Computing</a>
                 </li>
                 <li>
-                    <a class="nav" href="./contact.php">Contact</a>
+                    <a class="navigation" href="./contact.php">Contact</a>
                 </li>
             </ul>
         </nav>

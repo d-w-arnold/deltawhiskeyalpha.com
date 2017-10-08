@@ -29,20 +29,20 @@ u a {
     color: black;
 }
 
-.nav {
+.navigation {
     padding: 10px;
-    font-family: sans-serif;
+    font-family: sans-serif, Arial;
 }
 
 .title {
-    font-family: sans-serif;
+    font-family: sans-serif, Arial;
 }
 
 .web_link {
     padding: 10px;
 }
 
-.nav:hover {
+.navigation:hover {
     text-decoration: underline;
 }
 
