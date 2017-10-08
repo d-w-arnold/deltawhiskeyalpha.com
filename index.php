@@ -12,7 +12,7 @@ include './topHTML.php';
         <br>
         <p>I live in the county of Kent, England, United Kingdom. I am a Computer Scientist in training.</p>
         <br>
-        <p>I completed my first year of study at the University of Kent with a 1st Class grade and will be starting my second year as of September 2017.</p>
+        <p>I completed my first year of study at the University of Kent with distinction (86%) and will be starting my second year as of September 2017.</p>
         <br>
         <p>P.S. This website, is my first ever website!</p>
     </div>

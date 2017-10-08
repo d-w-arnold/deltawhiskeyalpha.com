@@ -38,11 +38,15 @@ u a {
     font-family: sans-serif;
 }
 
-.link {
-    font-family: serif;
+.web_link {
+    padding: 10px;
 }
 
 .nav:hover {
+    text-decoration: underline;
+}
+
+.web_link:hover {
     text-decoration: underline;
 }
 
