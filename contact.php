@@ -12,14 +12,15 @@ include "./topHTML.php";
         document.getElementById("contact-form").submit();
     }
 </script>
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
 <div style="text-align: left; margin-bottom: 4%">
     <p class="title" style="font-size: 20pt; margin-bottom: 3%"><u>Contact</u>:</p>
     <p>Please find the link to my ** CV ** at the top of the screen.</p>
     <br>
-    <p><a class="link" style="padding: 0" target="_blank" href="https://www.linkedin.com/in/david-arnold-496b32147/">If you have a Linkedin account, click here for my profile.</a></p>
-    <br>
     <p>I am only a novice web developer, if you have any advice for ways in which I can improve this website, please send me an email. Thank you!</p>
+    <br>
+    <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="david-w-arnold"><a class="LI-simple-link" href='https://uk.linkedin.com/in/david-w-arnold?trk=profile-badge'>David W. Arnold</a></div>
     <br>
 
     <?php
