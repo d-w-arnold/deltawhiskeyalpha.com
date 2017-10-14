@@ -16,7 +16,7 @@ include "./topHTML.php";
 
 <div style="text-align: left; margin-bottom: 4%">
     <p class="title" style="font-size: 20pt; margin-bottom: 3%"><u>Contact</u>:</p>
-    <p>Please find the link to my ** CV ** at the top of the screen.</p>
+    <p>Please find the link to my ( ** CV ** ) at the top of the screen.</p>
     <br>
     <p>I am only a novice web developer, if you have any advice for ways in which I can improve this website, please send me an email. Thank you!</p>
     <br>

@@ -13,13 +13,13 @@
     <meta name="theme-color" content="#282828">
     <meta name="description" content="∆WA : Home of Computer Scientist, David W. Arnold.">
     <title><?php echo $title ?: '∆WA : David W. Arnold'?></title>
-    <link rel="stylesheet" href="/stylesheet.css?2">
+    <link rel="stylesheet" href="/stylesheet.css?4">
 </head>
 <body>
     <header>
         <p id="delta"><a href="./index.php">∆WA</a></p>
         <p id="intro"><i>Home of Computer Scientist and University of Kent undergraduate ...</i></p>
-        <p id="cv"><a class="invert" target="_blank" href="./resources/DWA.pdf?5">** CV **</a></p>
+        <p id="cv"><a class="invert" target="_blank" href="./resources/resume_cv.pdf?4">** CV **</a></p>
         <p id="myName">David W. Arnold</p>
         <nav>
             <ul id="menu">
