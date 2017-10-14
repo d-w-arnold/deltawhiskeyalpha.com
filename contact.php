@@ -20,7 +20,6 @@ include "./topHTML.php";
     <br>
     <p>I am only a novice web developer, if you have any advice for ways in which I can improve this website, please send me an email. Thank you!</p>
     <br>
-    <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="david-w-arnold"><a class="LI-simple-link" href='https://uk.linkedin.com/in/david-w-arnold?trk=profile-badge'>David W. Arnold</a></div>
     <br>
 
     <?php
@@ -38,33 +37,57 @@ include "./topHTML.php";
         }
     ?>
 
-    <form id='contact-form' action="/contact_form.php" method="POST">
-        <table id="contact-form-table">
-            <tr>
-                <td><label for="name">Name:</label></td>
-                <td><input class="response" type="text" name="name" id="name"></td>
-            </tr>
-            <tr>
-                <td><label for="email">Email:</label></td>
-                <td><input class="response" type="text" name="email" id="email"></td>
-            </tr>
-            <tr class="row-textarea">
-                <td><label for="message">Message:</label></td>
-                <td><textarea class="response" name="message" id="message"></textarea></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>
-                    <button class="g-recaptcha"
-                            data-sitekey="6LdcpDIUAAAAAM9btQ69nAV7k8cYtLXHNUeb41UP"
-                            data-callback='onSubmit'
-                    >
-                        Submit Email
-                    </button>
-                </td>
-            </tr>
-        </table>
-    </form>
+    <style>
+        .contact-details {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .contact-details .left {
+            flex: 1;
+        }
+
+        .contact-details .right {
+            flex: 1;
+            margin-top: 5px;
+        }
+    </style>
+
+    <div class="contact-details">
+        <div class="left">
+            <form id='contact-form' action="/contact_form.php" method="POST">
+                <table id="contact-form-table">
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input class="response" type="text" name="name" id="name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input class="response" type="text" name="email" id="email"></td>
+                    </tr>
+                    <tr class="row-textarea">
+                        <td><label for="message">Message:</label></td>
+                        <td><textarea class="response" name="message" id="message"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button class="g-recaptcha"
+                                    data-sitekey="6LdcpDIUAAAAAM9btQ69nAV7k8cYtLXHNUeb41UP"
+                                    data-callback='onSubmit'
+                            >
+                                Submit Email
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="right">
+            <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="david-w-arnold"><a class="LI-simple-link" href='https://uk.linkedin.com/in/david-w-arnold?trk=profile-badge'>David W. Arnold</a></div>
+        </div>
+    </div>
+
 </div>
 
 <?php

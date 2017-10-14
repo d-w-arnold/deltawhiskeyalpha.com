@@ -94,6 +94,10 @@ u a {
     vertical-align: top;
 }
 
+#contact-form-table tr:first-of-type td {
+    padding-top: 0;
+}
+
 #contact-form-table .row-textarea td {
     padding-top: 10px;
 }
