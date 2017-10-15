@@ -40,7 +40,7 @@ include "./topHTML.php";
 
     <p><b class="title" style="font-size: 16pt">The Harvey Grammar School</b>, Folkestone, U.K.</p>
     <p style="margin: 1% 0 1% 0; font-size: 14pt">GCSE (General Certificate of Higher Education)</p>
-    <p style="margin: 1% 0 1% 0; font-size: 12pt">Sep. 2007 - Jul. 2012 </p>
+    <p style="margin: 1% 0 1% 0; font-size: 12pt">Sep. 2007 - Jul. 2012</p>
     <div style="font-size: 12pt">
         <p>•&nbsp;&nbsp;(A-Grade): Mathematics, Science, Additional Science, English, Design & Technology: Resistant Materials, BTEC Level 2 Certificate in Sport - Distinction*</p>
         <p>•&nbsp;&nbsp;(B-Grade): Physical Education, English Literature, Geography, Media Studies</p>

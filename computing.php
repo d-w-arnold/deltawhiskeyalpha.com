@@ -27,7 +27,7 @@ include "./topHTML.php";
     <p class="title" style="margin-bottom: 6%">Experience</p>
     <p><b class="title" style="font-size: 16pt">IT-Alan</b>, Burmarsh, Kent, U.K.</p>
     <p style="margin: 1% 0 1% 0; font-size: 14pt">Assistant Engineer</p>
-    <p style="margin: 1% 0 1% 0; font-size: 12pt">Jun. 2017 - Sep. 2017 </p>
+    <p style="margin: 1% 0 1% 0; font-size: 12pt">Jun. 2017 - Sep. 2017</p>
     <div style="font-size: 12pt">
         <p>•&nbsp;&nbsp;Computer repair & maintenance with a Microsoft Certified Systems Engineer.</p>
         <p>•&nbsp;&nbsp;As the Assistant Engineer, my duties included first-hand experience in dealing with customers while assisting the Systems Engineer in one of the many services provided.</p>
