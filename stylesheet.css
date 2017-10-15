@@ -1,9 +1,13 @@
+body > div *, nav *  {
+    font-family: 'Roboto', sans-serif !important;
+}
+
 body {
     margin: 2% 5% 2% 5%;
     background-color: #282828;
     color: #ffffff;
     text-align: center;
-    font-size: 14pt;
+    font-size: 16pt;
 }
 
 p {
@@ -12,6 +16,7 @@ p {
 
 li {
     padding: 2% 4% 2% 4%;
+    flex: 1;
 }
 
 a {
@@ -24,6 +29,33 @@ u a {
     padding: 0;
 }
 
+.computingSubTitle {
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-details .left {
+    flex: 1;
+}
+
+.contact-details .right {
+    width: 250px;
+    margin-top: 5px;
+}
+
+.cv:hover {
+    text-decoration: underline;
+}
+
+.eachDoc {
+    margin: 0 15% 0 15%;
+}
+
 .invert:hover {
     background: white;
     color: black;
@@ -31,11 +63,10 @@ u a {
 
 .navigation {
     padding: 10px;
-    font-family: sans-serif, Arial;
 }
 
 .title {
-    font-family: sans-serif, Arial;
+    font-size: 24pt;
 }
 
 .web_link {
@@ -80,28 +111,31 @@ u a {
     list-style-type: none;
     margin: 0 0 3% 0;
     padding: 0;
-    font-size: 15pt;
     display: flex;
     justify-content: center;
 }
 
-#contact-form-table .response {
-    width: 50vw;
+#contact-form {
+    width: 90%;
 }
 
-#contact-form-table td {
+#contact-form .response {
+    width: 100%;
+}
+
+#contact-form td {
     padding: 5px 20px 5px 0;
     vertical-align: top;
 }
 
-#contact-form-table tr:first-of-type td {
+#contact-form tr:first-of-type td {
     padding-top: 0;
 }
 
-#contact-form-table .row-textarea td {
+#contact-form .row-textarea td {
     padding-top: 10px;
 }
 
-#contact-form-table textarea {
+#contact-form textarea {
     height: 300px;
 }

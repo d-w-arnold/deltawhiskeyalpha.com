@@ -11,15 +11,15 @@
     <link rel="shortcut icon" href="/resources/favicon/favicon.ico">
     <meta name="msapplication-config" content="/resources/favicon/browserconfig.xml">
     <meta name="theme-color" content="#282828">
-    <meta name="description" content="∆WA : Home of Computer Scientist, David W. Arnold.">
+    <meta name="description" content="Home of Computer Scientist and University of Kent undergraduate, David W. Arnold.">
     <title><?php echo $title ?: '∆WA : David W. Arnold'?></title>
-    <link rel="stylesheet" href="/stylesheet.css?5">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="/stylesheet.css?7">
 </head>
 <body>
     <header>
         <p id="delta"><a href="./index.php">∆WA</a></p>
         <p id="intro"><i>Home of Computer Scientist and University of Kent undergraduate ...</i></p>
-        <p id="cv"><a class="invert" target="_blank" href="./resources/resume_cv.pdf?5">** CV **</a></p>
         <p id="myName">David W. Arnold</p>
         <nav>
             <ul id="menu">
