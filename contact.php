@@ -22,7 +22,7 @@ include "./topHTML.php";
         </script>
         <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
         <p class="title" style="margin-bottom: 6%">Contact</p>
-        <p><a class="cv" style="padding: 0" target="_blank" href="./resources/DWA_resume_cv.pdf?1">Click here for my CV
+        <p><a class="cv" style="padding: 0" target="_blank" href="./resources/DWA_resume_cv.pdf?2">Click here for my CV
                 (Résumé).</a></p>
         <br>
         <p>If you have any advice for ways in which I can improve this website, please send me an email. Thank you!</p>

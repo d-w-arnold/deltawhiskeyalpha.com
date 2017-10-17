@@ -14,9 +14,9 @@ include "./topHTML.php";
     <p style="margin: 1% 0 1% 0; font-size: 12pt">Sep. 2016 - Jun. 2020</p>
     <div style="margin-bottom: 6%; font-size: 12pt">
         <p>•&nbsp;&nbsp;Year 1: 86%</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;(Java) Introduction to Object-Orientated Programming: 97%</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;(PHP, MySQL, HTML & CSS, JavaScript) Database and the Web: 86%</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;(Java) Further Object-Orientated Programming: 94%</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;CO320 Introduction to Object-Orientated Programming (Java): 97%</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;CO323 Database and the Web (PHP, MySQL, HTML & CSS, JavaScript): 86%</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;CO520 Further Object-Orientated Programming (Java): 94%</p>
     </div>
 
     <p><b class="title" style="font-size: 16pt">Newberry College</b>, Newberry South Carolina, U.S.A.</p>
