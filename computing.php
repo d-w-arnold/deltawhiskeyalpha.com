@@ -21,6 +21,10 @@ include "./topHTML.php";
             <td style="text-align: right; padding-left: 4%"><b class="computingSubTitle">Operating Systems</b></td>
             <td style="padding-left: 2%; font-size: 13pt">Mac OS Sierra, Ubuntu 16.04 LTS, Windows 10, iOS 9-11, OSX El Capitan, Windows 7, Raspbian</td>
         </tr>
+        <tr>
+            <td style="text-align: right; padding-left: 4%"><b class="computingSubTitle">Events</b></td>
+            <td style="padding-left: 2%; font-size: 13pt">2017 Cisco University Challenge</td>
+        </tr>
     </table>
 </div>
 <div class="eachDoc" style="text-align: left; margin-bottom: 6%">
