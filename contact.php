@@ -6,13 +6,6 @@ include "./topHTML.php";
 
 ?>
 
-    <style>
-        .contactFormat {
-            width: 70%;
-            margin: 0 auto;
-        }
-    </style>
-
     <div class="contactFormat" style="text-align: left; margin-bottom: 6%">
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
         <script>
@@ -22,10 +15,9 @@ include "./topHTML.php";
         </script>
         <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
         <p class="title" style="margin-bottom: 6%">Contact</p>
-        <p><a class="cv" style="padding: 0" target="_blank" href="./resources/DWA_resume_cv.pdf?3">Click here for my CV
-                (Résumé).</a></p>
+        <p><a class="cv" style="padding: 0; font-size: 13pt" target="_blank" href="./resources/DWA_resume_cv.pdf?3">Click here for my CV (Résumé).</a></p>
         <br>
-        <p>If you have any advice for ways in which I can improve this website, please send me an email. Thank you!</p>
+        <p style="font-size: 13pt">If you have any advice for ways in which I can improve this website, please send me an email. Thank you!</p>
         <br>
 
         <?php
@@ -64,13 +56,10 @@ include "./topHTML.php";
                     <div style="margin: 0 0 2% 0">
                         <label for="message">Message:</label>
                     </div>
-                    <div>
-                        <textarea class="response" name="message" id="message"></textarea>
-                    </div>
-                    <button class="g-recaptcha"
+                    <textarea class="response" name="message" id="message"></textarea>
+                    <button id="button" class="g-recaptcha"
                             data-sitekey="6LdcpDIUAAAAAM9btQ69nAV7k8cYtLXHNUeb41UP"
-                            data-callback='onSubmit'
-                    >
+                            data-callback='onSubmit'>
                         Send Email
                     </button>
                 </form>

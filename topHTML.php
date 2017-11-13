@@ -14,6 +14,7 @@
     <meta name="description" content="Home of Computer Scientist and University of Kent undergraduate, David W. Arnold.">
     <title><?php echo $title ?: '∆WA : David W. Arnold'?></title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="/stylesheet.css?7">
 </head>
 <body>
@@ -22,7 +23,7 @@
         <p id="intro"><i>Home of Computer Scientist and University of Kent undergraduate ...</i></p>
         <p id="myName">David W. Arnold</p>
         <nav>
-            <ul id="menu">
+            <ul>
                 <li>
                     <a class="navigation" href="./index.php">Home</a>
                 </li>

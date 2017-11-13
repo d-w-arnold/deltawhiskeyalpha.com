@@ -3,7 +3,7 @@ body > div *, nav *  {
 }
 
 body {
-    margin: 2% 5% 2% 5%;
+    padding: 2% 5% 2% 5%;
     background-color: #282828;
     color: #ffffff;
     text-align: center;
@@ -14,19 +14,60 @@ p {
     margin: 0;
 }
 
-li {
-    padding: 2% 4% 2% 4%;
-    flex: 1;
+ul {
+    list-style-type: none;
+    font-size: 13pt;
+    margin: 0 0 3% 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.navigation {
+    padding: 10px 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    ul {
+        flex-direction: column;
+    }
+
+    .contactFormat {
+        width: auto !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .contact-details {
+        flex-direction: column !important;
+    }
+
+    .left {
+        margin-bottom: 50px;
+    }
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
-    padding: 0 20px 0 20px;
 }
 
-u a {
-    padding: 0;
+.contactFormat {
+    width: 70%;
+    margin: 0 auto;
 }
 
 .computingSubTitle {
@@ -61,10 +102,6 @@ u a {
     color: black;
 }
 
-.navigation {
-    padding: 10px;
-}
-
 .title {
     font-size: 24pt;
 }
@@ -83,6 +120,10 @@ u a {
 
 .web:hover {
     text-decoration: underline; 
+}
+
+#button {
+    background-color: white;
 }
 
 #delta {
@@ -104,15 +145,6 @@ u a {
     border-bottom: solid;
     border-bottom-color: white;
 
-}
-
-#menu {
-    width: 100%;
-    list-style-type: none;
-    margin: 0 0 3% 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
 }
 
 #contact-form {
@@ -138,4 +170,5 @@ u a {
 
 #contact-form textarea {
     height: 300px;
+    margin: 0 0 10px 0;
 }

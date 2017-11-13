@@ -6,7 +6,7 @@ include "./topHTML.php";
 
 ?>
 
-<div class="eachDoc" style="text-align: left; margin-bottom: 6%">
+<div class="eachDoc" style="text-align: left; margin-bottom: 3%">
     <p class="title" style="margin-bottom: 6%">Computing</p>
     <table style="width: 100%">
         <tr>
