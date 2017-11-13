@@ -40,26 +40,6 @@ li a:hover {
     padding: 10px 20px;
 }
 
-@media only screen and (max-width: 600px) {
-    ul {
-        flex-direction: column;
-    }
-
-    .contactFormat {
-        width: auto !important;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    .contact-details {
-        flex-direction: column !important;
-    }
-
-    .left {
-        margin-bottom: 50px;
-    }
-}
-
 a {
     color: #ffffff;
     text-decoration: none;
@@ -171,4 +151,28 @@ a {
 #contact-form textarea {
     height: 300px;
     margin: 0 0 10px 0;
+}
+
+@media only screen and (max-width: 600px) {
+    ul {
+        flex-direction: column;
+    }
+
+    .contactFormat {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .contact-details {
+        flex-direction: column;
+    }
+
+    .eachDoc {
+        margin: 0 ;
+    }
+
+    .left {
+        margin-bottom: 50px;
+    }
 }

@@ -15,7 +15,7 @@
     <title><?php echo $title ?: '∆WA : David W. Arnold'?></title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="/stylesheet.css?7">
+    <link rel="stylesheet" href="/stylesheet.css?8">
 </head>
 <body>
     <header>
