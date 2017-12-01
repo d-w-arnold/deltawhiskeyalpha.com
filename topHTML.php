@@ -9,13 +9,13 @@
     <link rel="manifest" href="/resources/favicon/manifest.json">
     <link rel="mask-icon" href="/resources/favicon/safari-pinned-tab.svg" color="#282828">
     <link rel="shortcut icon" href="/resources/favicon/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="/stylesheet.css?10">
     <meta name="msapplication-config" content="/resources/favicon/browserconfig.xml">
     <meta name="theme-color" content="#282828">
     <meta name="description" content="Home of Computer Scientist and University of Kent undergraduate, David W. Arnold.">
     <title><?php echo $title ?: '∆WA : David W. Arnold'?></title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="/stylesheet.css?8">
 </head>
 <body>
     <header>
@@ -24,21 +24,11 @@
         <p id="myName">David W. Arnold</p>
         <nav>
             <ul>
-                <li>
-                    <a class="navigation" href="./index.php">Home</a>
-                </li>
-                <li>
-                    <a class="navigation" href="./education.php">Education</a>
-                </li>
-                <li>
-                    <a class="navigation" href="./golf.php">Golf</a>
-                </li>
-                <li>
-                    <a class="navigation" href="./computing.php">Computing</a>
-                </li>
-                <li>
-                    <a class="navigation" href="./contact.php">Contact</a>
-                </li>
+                <li><a id="firstItem" href="./index.php">Home</a></li>
+                <li><a href="./education.php">Education</a></li>
+                <li><a href="./golf.php">Golf</a></li>
+                <li><a href="./computing.php">Computing</a></li>
+                <li><a id="lastItem" href="./contact.php">Contact</a></li>
             </ul>
         </nav>
     </header>

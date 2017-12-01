@@ -39,7 +39,7 @@ foreach (['name', 'email', 'message'] as $field) {
 }
 
 if(!empty($email) && !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    $errorMessages[] = "Please provide a valid email address so I may contact you.";
+    $errorMessages[] = "Please provide a valid email address.";
     $status = 0;
 }
 
@@ -49,7 +49,7 @@ if (!$resp->isSuccess()) {
     // $errors = $resp->getErrorCodes();
     // die(var_dump($errors));
 
-    $errorMessages[] = "Please use the security provided to prove you are not a robot.";
+    $errorMessages[] = "Please use the security provided, this is to prove you are not a robot.";
     $status = 0;
 }
 
@@ -86,9 +86,6 @@ if ($status == 1) {
             ],
         ]);
     } catch (\Exception $e) {
-//        echo $e->getCode()."\n";
-//        echo $e->getMessage()."\n";
-//        die();
 
         $errorMessages[] = "This email cannot be submitted, please try at a later time.";
         $status = 0;
@@ -96,7 +93,7 @@ if ($status == 1) {
 }
 
 if($status == 1) {
-    $errorMessages = ["Thank you for submitting your email!"];
+    $errorMessages = ["Your message has been sent, thank you!"];
 }
 
 $errorMessages = urlencode(json_encode($errorMessages));
