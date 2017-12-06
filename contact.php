@@ -20,7 +20,7 @@ include "./topHTML.php";
 
     <p class="writing">If you have any advice for ways in which I can improve this website, please send me an email. Thank you!</p>
     <br>
-    <p id="alignCVLink"><a id="cv" target="_blank" href="./resources/DWA_resume_cv.pdf?4">** Click here for my CV (Résumé) **</a></p>
+    <p id="alignCVLink"><a id="cv" target="_blank" href="./resources/resume_cv.pdf?21">** Click here for my CV (Résumé) **</a></p>
     <br>
 
     <?php
