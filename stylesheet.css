@@ -170,16 +170,8 @@ table {
     text-align: left;
 }
 
-#alignCVLink {
-    text-align: center;
-}
-
 #cv {
-    font-size: 10pt;
-}
-
-#cv:hover {
-    padding: 10px 20px;
+    padding: 8px 12px;
     background-color: #ffffff;
     color: #282828;
 }
@@ -217,6 +209,12 @@ table {
 
 .tinySpacing {
     padding: 10px 0;
+}
+
+.response {
+    font-family: sans-serif;
+    padding: 5px;
+    font-size: 16px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -267,14 +265,17 @@ table {
     .left {
         margin-bottom: 0;
     }
+}
 
-    #alignCVLink {
-        text-align: left;
-    }
-
-    #cv:hover {
-        padding: 0;
-        background-color: #282828;
-        color: #ffffff;
-    }
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: red;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: red;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: red;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: red;
 }

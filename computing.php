@@ -31,7 +31,7 @@ include "./topHTML.php";
 
     <div class="smallSpacing"></div>
 
-    <p class="semiTitle">Experience</p>
+    <p class="title">Experience</p>
 
     <p class="employer"><b class="employerName">IT-Alan</b>, Burmarsh, Kent, U.K.</p>
     <p class="jobTitle">Assistant Engineer</p>

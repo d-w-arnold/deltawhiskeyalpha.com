@@ -11,13 +11,13 @@ include './topHTML.php';
     <p class="title">Welcome!</p>
 
     <div class="writing">
-        <p>Hello there, my name is David.</p>
-        <br>
-        <p>I live in the county of Kent, United Kingdom.</p>
+        <p>Hello there. My name is David.</p>
         <br>
         <p>I am an undergraduate Computer Scientist.</p>
         <br>
-        <p>This is my first ever website. I hope you enjoy!</p>
+        <p>I live in the county of Kent, United Kingdom.</p>
+        <br>
+        <p>Hope you enjoy my first website!</p>
     </div>
 
 </div>
