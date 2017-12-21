@@ -18,10 +18,6 @@ include "./topHTML.php";
 
     <p class="title">Contact</p>
 
-    <a id="cv" class="writing" target="_blank" href="./resources/resume_cv.pdf?22">** CV (Résumé) **</a>
-
-    <div class="semiTitle"></div>
-
     <?php
 
     require './vendor/autoload.php';

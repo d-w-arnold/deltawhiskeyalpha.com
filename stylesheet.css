@@ -47,7 +47,20 @@ table {
 }
 
 #delta {
-    font-size: 100pt;
+    line-height: 1;
+    font-size: 120pt;
+}
+#cv {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 10pt;
+    padding: 10px 16px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #282828;
+}
+
+.alignRight {
+    text-align: right;
 }
 
 #intro {
@@ -168,12 +181,6 @@ table {
 #contactBody {
     margin: 0 15% 6% 15%;
     text-align: left;
-}
-
-#cv {
-    padding: 8px 12px;
-    background-color: #ffffff;
-    color: #282828;
 }
 
 .contact-details {
