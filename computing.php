@@ -21,7 +21,7 @@ include "./topHTML.php";
         </tr>
         <tr>
             <td class="computingSubTitle">Operating Systems</td>
-            <td class="computingWriting">Mac OS Sierra, Ubuntu 16.04 LTS, Windows 10, iOS 9-11, OSX El Capitan, Windows 7, Raspbian</td>
+            <td class="computingWriting">Mac OS High Sierra / Sierra / El Capitan, Ubuntu 16.04 LTS, Windows 7/10, iOS 9-11, Raspbian</td>
         </tr>
         <tr>
             <td class="computingSubTitle">Events</td>
