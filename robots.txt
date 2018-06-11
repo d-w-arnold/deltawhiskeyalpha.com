@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /education.php
+Disallow: /golf.php
+Disallow: /computing.php
+Disallow: /contact.php
+Disallow: /resources/

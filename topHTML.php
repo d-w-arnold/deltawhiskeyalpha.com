@@ -15,12 +15,12 @@
     <meta name="msapplication-config" content="/resources/favicon/browserconfig.xml">
     <meta name="theme-color" content="#282828">
     <meta name="description" content="Home of Computer Scientist and University of Kent undergraduate, David W. Arnold.">
-    <title><?php echo $title ?: '∆WA : David W. Arnold'?></title>
+    <title><?php echo 'David W. Arnold : ∆WA' . $title?></title>
 </head>
 <body>
     <header>
         <div class="alignRight">
-            <a id="cv" target="_blank" href="resources/cv_resume.pdf?10">** CV (Résumé) **</a>
+            <a id="cv" target="_blank" href="resources/cv_resume.pdf?50">** CV (Résumé) **</a>
         </div>
         <p id="delta"><a href="./index.php">∆WA</a></p>
         <p id="intro"><i>Home of Computer Scientist and University of Kent undergraduate ...</i></p>

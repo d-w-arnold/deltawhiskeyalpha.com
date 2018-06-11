@@ -1,6 +1,6 @@
 <?php
 
-$title = '∆WA : David W. Arnold - Computing';
+$title = ' - Computing';
 
 include "./topHTML.php";
 
