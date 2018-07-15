@@ -15,9 +15,15 @@ include "./topHTML.php";
     <p class="uniCourseDates">Sep. 2016 - Jun. 2020</p>
     <div class="uniCourseDetails">
         <p>•&nbsp;&nbsp;Year 1: 86%</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;CO320 Introduction to Object-Orientated Programming (Java): 97%</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;CO323 Database and the Web (PHP, MySQL, HTML & CSS, JavaScript): 86%</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;CO520 Further Object-Orientated Programming (Java): 94%</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;CO320: Introduction to Object-Orientated Programming (Java): 97%</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;CO323: Database and the Web (PHP, MySQL, HTML & CSS, JavaScript): 86%</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;CO520: Further Object-Orientated Programming (Java): 94%</p>
+    </div>
+    <div class="uniCourseDetails">
+        <p>•&nbsp;&nbsp;Year 2: 78%</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;CO518: Algorithms , Correctness and Efficiency (Java): 80%</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;CO539: Web Development: (HTML & CSS, JavaScript w/ jQuery, AJAX & JQueryUI, PHP): 95%</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;CO545: Functional and Concurrent Programming (Erlang w/ Haskell): 94%</p>
     </div>
 
     <div class="spacing"></div>

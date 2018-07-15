@@ -12,16 +12,12 @@ include "./topHTML.php";
 
     <table>
         <tr>
-            <td class="computingSubTitle">Interests</td>
-            <td class="computingWriting">Cyber Security, Software Engineering and Web Development</td>
+            <td class="computingSubTitle">OS's</td>
+            <td class="computingWriting">Mac OS High Sierra / Sierra / El Capitan, Ubuntu 16/18, Windows 7/10, iOS 9-11</td>
         </tr>
         <tr>
             <td class="computingSubTitle">Skills</td>
-            <td class="computingWriting">PHP, MySQL, HTML & CSS, JavaScript, Java, UNIX CLI, Git, LaTeX, Markdown, Mathematics</td>
-        </tr>
-        <tr>
-            <td class="computingSubTitle">Operating Systems</td>
-            <td class="computingWriting">Mac OS High Sierra / Sierra / El Capitan, Ubuntu 16.04 LTS, Windows 7/10, iOS 9-11, Raspbian</td>
+            <td class="computingWriting">Java, HTML & CSS, JavaScript (w/ jQuery, AJAX, & JQueryUI), MySQL, PHP, Erlang, Haskell, UNIX CLI, Git, LaTeX, Markdown, Mathematics</td>
         </tr>
         <tr>
             <td class="computingSubTitle">Events</td>

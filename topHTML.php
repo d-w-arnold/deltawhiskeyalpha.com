@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="/resources/favicon/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="/stylesheet.css?12">
+    <link rel="stylesheet" href="/stylesheet.css?14">
     <meta name="msapplication-config" content="/resources/favicon/browserconfig.xml">
     <meta name="theme-color" content="#282828">
     <meta name="description" content="Home of Computer Scientist and University of Kent undergraduate, David W. Arnold.">
@@ -20,14 +20,14 @@
 <body>
     <header>
         <div class="alignRight">
-            <a id="cv" target="_blank" href="resources/cv_resume.pdf?50">** CV (Résumé) **</a>
+            <a id="cv" target="_blank" href="resources/dwa.pdf">** CV (Résumé) **</a>
         </div>
         <p id="delta"><a href="./index.php">∆WA</a></p>
         <p id="intro"><i>Home of Computer Scientist and University of Kent undergraduate ...</i></p>
         <p id="myName">David W. Arnold</p>
         <nav>
             <ul>
-                <li><a id="firstItem" href="./index.php">Home</a></li>
+                <li><a id="firstItem" href="/">Home</a></li>
                 <li><a href="./education.php">Education</a></li>
                 <li><a href="./golf.php">Golf</a></li>
                 <li><a href="./computing.php">Computing</a></li>
