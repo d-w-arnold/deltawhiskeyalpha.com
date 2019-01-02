@@ -11,7 +11,7 @@ include "./topHTML.php";
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
     <script>
-        function onSubmit(token) {
+        function onSubmit() {
             document.getElementById("contact-form").submit();
         }
     </script>
@@ -58,7 +58,7 @@ include "./topHTML.php";
 
         if (empty($name)) {
             $status = 0;
-            $nameStatus = "Please provide your name!";
+            $nameStatus = "Please provide your name ...";
 
         }
 
@@ -66,10 +66,10 @@ include "./topHTML.php";
 
         if(!empty($email) && !filter_var($email, FILTER_VALIDATE_EMAIL)) {
             $status = 0;
-            $emailStatus = "Please provide a valid email address!";
+            $emailStatus = "Please provide a valid email address ...";
         } else if (empty($email)) {
             $status = 0;
-            $emailStatus = "Please provide your email address!";
+            $emailStatus = "Please provide your email address ...";
         }
 
         $message = @$_POST['message'];
@@ -77,32 +77,25 @@ include "./topHTML.php";
         if (!$message || strlen($message) > 1000) {
             $status = 0;
             if (empty($message)) {
-                $messageStatus = "Please type your message here!";
+                $messageStatus = "Please type your message here ...";
             } else {
                 $messageStatus = "Your message is too long! 1000 characters max.";
             }
         }
 
         $gRecaptchaResponse = @$_POST['g-recaptcha-response'];
-
         $recaptcha = new ReCaptcha\ReCaptcha('6LdcpDIUAAAAABGjKLuEV8yb_PFp-OWSoxMWp4ch');
-
         $resp = $recaptcha->verify($gRecaptchaResponse, getRealIpAddr());
-
         if (!$resp->isSuccess()) {
-
-            // $errors = $resp->getErrorCodes();
-            // die(var_dump($errors));
-
-            $securityStatus = "Please use the security provided, this is to prove you are not a robot.";
+//            $errors = $resp->getErrorCodes();
+//            die(var_dump($errors));
+//            $securityStatus = "Please use the security provided, this is to prove you are not a robot.";
             $status = 0;
         }
 
         if ($status == 1) {
             $httpClient = new GuzzleAdapter(new GuzzleClient());
-            $sparky = new SparkPost($httpClient, ['key'=>'a6eb87028322ad4d6bbb01edd4922d71b2d9c132']);
-            $sparky->setOptions(['async' => false]);
-
+            $sparky = new SparkPost($httpClient, ['key'=>'a6eb87028322ad4d6bbb01edd4922d71b2d9c132', 'async' => false]);
             try {
                 $text = '';
                 $text .= "Name: $name".PHP_EOL;
@@ -110,7 +103,7 @@ include "./topHTML.php";
                 $text .= '---'.PHP_EOL;
                 $text .= 'Message: '.$message;
 
-                $promise = $sparky->transmissions->post([
+                $transmissionData = [
                     'content' => [
                         'from' => [
                             'name' => 'DWA',
@@ -123,51 +116,75 @@ include "./topHTML.php";
                     'recipients' => [
                         [
                             'address' => [
-                                'name' => 'David Arnold',
+                                'name' => 'David W. Arnold',
                                 'email' => 'david@deltawhiskeyalpha.com',
                             ],
                         ],
                     ],
-                ]);
+                ];
+
+                $promise = $sparky->transmissions->post($transmissionData);
             } catch (\Exception $e) {
-                $sendStatus = "This email cannot be submitted, please try at a later time.";
+                $sendStatus = "Message cannot be submitted, please try again at a later time.";
                 $status = 0;
             }
         }
 
         if($status == 1) {
-            $sendStatus = "Your message has been sent, thank you!";
+            $sendStatus = "Your message has been sent!";
         }
 
         if (!empty($nameStatus)) {
             $statusMessages["name"] = $nameStatus;
         }
-
         if (!empty($emailStatus)) {
             $statusMessages["email"] = $emailStatus;
         }
-
         if (!empty($messageStatus)) {
             $statusMessages["message"] = $messageStatus;
         }
-
-        if (!empty($securityStatus)) {
-            $statusMessages["security"] = $securityStatus;
-        }
-
+//        if (!empty($securityStatus)) {
+//            $statusMessages["security"] = $securityStatus;
+//        }
         if (!empty($sendStatus)) {
             $statusMessages["send"] = $sendStatus;
         }
     }
 
-    $color = $status == 1 ? 'green' : 'red';
+    $color = ($status == 1) ? 'green' : 'red';
 
-    if (@$statusMessages['security']) {
-        echo "<p style='font-family:sans-serif;font-size:16px;color:$color'>".@$statusMessages['security']."</p>";
-    }
+//    if (@$statusMessages['security']) {
+//        echo "<p style='font-family:sans-serif;font-size:16px;color:$color'>".@$statusMessages['security']."</p>";
+//    }
 
     if (@$statusMessages['send']) {
         echo "<p style='font-family:sans-serif;font-size:16px;color:$color'>".@$statusMessages['send']."</p>";
+    }
+
+    function name($status) {
+        if ($status == 1) {
+            echo '';
+        } else {
+            echo $var = isset($_POST['name']) ? htmlspecialchars($_POST['name']) : '';
+        }
+    }
+
+    function email($status) {
+        if ($status == 1) {
+            echo '';
+        } else {
+            echo $var = isset($_POST['email']) && filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ? htmlspecialchars($_POST['email']) : '';
+        }
+    }
+
+    function textArea($status) {
+        if ($status == 1) {
+            echo '';
+        } else if (strlen($_POST['message']) > 1000) {
+            echo '';
+        } else {
+            echo $var = isset($_POST['message']) ? htmlspecialchars($_POST['message']) : '';
+        }
     }
 
     ?>
@@ -176,13 +193,13 @@ include "./topHTML.php";
         <div class="left">
             <form id="contact-form" action="/contact.php" method="POST">
                 <div class="tinySpacing"><label for="name">Name:</label></div>
-                <input class="response" type="text" id="name" value="<?php if ($status == 1) {echo '';} else {echo $var = isset($_POST['name']) ? htmlspecialchars($_POST['name']) : '';}?>" name="name" placeholder="<?php echo @$statusMessages['name'] ?>" onfocus="this.old_placeholder = this.placeholder; this.placeholder=''" onblur="this.placeholder = this.old_placeholder">
+                <input class="response" type="text" id="name" value="<?php name($status)?>" name="name" placeholder="<?php echo @$statusMessages['name'] ?>" onfocus="this.old_placeholder = this.placeholder; this.placeholder=''" onblur="this.placeholder = this.old_placeholder">
                 <br>
                 <div class="tinySpacing"><label for="email">Email Address:</label></div>
-                <input class="response" type="text" id="email" value="<?php if ($status == 1) {echo '';} else {echo $var = isset($_POST['email']) && filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ? htmlspecialchars($_POST['email']) : '';}?>" name="email" placeholder="<?php echo @$statusMessages['email'] ?>" onfocus="this.old_placeholder = this.placeholder; this.placeholder=''" onblur="this.placeholder = this.old_placeholder">
+                <input class="response" type="text" id="email" value="<?php email($status)?>" name="email" placeholder="<?php echo @$statusMessages['email'] ?>" onfocus="this.old_placeholder = this.placeholder; this.placeholder=''" onblur="this.placeholder = this.old_placeholder">
                 <br>
                 <div class="tinySpacing"><label for="message">Message:</label></div>
-                <textarea class="response" id="message" name="message" placeholder="<?php echo @$statusMessages['message'] ?>" onfocus="this.old_placeholder = this.placeholder; this.placeholder=''" onblur="this.placeholder = this.old_placeholder"><?php if ($status == 1) {echo '';} else if (strlen($_POST['message']) > 1000) {echo '';} else {echo $var = isset($_POST['message']) ? htmlspecialchars($_POST['message']) : '';}?></textarea>
+                <textarea class="response" id="message" name="message" placeholder="<?php echo @$statusMessages['message'] ?>" onfocus="this.old_placeholder = this.placeholder; this.placeholder=''" onblur="this.placeholder = this.old_placeholder"><?php textArea($status)?></textarea>
                 <div class="tinySpacing">
                     <button id="button" class="g-recaptcha" data-sitekey="6LdcpDIUAAAAAM9btQ69nAV7k8cYtLXHNUeb41UP" data-callback='onSubmit'>Send Message</button>
                 </div>
