@@ -22,6 +22,4 @@ include './topHTML.php';
 
 </div>
 
-<?php
-
-include './bottomHTML.php';
+<?php include './bottomHTML.php'; ?>

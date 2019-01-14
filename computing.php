@@ -13,7 +13,7 @@ include "./topHTML.php";
     <table>
         <tr>
             <td class="computingSubTitle">OS's</td>
-            <td class="computingWriting">Mac OS High Sierra / Sierra / El Capitan, Ubuntu 16/18, Windows 7/10, iOS 9-11</td>
+            <td class="computingWriting">Mac OS Mojave / High Sierra / Sierra / El Capitan, Ubuntu 16/18, Windows 7/10, iOS 9-11</td>
         </tr>
         <tr>
             <td class="computingSubTitle">Skills</td>
@@ -47,6 +47,4 @@ include "./topHTML.php";
 
 </div>
 
-<?php
-
-include "./bottomHTML.php";
+<?php include "./bottomHTML.php"; ?>
