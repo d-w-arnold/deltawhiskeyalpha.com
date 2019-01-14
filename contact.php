@@ -16,24 +16,7 @@ include "./topHTML.php";
     <script>
         $(function() {
             $.validator.setDefaults({
-                errorClass: 'help-block',
-                highlight: function(element) {
-                    $(element)
-                        .closest('.form-group')
-                        .addClass('has-error');
-                },
-                unhighlight: function(element) {
-                    $(element)
-                        .closest('.form-group')
-                        .removeClass('has-error');
-                },
-                errorPlacement: function (error, element) {
-                    if (element.prop('type') === 'checkbox') {
-                        error.insertAfter(element.parent());
-                    } else {
-                        error.insertAfter(element);
-                    }
-                }
+                errorClass: 'error'
             });
 
             $("#contact-form").validate({
@@ -148,7 +131,7 @@ include "./topHTML.php";
     $color = ($status == 1) ? 'green' : 'red';
 
     if (!empty($sendStatus)) {
-        echo "<p style='font-family:sans-serif;font-size:16px;color:$color'>".$sendStatus."</p>";
+        echo "<p style='color:$color' class='statusMessage'>".$sendStatus."</p>";
     }
 
     function name($status) {
@@ -183,19 +166,13 @@ include "./topHTML.php";
         <div class="left">
             <form id="contact-form" action="/contact.php" method="POST">
                 <div class="tinySpacing"><label for="name">Name:</label></div>
-                <div class="form-group">
-                    <input class="response" type="text" id="name" name="name" value="<?php name($status)?>">
-                </div>
+                <input class="response" type="text" id="name" name="name" value="<?php name($status)?>">
                 <br>
                 <div class="tinySpacing"><label for="email">Email Address:</label></div>
-                <div class="form-group">
-                    <input class="response" type="email" id="email" name="email" value="<?php email($status)?>">
-                </div>
+                <input class="response" type="email" id="email" name="email" value="<?php email($status)?>">
                 <br>
                 <div class="tinySpacing"><label for="message">Message:</label></div>
-                <div class="form-group">
-                    <textarea class="response" id="message" name="message"><?php textArea($status)?></textarea>
-                </div>
+                <textarea class="response" id="message" name="message"><?php textArea($status)?></textarea>
                 <div class="tinySpacing">
                     <button id="button" class="g-recaptcha" data-sitekey="6LdcpDIUAAAAAM9btQ69nAV7k8cYtLXHNUeb41UP" data-callback="onSubmit">Send</button>
                 </div>
