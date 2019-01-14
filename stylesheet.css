@@ -50,6 +50,7 @@ table {
     line-height: 1;
     font-size: 120pt;
 }
+
 #cv {
     font-family: 'Roboto', sans-serif !important;
     font-size: 10pt;
@@ -243,6 +244,11 @@ label.error {
         display: block;
         text-align: center;
         padding: 10px;
+    }
+
+    #delta {
+        line-height: 1;
+        font-size: 80pt;
     }
 
     ul {

@@ -22,7 +22,7 @@
         <div class="alignRight">
             <a id="cv" target="_blank" href="resources/resume_cv.pdf">** CV (Résumé) **</a>
         </div>
-        <p id="delta"><a href="./index.php">∆WA</a></p>
+        <p id="delta"><a href="/">∆WA</a></p>
         <p id="intro"><i>Home of Computer Scientist and University of Kent undergraduate ...</i></p>
         <p id="myName">David W. Arnold</p>
         <nav>
