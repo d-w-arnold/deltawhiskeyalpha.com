@@ -6,7 +6,7 @@ include './topHTML.php';
 
 ?>
 
-<div id="indexBody">
+<div class="body">
 
     <p class="title">Welcome!</p>
 

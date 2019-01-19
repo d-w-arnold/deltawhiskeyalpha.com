@@ -1,3 +1,8 @@
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 body {
     padding: 2% 5% 2% 5%;
     background-color: #282828;
@@ -10,15 +15,20 @@ body > div *, nav *  {
     font-family: 'Roboto', sans-serif !important;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
+html * {
+    margin: 0;
+    height: 100%;
+}
+
+label.error {
+    font-size: 12pt;
+    font-weight: bold;
 }
 
 li a {
     display: block;
     text-align: center;
-    padding: 20px;
+    font-family: serif !important;
 }
 
 li a:hover {
@@ -26,13 +36,13 @@ li a:hover {
 }
 
 nav {
-    margin: 0 0 3% 0;
+    margin: 2% 0 6% 0;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0 2px;
+    margin: 0;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -46,27 +56,45 @@ table {
     width: 100%;
 }
 
-#delta {
-    line-height: 1;
-    font-size: 120pt;
+#button {
+    background-color: #ffffff;
+}
+
+#contact-form {
+    width: 90%;
+    margin-bottom: 2%;
+}
+
+#contact-form .response {
+    width: 100%;
 }
 
 #cv {
     font-family: 'Roboto', sans-serif !important;
     font-size: 10pt;
-    padding: 10px 16px;
+    padding: 1.4% 2%;
     border-radius: 20px;
     background-color: #ffffff;
     color: #282828;
 }
 
-.alignRight {
-    text-align: right;
+#delta {
+    line-height: 1;
+    font-size: 120pt;
+}
+
+#golfBody {
+    font-size: 13pt;
 }
 
 #intro {
     padding-bottom: 3%;
     font-size: 12pt;
+}
+
+#message {
+    height: 200px;
+    resize: none;
 }
 
 #myName {
@@ -78,70 +106,13 @@ table {
     border-bottom: solid #ffffff;
 }
 
-#indexBody {
+.alignRight {
+    text-align: right;
+}
+
+.body {
     margin: 0 15% 6% 15%;
     text-align: left;
-}
-
-.title {
-    font-size: 24pt;
-    margin-bottom: 6%
-}
-
-.semiTitle {
-    font-size: 24pt;
-    margin-bottom: 3%
-}
-
-.writing {
-    font-size: 13pt;
-}
-
-#educationBody {
-    margin: 0 15% 6% 15%;
-    text-align: left;
-}
-
-.spacing {
-    margin-bottom: 6%;
-}
-
-.university {
-    margin-bottom: 1%;
-    font-size: 14pt;
-}
-
-.uniName {
-    font-size: 18pt;
-}
-
-.uniCourseName {
-    margin-bottom: 2%;
-    font-size: 14pt;
-}
-
-.uniCourseDates {
-    margin-bottom: 2%;
-    font-size: 12pt;
-}
-
-.uniCourseDetails {
-    font-size: 12pt;
-}
-
-#golfBody {
-    margin: 0 15% 6% 15%;
-    text-align: left;
-    font-size: 13pt
-}
-
-#computingBody {
-    margin: 0 15% 6% 15%;
-    text-align: left;
-}
-
-.smallSpacing {
-    margin-bottom: 3%;
 }
 
 .computingSubTitle {
@@ -155,6 +126,20 @@ table {
     font-size: 13pt;
 }
 
+.contact-details {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-details .left {
+    flex: 1;
+}
+
+.contact-details .right {
+    width: 30%;
+    margin-top: 2%;
+}
+
 .employer {
     margin-bottom: 1%;
     font-size: 14pt;
@@ -164,9 +149,8 @@ table {
     font-size: 18pt;
 }
 
-.jobTitle {
-    margin-bottom: 2%;
-    font-size: 14pt;
+.error {
+    color: red;
 }
 
 .jobDates {
@@ -178,72 +162,87 @@ table {
     font-size: 12pt;
 }
 
-#contactBody {
-    margin: 0 15% 6% 15%;
-    text-align: left;
-}
-
-.contact-details {
-    display: flex;
-    flex-direction: row;
-}
-
-.contact-details .left {
-    flex: 1;
-}
-
-.contact-details .right {
-    width: 250px;
-    margin-top: 10px;
-}
-
-#contact-form {
-    width: 90%;
+.jobTitle {
     margin-bottom: 2%;
-}
-
-#contact-form .response {
-    width: 100%;
-}
-
-#message {
-    height: 200px;
-}
-
-#button {
-    background-color: #ffffff;
-}
-
-.tinySpacing {
-    padding: 10px 0;
+    font-size: 14pt;
 }
 
 .response {
-    font-family: sans-serif;
-    padding: 5px;
+    padding: 2%;
     font-size: 16px;
 }
 
+.semiTitle {
+    font-size: 24pt;
+    margin-bottom: 3%;
+    font-family: serif !important;
+}
+
+.spacing {
+    margin-bottom: 6%;
+}
+
 .statusMessage {
-    font-family:sans-serif;
-    font-size:12pt;
-    font-weight:bold
-}
-
-.error {
-    color: red;
-}
-
-label.error {
     font-size: 12pt;
     font-weight: bold;
+}
+
+.tinySpacing {
+    padding: 3% 0;
+}
+
+.title {
+    font-size: 24pt;
+    margin-bottom: 6%;
+    font-family: serif !important;
+}
+
+.uniCourseDates {
+    margin-bottom: 2%;
+    font-size: 12pt;
+}
+
+.uniCourseDetails {
+    font-size: 12pt;
+}
+
+.uniCourseName {
+    margin-bottom: 2%;
+    font-size: 14pt;
+}
+
+.uniName {
+    font-size: 18pt;
+}
+
+.university {
+    margin-bottom: 1%;
+    font-size: 14pt;
+}
+
+.writing {
+    font-size: 13pt;
 }
 
 @media only screen and (max-width: 600px) {
     li a {
         display: block;
         text-align: center;
-        padding: 10px;
+        font-family: serif !important;
+        padding: 2%;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    #cv {
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 8pt;
+        padding: 1.4% 2%;
+        border-radius: 20px;
+        background-color: #ffffff;
+        color: #282828;
     }
 
     #delta {
@@ -251,16 +250,12 @@ label.error {
         font-size: 80pt;
     }
 
-    ul {
-        flex-direction: column;
-    }
-
     #firstItem {
-        padding-top: 20px;
+        padding-top: 4%;
     }
 
     #lastItem {
-        padding-bottom: 20px;
+        padding-bottom: 4%;
     }
 }
 
@@ -269,24 +264,8 @@ label.error {
         flex-direction: column;
     }
 
-    #indexBody {
-        margin: 0 0 6% 0;
-    }
-
-    #educationBody {
-        margin: 0 0 6% 0;
-    }
-
-    #golfBody {
-        margin: 0 0 6% 0;
-    }
-
-    #computingBody {
-        margin: 0 0 6% 0;
-    }
-
-    #contactBody {
-        margin: 0 0 6% 0;
+    .body {
+        margin-right: 6%;
     }
 
     .left {

@@ -6,9 +6,9 @@ include "./topHTML.php";
 
 ?>
 
-<div id="computingBody">
+<div class="body">
 
-    <p class="semiTitle">Computing</p>
+    <p class="title">Computing</p>
 
     <table>
         <tr>
@@ -25,7 +25,7 @@ include "./topHTML.php";
         </tr>
     </table>
 
-    <div class="smallSpacing"></div>
+    <div class="spacing"></div>
 
     <p class="title">Experience</p>
 

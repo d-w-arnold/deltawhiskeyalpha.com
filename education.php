@@ -6,7 +6,7 @@ include "./topHTML.php";
 
 ?>
 
-<div id="educationBody">
+<div class="body">
 
     <p class="title">Education</p>
 
