@@ -13,11 +13,11 @@ include "./topHTML.php";
     <table>
         <tr>
             <td class="computingSubTitle">OS's</td>
-            <td class="computingWriting">Mac OS Mojave / High Sierra / Sierra / El Capitan, Ubuntu 16/18, Windows 7/10, iOS 9-11</td>
+            <td class="computingWriting">Mac OS, iOS, Windows 7/10, Ubuntu</td>
         </tr>
         <tr>
             <td class="computingSubTitle">Skills</td>
-            <td class="computingWriting">Java, HTML & CSS, JavaScript (w/ jQuery, AJAX, & JQueryUI), MySQL, PHP, Erlang, Haskell, UNIX CLI, Git, LaTeX, Markdown, Mathematics</td>
+            <td class="computingWriting">Java, HTML & CSS, PHP, JavaScript (w/ jQuery, AJAX, & JQueryUI), MySQL, Erlang, Haskell, UNIX CLI, Git, LaTeX, Markdown, Mathematics</td>
         </tr>
         <tr>
             <td class="computingSubTitle">Events</td>

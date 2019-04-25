@@ -95,6 +95,7 @@ table {
 #message {
     height: 200px;
     resize: none;
+    /*background: white !important;*/
 }
 
 #myName {
