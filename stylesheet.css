@@ -52,8 +52,16 @@ p {
     margin: 0;
 }
 
+p b a:hover {
+    text-decoration: underline;
+}
+
 table {
     width: 100%;
+}
+
+table tr td a:hover {
+    text-decoration: underline;
 }
 
 #button {
@@ -124,7 +132,7 @@ table {
 
 .computingWriting {
     padding-left: 2%;
-    font-size: 13pt;
+    font-size: 12pt;
 }
 
 .contact-details {
@@ -222,7 +230,7 @@ table {
 }
 
 .writing {
-    font-size: 13pt;
+    font-size: 12pt;
 }
 
 @media only screen and (max-width: 600px) {
