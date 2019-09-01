@@ -10,7 +10,7 @@ include "./topHTML.php";
 
     <p class="title">Computing</p>
 
-    <table style="border-spacing: 0 15px; margin: -15px 0 -15px 0">
+    <table class="computingTable">
         <tr>
             <td class="computingSubTitle">OS's</td>
             <td class="computingWriting">Mac OS, iOS, Windows 7/10, Ubuntu</td>
@@ -34,25 +34,23 @@ include "./topHTML.php";
         </tr>
         <tr>
             <td class="computingSubTitle">Events</td>
-            <td class="computingWriting"><a
-                        href="https://www.cisco.com/c/m/en_uk/training-events/university-challenge.html">2017 Cisco
-                    University Challenge</a></td>
+            <td class="computingWriting"><a href="https://www.cisco.com/c/m/en_uk/training-events/university-challenge.html">2017 Cisco University Challenge</a></td>
         </tr>
     </table>
 
-    <div class="spacing"></div>
+    <div class="spacingWithoutLine"></div>
 
     <p class="title">Experience</p>
 
     <!--Red Bull-->
-    <table style="margin-bottom: 2%">
+    <table class="marginBottom2">
         <tr>
-           <td class="employer"><b class="employerName"><a href="https://redbullracing.redbull.com/careers">Red Bull Technology / Red Bull Racing</a></b></td>
-           <td class="employer" style="text-align: right">Milton Keynes, U.K.</td>
+           <td class="employerName"><b><a href="https://redbullracing.redbull.com/careers">Red Bull Technology / Red Bull Racing</a></b></td>
+           <td class="location">Milton Keynes, U.K.</td>
         </tr>
     </table>
 
-    <table style="margin-bottom: 2%">
+    <table class="marginBottom2">
         <tr><td class="jobTitle">IT Student Placement</td></tr>
         <tr><td class="jobDates">Jun. 2018 - Jun. 2019</td></tr>
     </table>
@@ -85,14 +83,14 @@ include "./topHTML.php";
     <div class="spacing"></div>
 
     <!--IT-Alan-->
-    <table style="margin-bottom: 2%">
+    <table class="marginBottom2">
         <tr>
-            <td class="employer"><b class="employerName"><a href="http://www.it-alan.co.uk/">IT-Alan</a></b></td>
-            <td class="employer" style="text-align: right">Burmarsh, Kent, U.K.</td>
+            <td class="employerName"><b><a href="http://www.it-alan.co.uk/">IT-Alan</a></b></td>
+            <td class="location">Burmarsh, Kent, U.K.</td>
         </tr>
     </table>
 
-    <table style="margin-bottom: 2%">
+    <table class="marginBottom2">
         <tr><td class="jobTitle">Assistant Engineer</td></tr>
         <tr><td class="jobDates">Jun. 2017 - Sep. 2017</td></tr>
     </table>

@@ -11,14 +11,14 @@ include "./topHTML.php";
     <p class="title">Education</p>
 
     <!--University of Kent-->
-    <table style="margin-bottom: 2%">
+    <table class="marginBottom2">
         <tr>
-            <td class="employer"><b class="employerName"><a href="https://www.kent.ac.uk">University of Kent</a></b></td>
-            <td class="employer" style="text-align: right">Canterbury, U.K.</td>
+            <td class="employerName"><b><a href="https://www.kent.ac.uk">University of Kent</a></b></td>
+            <td class="location">Canterbury, U.K.</td>
         </tr>
     </table>
 
-    <table style="margin-bottom: 2%">
+    <table class="marginBottom2">
         <tr><td class="jobTitle">BSc Computer Science with a Year in Industry</td></tr>
         <tr><td class="jobDates">Sep. 2016 - Jun. 2020</td></tr>
     </table>
@@ -43,14 +43,14 @@ include "./topHTML.php";
     <div class="spacing"></div>
 
     <!--Newberry College-->
-    <table style="margin-bottom: 2%">
+    <table class="marginBottom2">
         <tr>
-            <td class="employer"><b class="employerName"><a href="https://www.newberry.edu">Newberry College</a></b></td>
-            <td class="employer" style="text-align: right">Newberry, South Carolina, U.S.A.</td>
+            <td class="employerName"><b><a href="https://www.newberry.edu">Newberry College</a></b></td>
+            <td class="location">Newberry, South Carolina, U.S.A.</td>
         </tr>
     </table>
 
-    <table style="margin-bottom: 2%">
+    <table class="marginBottom2">
         <tr><td class="jobTitle">Mathematics Major</td></tr>
         <tr><td class="jobDates">Jan. 2015 - Oct. 2015</td></tr>
     </table>
@@ -68,14 +68,14 @@ include "./topHTML.php";
     <div class="spacing"></div>
 
     <!--The Open University-->
-    <table style="margin-bottom: 2%">
+    <table class="marginBottom2">
         <tr>
-            <td class="employer"><b class="employerName"><a href="http://www.open.ac.uk">The Open University</a></b></td>
-            <td class="employer" style="text-align: right">Milton Keynes, U.K.</td>
+            <td class="employerName"><b><a href="http://www.open.ac.uk">The Open University</a></b></td>
+            <td class="location">Milton Keynes, U.K.</td>
         </tr>
     </table>
 
-    <table style="margin-bottom: 2%">
+    <table class="marginBottom2">
         <tr><td class="jobTitle">Certificate of Higher Education (Open)</td></tr>
         <tr><td class="jobDates">Jun. 2012 - Jul. 2014</td></tr>
     </table>
@@ -94,14 +94,14 @@ include "./topHTML.php";
     <div class="spacing"></div>
 
     <!--The Harvey Grammar School-->
-    <table style="margin-bottom: 2%">
+    <table class="marginBottom2">
         <tr>
-            <td class="employer"><b class="employerName"><a href="http://www.harveygs.kent.sch.uk">The Harvey Grammar School</a></b></td>
-            <td class="employer" style="text-align: right">Folkestone, U.K.</td>
+            <td class="employerName"><b><a href="http://www.harveygs.kent.sch.uk">The Harvey Grammar School</a></b></td>
+            <td class="location">Folkestone, U.K.</td>
         </tr>
     </table>
 
-    <table style="margin-bottom: 2%">
+    <table class="marginBottom2">
         <tr><td class="jobTitle">GCSE (General Certificate of Higher Education)</td></tr>
         <tr><td class="jobDates">Sep. 2007 - Jul. 2012</td></tr>
     </table>

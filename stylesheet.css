@@ -91,10 +91,6 @@ table tr td a:hover {
     font-size: 120pt;
 }
 
-#golfBody {
-    font-size: 13pt;
-}
-
 #intro {
     padding-bottom: 3%;
     font-size: 12pt;
@@ -103,7 +99,6 @@ table tr td a:hover {
 #message {
     height: 200px;
     resize: none;
-    /*background: white !important;*/
 }
 
 #myName {
@@ -135,6 +130,11 @@ table tr td a:hover {
     font-size: 12pt;
 }
 
+.computingTable {
+    border-spacing: 0 15px;
+    margin: -15px 0 -15px 0;
+}
+
 .contact-details {
     display: flex;
     flex-direction: row;
@@ -147,11 +147,6 @@ table tr td a:hover {
 .contact-details .right {
     width: 30%;
     margin-top: 2%;
-}
-
-.employer {
-    margin-bottom: 1%;
-    font-size: 14pt;
 }
 
 .employerName {
@@ -176,18 +171,26 @@ table tr td a:hover {
     font-size: 14pt;
 }
 
+.location {
+    font-size: 14pt;
+    text-align: right;
+}
+
+.marginBottom2 {
+    margin-bottom: 2%;
+}
+
 .response {
     padding: 2%;
     font-size: 16px;
 }
 
-.semiTitle {
-    font-size: 24pt;
-    margin-bottom: 3%;
-    font-family: serif !important;
+.spacing {
+    margin: 6% 0 6% 0;
+    border-bottom: solid #ffffff;
 }
 
-.spacing {
+.spacingWithoutLine {
     margin-bottom: 6%;
 }
 
@@ -204,29 +207,12 @@ table tr td a:hover {
     font-size: 24pt;
     margin-bottom: 6%;
     font-family: serif !important;
-}
-
-.uniCourseDates {
-    margin-bottom: 2%;
-    font-size: 12pt;
+    padding-bottom: 2%;
+    border-bottom: solid #ffffff;
 }
 
 .uniCourseDetails {
     font-size: 12pt;
-}
-
-.uniCourseName {
-    margin-bottom: 2%;
-    font-size: 14pt;
-}
-
-.uniName {
-    font-size: 18pt;
-}
-
-.university {
-    margin-bottom: 1%;
-    font-size: 14pt;
 }
 
 .writing {
