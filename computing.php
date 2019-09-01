@@ -10,7 +10,7 @@ include "./topHTML.php";
 
     <p class="title">Computing</p>
 
-    <table style="border-spacing: 0 15px">
+    <table style="border-spacing: 0 15px; margin: -15px 0 -15px 0">
         <tr>
             <td class="computingSubTitle">OS's</td>
             <td class="computingWriting">Mac OS, iOS, Windows 7/10, Ubuntu</td>
