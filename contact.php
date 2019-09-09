@@ -165,6 +165,7 @@ include "./topHTML.php";
     <div class="contact-details">
         <div class="left">
             <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="david-w-arnold"><a class="LI-simple-link" href='https://uk.linkedin.com/in/david-w-arnold?trk=profile-badge'>David W. Arnold</a></div>
+            <div class="center github" "><a href="https://github.com/d-w-arnold" target="_blank"><img src="/resources/github.png" alt="Github" width="64" height="64"></a></div>
         </div>
         <div class="right">
             <form id="contact-form" action="/contact.php" method="POST">
@@ -174,7 +175,7 @@ include "./topHTML.php";
                 <div><input class="response" type="email" id="email" name="email" tabindex="2" value="<?php email($status)?>"></div>
                 <div class="tinySpacing"><label for="message">Message:</label></div>
                 <div><textarea class="response" id="message" name="message" tabindex="3" rows="10"><?php textArea($status)?></textarea></div>
-                <div class="tinySpacing centerButton"><button id="button" class="g-recaptcha" data-sitekey="6LdcpDIUAAAAAM9btQ69nAV7k8cYtLXHNUeb41UP" data-callback="onSubmit" tabindex="4">Send</button></div>
+                <div class="tinySpacing center"><button id="button" class="g-recaptcha" data-sitekey="6LdcpDIUAAAAAM9btQ69nAV7k8cYtLXHNUeb41UP" data-callback="onSubmit" tabindex="4">Send</button></div>
             </form>
         </div>
     </div>

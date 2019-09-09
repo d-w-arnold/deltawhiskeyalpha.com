@@ -114,7 +114,7 @@ table tr td a:hover {
     text-align: left;
 }
 
-.centerButton {
+.center {
     text-align: center;
 }
 
@@ -154,6 +154,10 @@ table tr td a:hover {
 
 .error {
     color: red;
+}
+
+.github {
+    padding-top: 3%;
 }
 
 .jobDates {
