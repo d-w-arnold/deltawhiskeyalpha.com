@@ -9,8 +9,9 @@
     <link rel="manifest" href="/resources/favicon/manifest.json">
     <link rel="mask-icon" href="/resources/favicon/safari-pinned-tab.svg" color="#282828">
     <link rel="shortcut icon" href="/resources/favicon/favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/stylesheet.css">
     <meta name="msapplication-config" content="/resources/favicon/browserconfig.xml">
     <meta name="theme-color" content="#282828">
