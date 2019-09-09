@@ -164,24 +164,30 @@ include "./topHTML.php";
 
     <div class="contact-details">
         <div class="left">
-            <form id="contact-form" action="/contact.php" method="POST">
-                <div class="tinySpacing"><label for="name">Name:</label></div>
-                <input class="response" type="text" id="name" name="name" value="<?php name($status)?>">
-                <br>
-                <div class="tinySpacing"><label for="email">Email Address:</label></div>
-                <input class="response" type="email" id="email" name="email" value="<?php email($status)?>">
-                <br>
-                <div class="tinySpacing"><label for="message">Message:</label></div>
-                <textarea class="response" id="message" name="message"><?php textArea($status)?></textarea>
-                <div class="tinySpacing">
-                    <button id="button" class="g-recaptcha" data-sitekey="6LdcpDIUAAAAAM9btQ69nAV7k8cYtLXHNUeb41UP" data-callback="onSubmit">Send</button>
-                </div>
-            </form>
-        </div>
-        <div class="right">
             <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="david-w-arnold"><a class="LI-simple-link" href='https://uk.linkedin.com/in/david-w-arnold?trk=profile-badge'>David W. Arnold</a></div>
         </div>
+        <div class="right">
+            <form id="contact-form" action="/contact.php" method="POST">
+                <div class="tinySpacing"><label for="name">Name:</label></div>
+                <div><input class="response" type="text" id="name" name="name" tabindex="1" value="<?php name($status)?>"></div>
+                <div class="tinySpacing"><label for="email">Email Address:</label></div>
+                <div><input class="response" type="email" id="email" name="email" tabindex="2" value="<?php email($status)?>"></div>
+                <div class="tinySpacing"><label for="message">Message:</label></div>
+                <div><textarea class="response" id="message" name="message" tabindex="3" rows="10"><?php textArea($status)?></textarea></div>
+                <div class="tinySpacing"><button id="button" class="g-recaptcha" data-sitekey="6LdcpDIUAAAAAM9btQ69nAV7k8cYtLXHNUeb41UP" data-callback="onSubmit" tabindex="4">Send</button></div>
+            </form>
+        </div>
     </div>
+
+    <script>
+        var input = document.getElementById("button");
+        input.addEventListener("keyup", function(event) {
+            if (event.keyCode === 13) {
+                event.preventDefault();
+                document.getElementById("myBtn").click();
+            }
+        });
+    </script>
 
 </div>
 

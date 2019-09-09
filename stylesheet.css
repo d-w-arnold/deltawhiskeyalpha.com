@@ -20,6 +20,10 @@ html * {
     height: 100%;
 }
 
+form {
+    margin: 0 !important;
+}
+
 label.error {
     font-size: 12pt;
     font-weight: bold;
@@ -68,15 +72,6 @@ table tr td a:hover {
     background-color: #ffffff;
 }
 
-#contact-form {
-    width: 90%;
-    margin-bottom: 2%;
-}
-
-#contact-form .response {
-    width: 100%;
-}
-
 #cv {
     font-family: 'Roboto', sans-serif !important;
     font-size: 10pt;
@@ -97,7 +92,6 @@ table tr td a:hover {
 }
 
 #message {
-    height: 200px;
     resize: none;
 }
 
@@ -117,6 +111,10 @@ table tr td a:hover {
 .body {
     margin: 0 15% 6% 15%;
     text-align: left;
+}
+
+.centerButton {
+    text-align: center;
 }
 
 .computingSubTitle {
@@ -141,12 +139,12 @@ table tr td a:hover {
 }
 
 .contact-details .left {
-    flex: 1;
+    padding-top: 2%;
 }
 
 .contact-details .right {
-    width: 30%;
-    margin-top: 2%;
+    flex: 1;
+    padding-left: 3%;
 }
 
 .employerName {
@@ -181,6 +179,8 @@ table tr td a:hover {
 }
 
 .response {
+    width: 100%;
+    box-sizing: border-box;
     padding: 2%;
     font-size: 16px;
 }
@@ -217,15 +217,44 @@ table tr td a:hover {
 
 .writing {
     font-size: 12pt;
+    text-align: left;
 }
 
-@media only screen and (max-width: 600px) {
+.writing-justify {
+    font-size: 12pt;
+    text-align: justify;
+    text-align-last: left;
+}
+
+@media only screen and (max-width: 800px) {
+
     li a {
         display: block;
         text-align: center;
         font-family: serif !important;
         padding: 2%;
     }
+
+    .body {
+        margin: 0 0 6% 0;
+        text-align: left;
+    }
+
+    .contact-details {
+        flex-direction: column;
+    }
+
+    .contact-details .left {
+        text-align: center;
+        padding-top: 0 !important;
+    }
+
+    .contact-details .right {
+        padding-left: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
 
     ul {
         flex-direction: column;
@@ -243,28 +272,6 @@ table tr td a:hover {
     #delta {
         line-height: 1;
         font-size: 80pt;
-    }
-
-    #firstItem {
-        padding-top: 4%;
-    }
-
-    #lastItem {
-        padding-bottom: 4%;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    .contact-details {
-        flex-direction: column;
-    }
-
-    .body {
-        margin-right: 6%;
-    }
-
-    .left {
-        margin-bottom: 0;
     }
 }
 
