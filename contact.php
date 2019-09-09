@@ -174,7 +174,7 @@ include "./topHTML.php";
                 <div><input class="response" type="email" id="email" name="email" tabindex="2" value="<?php email($status)?>"></div>
                 <div class="tinySpacing"><label for="message">Message:</label></div>
                 <div><textarea class="response" id="message" name="message" tabindex="3" rows="10"><?php textArea($status)?></textarea></div>
-                <div class="tinySpacing"><button id="button" class="g-recaptcha" data-sitekey="6LdcpDIUAAAAAM9btQ69nAV7k8cYtLXHNUeb41UP" data-callback="onSubmit" tabindex="4">Send</button></div>
+                <div class="tinySpacing centerButton"><button id="button" class="g-recaptcha" data-sitekey="6LdcpDIUAAAAAM9btQ69nAV7k8cYtLXHNUeb41UP" data-callback="onSubmit" tabindex="4">Send</button></div>
             </form>
         </div>
     </div>
