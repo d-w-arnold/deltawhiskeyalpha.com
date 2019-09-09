@@ -20,7 +20,7 @@
 <body>
     <header>
         <div class="alignRight">
-            <a id="cv" target="_blank" href="resources/resume_cv.pdf">** CV (Résumé) **</a>
+            <a id="cv" target="_blank" href="resources/CV_(Resume).pdf">** CV (Résumé) **</a>
         </div>
         <p id="delta"><a href="/">∆WA</a></p>
         <p id="intro"><i>Home of Computer Scientist and University of Kent undergraduate ...</i></p>

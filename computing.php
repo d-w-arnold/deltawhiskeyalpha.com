@@ -22,7 +22,7 @@ include "./topHTML.php";
             </td>
         </tr>
         <tr>
-            <td class="computingSubTitle">Project</td>
+            <td class="computingSubTitle">Projects</td>
             <td class="computingWriting">
                 <a href="https://github.com/d-w-arnold/deltawhiskeyalpha.com">My First Website</a> (PHP, HTML & CSS,
                 JavaScript)<br>
