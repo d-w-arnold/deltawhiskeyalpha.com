@@ -119,12 +119,12 @@ include "./topHTML.php";
                 ];
                 $promise = $sparky->transmissions->post($transmissionData);
             } catch (\Exception $e) {
-                $sendStatus = "Message cannot be submitted, please try again at a later time.";
+                $sendStatus = "Message not sent. Please try again at a later time.";
                 $status = 0;
             }
         }
         if($status == 1) {
-            $sendStatus = "Your message has been sent!";
+            $sendStatus = "Message sent, I'll be in touch!";
         }
     }
 
