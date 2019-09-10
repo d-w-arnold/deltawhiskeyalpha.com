@@ -82,6 +82,11 @@ include "./topHTML.php";
         $email = @$_POST['email'];
         $message = @$_POST['message'];
 
+        if (empty($name) && empty($email) && empty($message)) {
+            $sendStatus = "Please give your: Name, Email Address, and write your Message before clicking 'Send Your Message'. Thank you.";
+            $status = 0;
+        }
+
         $gRecaptchaResponse = @$_POST['g-recaptcha-response'];
         $recaptcha = new ReCaptcha\ReCaptcha('6LdcpDIUAAAAABGjKLuEV8yb_PFp-OWSoxMWp4ch');
         $resp = $recaptcha->verify($gRecaptchaResponse, getRealIpAddr());
@@ -182,7 +187,7 @@ include "./topHTML.php";
                 </div>
                 <textarea class="response" id="message" name="message" tabindex="3" rows="10"><?php textArea($status)?></textarea>
                 <div class="tinySpacing center">
-                    <button id="button" tabindex="4" class="g-recaptcha" data-sitekey="6LdcpDIUAAAAAM9btQ69nAV7k8cYtLXHNUeb41UP" data-callback="onSubmit">Send</button>
+                    <button id="button" tabindex="4" class="g-recaptcha" data-sitekey="6LdcpDIUAAAAAM9btQ69nAV7k8cYtLXHNUeb41UP" data-callback="onSubmit">Send Your Message</button>
                 </div>
             </form>
         </div>
