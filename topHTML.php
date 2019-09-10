@@ -28,11 +28,11 @@
         <p id="myName">David W. Arnold</p>
         <nav>
             <ul>
-                <li><a id="firstItem" href="/">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="./education.php">Education</a></li>
                 <li><a href="./golf.php">Golf</a></li>
                 <li><a href="./computing.php">Computing</a></li>
-                <li><a id="lastItem" href="./contact.php">Contact</a></li>
+                <li><a href="./contact.php">Contact</a></li>
             </ul>
         </nav>
     </header>

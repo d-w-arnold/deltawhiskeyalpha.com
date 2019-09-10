@@ -91,7 +91,7 @@ include "./topHTML.php";
 
         if ($status == 1) {
             $httpClient = new GuzzleAdapter(new GuzzleClient());
-            $sparky = new SparkPost($httpClient, ['key'=>'a6eb87028322ad4d6bbb01edd4922d71b2d9c132', 'async' => false]);
+            $sparky = new SparkPost($httpClient, ['key'=>'9dce6fc83a1ad473f1eba395bdca66fb59b3dc93', 'async' => false]);
             try {
                 $text = '';
                 $text .= "Name: $name".PHP_EOL;
@@ -169,26 +169,24 @@ include "./topHTML.php";
         </div>
         <div class="right">
             <form id="contact-form" action="/contact.php" method="POST">
-                <div class="tinySpacing"><label for="name">Name:</label></div>
-                <div><input class="response" type="text" id="name" name="name" tabindex="1" value="<?php name($status)?>"></div>
-                <div class="tinySpacing"><label for="email">Email Address:</label></div>
-                <div><input class="response" type="email" id="email" name="email" tabindex="2" value="<?php email($status)?>"></div>
-                <div class="tinySpacing"><label for="message">Message:</label></div>
-                <div><textarea class="response" id="message" name="message" tabindex="3" rows="10"><?php textArea($status)?></textarea></div>
-                <div class="tinySpacing center"><button id="button" class="g-recaptcha" data-sitekey="6LdcpDIUAAAAAM9btQ69nAV7k8cYtLXHNUeb41UP" data-callback="onSubmit" tabindex="4">Send</button></div>
+                <div class="tinySpacing">
+                    <label for="name">Name:</label>
+                </div>
+                <input class="response" type="text" id="name" name="name" tabindex="1" value="<?php name($status)?>">
+                <div class="tinySpacing">
+                    <label for="email">Email Address:</label>
+                </div>
+                <input class="response" type="email" id="email" name="email" tabindex="2" value="<?php email($status)?>">
+                <div class="tinySpacing">
+                    <label for="message">Message:</label>
+                </div>
+                <textarea class="response" id="message" name="message" tabindex="3" rows="10"><?php textArea($status)?></textarea>
+                <div class="tinySpacing center">
+                    <button id="button" tabindex="4" class="g-recaptcha" data-sitekey="6LdcpDIUAAAAAM9btQ69nAV7k8cYtLXHNUeb41UP" data-callback="onSubmit">Send</button>
+                </div>
             </form>
         </div>
     </div>
-
-    <script>
-        var input = document.getElementById("button");
-        input.addEventListener("keyup", function(event) {
-            if (event.keyCode === 13) {
-                event.preventDefault();
-                document.getElementById("myBtn").click();
-            }
-        });
-    </script>
 
 </div>
 
