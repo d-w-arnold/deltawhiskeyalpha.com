@@ -87,8 +87,11 @@ include "./topHTML.php";
             $status = 0;
         }
 
+        require 'reCAPTCHAsecret.php';
+        require 'sparkpostSecret.php';
+
         $gRecaptchaResponse = @$_POST['g-recaptcha-response'];
-        $recaptcha = new ReCaptcha\ReCaptcha('6LdcpDIUAAAAABGjKLuEV8yb_PFp-OWSoxMWp4ch');
+        $recaptcha = new ReCaptcha\ReCaptcha($reCAPTCHAsecret);
         $resp = $recaptcha->verify($gRecaptchaResponse, getRealIpAddr());
         if (!$resp->isSuccess()) {
             $status = 0;
@@ -96,7 +99,7 @@ include "./topHTML.php";
 
         if ($status == 1) {
             $httpClient = new GuzzleAdapter(new GuzzleClient());
-            $sparky = new SparkPost($httpClient, ['key'=>'9dce6fc83a1ad473f1eba395bdca66fb59b3dc93', 'async' => false]);
+            $sparky = new SparkPost($httpClient, ['key'=>($sparkpostSecret), 'async' => false]);
             try {
                 $text = '';
                 $text .= "Name: $name".PHP_EOL;
@@ -187,7 +190,7 @@ include "./topHTML.php";
                 </div>
                 <textarea class="response" id="message" name="message" tabindex="3" rows="10"><?php textArea($status)?></textarea>
                 <div class="tinySpacing center">
-                    <button id="button" tabindex="4" class="g-recaptcha" data-sitekey="6LdcpDIUAAAAAM9btQ69nAV7k8cYtLXHNUeb41UP" data-callback="onSubmit">Send Your Message</button>
+                    <button id="button" tabindex="4" class="g-recaptcha" data-sitekey="6Lcl1rcUAAAAAP9cwFpK09YM8xi3Lhbc0jjgSFWs" data-callback="onSubmit">Send Your Message</button>
                 </div>
             </form>
         </div>
