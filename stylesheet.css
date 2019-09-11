@@ -280,6 +280,10 @@ table tr td a:hover {
         line-height: 1;
         font-size: 80pt;
     }
+
+    .statusMessage {
+        padding-bottom: 6%;
+    }
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
