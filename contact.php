@@ -92,18 +92,17 @@ include "./topHTML.php";
             $status = 0;
         }
 
+        require 'reCAPTCHAsecret.php';
+        require 'sparkpostSecret.php';
+
+        $gRecaptchaResponse = @$_POST['g-recaptcha-response'];
+        $recaptcha = new ReCaptcha\ReCaptcha($reCAPTCHAsecret);
+        $resp = $recaptcha->verify($gRecaptchaResponse, getRealIpAddr());
+        if (!$resp->isSuccess()) {
+            $status = 0;
+        }
+
         if ($status == 1) {
-            require 'reCAPTCHAsecret.php';
-            require 'sparkpostSecret.php';
-
-            $gRecaptchaResponse = @$_POST['g-recaptcha-response'];
-            $recaptcha = new ReCaptcha\ReCaptcha($reCAPTCHAsecret);
-            $resp = $recaptcha->verify($gRecaptchaResponse, getRealIpAddr());
-            if (!$resp->isSuccess()) {
-                $sendStatus = "Message not sent. Please try again at a later time.";
-                $status = 0;
-            }
-
             $httpClient = new GuzzleAdapter(new GuzzleClient());
             $sparky = new SparkPost($httpClient, ['key' => ($sparkpostSecret), 'async' => false]);
             try {
@@ -196,7 +195,7 @@ include "./topHTML.php";
             <div class="tinySpacing">
                 <label for="name">Name:</label>
             </div>
-            <input class="response" type="text" id="name" name="name" tabindex="1" value="<?php name($status) ?>">
+            <input class="response" type="text" id="name" name="name" tabindex="1" value="<?php name($status) ?>" autofocus>
             <div class="tinySpacing">
                 <label for="email">Email Address:</label>
             </div>
