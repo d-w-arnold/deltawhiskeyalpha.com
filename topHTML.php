@@ -11,28 +11,29 @@
     <link rel="shortcut icon" href="/resources/favicon/favicon.ico">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/resources/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/stylesheet.css">
     <meta name="msapplication-config" content="/resources/favicon/browserconfig.xml">
     <meta name="theme-color" content="#282828">
-    <meta name="description" content="Home of Computer Scientist and University of Kent undergraduate, David W. Arnold.">
-    <title><?php echo 'David W. Arnold : ∆WA' . $title?></title>
+    <meta name="description"
+          content="Home of Computer Scientist and University of Kent undergraduate, David W. Arnold.">
+    <title><?php echo 'David W. Arnold : ∆WA'.$title ?></title>
 </head>
 <body>
-    <header>
-        <div class="alignRight">
-            <a id="cv" target="_blank" href="resources/CV_(Resume).pdf">** CV (Résumé) **</a>
-        </div>
-        <p id="delta"><a href="/">∆WA</a></p>
-        <p id="intro"><i>Home of Computer Scientist and University of Kent undergraduate ...</i></p>
-        <p id="myName">David W. Arnold</p>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="./education.php">Education</a></li>
-                <li><a href="./golf.php">Golf</a></li>
-                <li><a href="./computing.php">Computing</a></li>
-                <li><a href="./contact.php">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <div class="alignRight">
+        <a id="cv" target="_blank" href="/resources/CV_(Resume).pdf">** CV (Résumé) **</a>
+    </div>
+    <p id="delta"><a href="/">∆WA</a></p>
+    <p id="intro"><i>Home of Computer Scientist and University of Kent undergraduate ...</i></p>
+    <p id="myName">David W. Arnold</p>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="./education.php">Education</a></li>
+            <li><a href="./golf.php">Golf</a></li>
+            <li><a href="./computing.php">Computing</a></li>
+            <li><a href="./contact.php">Contact</a></li>
+        </ul>
+    </nav>
+</header>
