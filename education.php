@@ -14,7 +14,7 @@ include "./topHTML.php";
     <div class="roboto">
         <table class="marginBottom2">
             <tr>
-                <td class="employerName"><i class="fa fa-university" aria-hidden="true"></i><b><a
+                <td class="employerName"><span class="iconUni" aria-hidden="true"></span><b><a
                                 href="https://www.kent.ac.uk">University of Kent</a></b></td>
                 <td class="location">Canterbury, U.K.</td>
             </tr>
@@ -58,7 +58,7 @@ include "./topHTML.php";
     <div class="roboto">
         <table class="marginBottom2">
             <tr>
-                <td class="employerName"><i class="fa fa-university" aria-hidden="true"></i><b><a
+                <td class="employerName"><span class="iconUni" aria-hidden="true"></span><b><a
                                 href="https://www.newberry.edu">Newberry College</a></b></td>
                 <td class="location">Newberry, South Carolina, U.S.A.</td>
             </tr>
@@ -93,7 +93,7 @@ include "./topHTML.php";
     <div class="roboto">
         <table class="marginBottom2">
             <tr>
-                <td class="employerName"><i class="fa fa-university" aria-hidden="true"></i><b><a
+                <td class="employerName"><span class="iconUni" aria-hidden="true"></span><b><a
                                 href="http://www.open.ac.uk">The Open University</a></b></td>
                 <td class="location">Milton Keynes, U.K.</td>
             </tr>
@@ -126,7 +126,7 @@ include "./topHTML.php";
     <div class="roboto">
         <table class="marginBottom2">
             <tr>
-                <td class="employerName"><i class="fa fa-university" aria-hidden="true"></i><b><a
+                <td class="employerName"><span class="iconUni" aria-hidden="true"></span><b><a
                                 href="http://www.harveygs.kent.sch.uk">The Harvey Grammar School</a></b>
                 </td>
                 <td class="location">Folkestone, U.K.</td>

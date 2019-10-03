@@ -53,7 +53,7 @@ include "./topHTML.php";
     <div class="roboto">
         <table class="marginBottom2">
             <tr>
-                <td class="employerName"><i class="fa fa-laptop" aria-hidden="true"></i><b><a
+                <td class="employerName"><span class="iconLap" aria-hidden="true"></span><b><a
                                 href="https://redbullracing.redbull.com/careers">Red Bull Technology /
                             Red Bull Racing</a></b></td>
                 <td class="location">Milton Keynes, U.K.</td>
@@ -109,7 +109,7 @@ include "./topHTML.php";
     <div class="roboto">
         <table class="marginBottom2">
             <tr>
-                <td class="employerName"><i class="fa fa-laptop" aria-hidden="true"></i><b><a
+                <td class="employerName"><span class="iconLap" aria-hidden="true"></span><b><a
                                 href="http://www.it-alan.co.uk/">IT-Alan</a></b></td>
                 <td class="location">Burmarsh, Kent, U.K.</td>
             </tr>

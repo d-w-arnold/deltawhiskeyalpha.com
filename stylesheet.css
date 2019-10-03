@@ -56,6 +56,26 @@ p b a:hover {
     text-decoration: underline;
 }
 
+span.iconUni::before {
+    content: "\f19c";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    padding-right: 10px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+span.iconLap::before {
+    content: "\f109";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    padding-right: 10px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 table {
     width: 100%;
 }
@@ -154,10 +174,6 @@ table tr td a:hover {
     color: red;
 }
 
-.fa {
-    padding-right: 3%;
-}
-
 .github {
     padding-top: 3%;
 }
@@ -193,7 +209,7 @@ table tr td a:hover {
 }
 
 .roboto {
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif;
 }
 
 .spacing {
@@ -289,8 +305,12 @@ table tr td a:hover {
         padding-bottom: 6%;
     }
 
-    .fa {
-        display: none;
+    span.iconUni::before {
+        display: none !important;
+    }
+
+    span.iconLap::before {
+        display: none !important;
     }
 }
 
