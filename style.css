@@ -80,8 +80,13 @@ table {
     width: 100%;
 }
 
+table tr td a {
+    color: #0395DE;
+}
+
 table tr td a:hover {
     text-decoration: underline;
+    text-decoration-color: #ffffff;
 }
 
 #button {
