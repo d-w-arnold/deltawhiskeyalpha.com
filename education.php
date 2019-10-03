@@ -41,7 +41,7 @@ include "./topHTML.php";
                 </div>
                 <div class="uniCourseDetails">
                     <p>•&nbsp;&nbsp;Year 2: 78%</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;CO518: Algorithms , Correctness and Efficiency (Java):
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;CO518: Algorithms, Correctness and Efficiency (Java):
                         80%</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;CO539: Web Development: (HTML & CSS, JavaScript w/ jQuery,
                         AJAX & JQueryUI, PHP): 95%</p>

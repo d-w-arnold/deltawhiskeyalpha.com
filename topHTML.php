@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="/resources/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/stylesheet.css">
     <meta name="msapplication-config" content="/resources/favicon/browserconfig.xml">
     <meta name="theme-color" content="#282828">
     <meta name="description"
@@ -26,7 +26,7 @@
     </div>
     <p id="delta"><a href="/">∆WA</a></p>
     <p id="intro"><i>Home of Computer Scientist and University of Kent undergraduate ...</i></p>
-    <p id="myName">David W. Arnold</p>
+    <h1 id="myName">David W. Arnold</h1>
     <nav>
         <ul>
             <li><a href="/">Home</a></li>
