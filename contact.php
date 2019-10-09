@@ -51,7 +51,7 @@ include "./topHTML.php";
         }
     </script>
 
-    <p class="title">Contact</p>
+    <p class="title" id="contactTitle">Contact</p>
 
     <?php
 
@@ -177,6 +177,8 @@ include "./topHTML.php";
             }
         }
     }
+
+    header('Location:/contact.php#contactTitle');
 
     ?>
 
