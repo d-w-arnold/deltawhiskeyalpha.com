@@ -309,7 +309,7 @@ table tr td a:hover {
     }
 
     .statusMessage {
-        padding-bottom: 6%;
+        text-align: center;
     }
 
     span.iconUni::before {

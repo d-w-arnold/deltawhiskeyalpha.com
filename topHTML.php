@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="/resources/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/stylesheet.css">
+    <link rel="stylesheet" href="/style.css">
     <meta name="msapplication-config" content="/resources/favicon/browserconfig.xml">
     <meta name="theme-color" content="#282828">
     <meta name="description"
