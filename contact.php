@@ -51,7 +51,7 @@ include "./topHTML.php";
         }
     </script>
 
-    <p class="title">Contact</p>
+    <p class="title" id="contactTitle">Contact</p>
 
     <?php
 
@@ -193,7 +193,7 @@ include "./topHTML.php";
                                                                                width="64" height="64"></a></div>
         </div>
         <div class="right">
-            <form id="contact-form" action="/contact.php" method="POST">
+            <form id="contact-form" action="<?php header('Location:/contact.php#contactTitle');?>" method="POST">
                 <div class="tinySpacing">
                     <label for="name">Name:</label>
                 </div>
