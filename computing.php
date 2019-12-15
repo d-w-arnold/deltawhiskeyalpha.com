@@ -18,9 +18,8 @@ include "./topHTML.php";
             </tr>
             <tr>
                 <td class="computingSubTitle">Skills</td>
-                <td class="computingWriting">UNIX CLI, Java, LaTeX, Git, HTML & CSS, PHP, Erlang, AppleScript,
-                    JavaScript
-                    (w/ jQuery, AJAX & JQueryUI), MySQL, Markdown, Mathematics
+                <td class="computingWriting">UNIX CLI, Java, LaTeX, Git, HTML & CSS, PHP, Cryptography, C++, Erlang,
+                    AppleScript, JavaScript (w/ jQuery, AJAX & JQueryUI), MySQL, Markdown, Mathematics
                 </td>
             </tr>
             <tr>
@@ -28,12 +27,19 @@ include "./topHTML.php";
                 <td class="computingWriting">
                     <a href="https://github.com/d-w-arnold/deltawhiskeyalpha.com">My First Website</a> (PHP, HTML & CSS,
                     JavaScript)<br>
-                    <a href="https://github.com/d-w-arnold/Golf-Club-Secretary">Golf Club Secretary</a> (Java)<br>
                     <a href="https://github.com/d-w-arnold/Reflective-Journal_CSV-to-TXT-Converter">CSV to TXT
                         Converter</a>
                     (Java)<br>
                     <a href="https://github.com/d-w-arnold/AppleScript_Timestamp-Media">Timestamp Media</a>
-                    (AppleScript)
+                    (AppleScript)<br>
+                    <a href="https://github.com/d-w-arnold/CO634-Assignment-2">Ciphertext Decryption</a> (Java)<br>
+                    <a href="https://github.com/d-w-arnold/CO657-IoT_Device">IoT BLE & Motion Detection Device</a>
+                    (C++)<br>
+                    <a href="https://github.com/d-w-arnold/CO657-IoT_Admin_Web_App">IoT Admin Web App</a>
+                    (PHP, HTML & CSS, MySQL)<br>
+                    <a href="https://github.com/d-w-arnold/CO657-IoT_Server">IoT Central Server</a>
+                    (Java)
+                    <!--<a href="https://github.com/d-w-arnold/Golf-Club-Secretary">Golf Club Secretary</a> (Java)-->
                 </td>
             </tr>
             <tr>
