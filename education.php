@@ -15,7 +15,7 @@ include "./topHTML.php";
         <table class="marginBottom2">
             <tr>
                 <td class="employerName"><span class="iconUni" aria-hidden="true"></span><b><a
-                                href="https://www.kent.ac.uk">University of Kent</a></b></td>
+                                target="_blank" href="https://www.kent.ac.uk">University of Kent</a></b></td>
                 <td class="location">Canterbury, U.K.</td>
             </tr>
         </table>
@@ -59,7 +59,7 @@ include "./topHTML.php";
         <table class="marginBottom2">
             <tr>
                 <td class="employerName"><span class="iconUni" aria-hidden="true"></span><b><a
-                                href="https://www.newberry.edu">Newberry College</a></b></td>
+                                target="_blank" href="https://www.newberry.edu">Newberry College</a></b></td>
                 <td class="location">Newberry, South Carolina, U.S.A.</td>
             </tr>
         </table>
@@ -94,7 +94,7 @@ include "./topHTML.php";
         <table class="marginBottom2">
             <tr>
                 <td class="employerName"><span class="iconUni" aria-hidden="true"></span><b><a
-                                href="http://www.open.ac.uk">The Open University</a></b></td>
+                                target="_blank" href="http://www.open.ac.uk">The Open University</a></b></td>
                 <td class="location">Milton Keynes, U.K.</td>
             </tr>
         </table>
@@ -127,7 +127,7 @@ include "./topHTML.php";
         <table class="marginBottom2">
             <tr>
                 <td class="employerName"><span class="iconUni" aria-hidden="true"></span><b><a
-                                href="http://www.harveygs.kent.sch.uk">The Harvey Grammar School</a></b>
+                                target="_blank" href="http://www.harveygs.kent.sch.uk">The Harvey Grammar School</a></b>
                 </td>
                 <td class="location">Folkestone, U.K.</td>
             </tr>

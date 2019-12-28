@@ -25,26 +25,33 @@ include "./topHTML.php";
             <tr>
                 <td class="computingSubTitle">Projects</td>
                 <td class="computingWriting">
-                    <a href="https://github.com/d-w-arnold/deltawhiskeyalpha.com">My First Website</a> (PHP, HTML & CSS,
+                    <a target="_blank" href="https://github.com/d-w-arnold/deltawhiskeyalpha.com">My First Website</a>
+                    (PHP, HTML & CSS,
                     JavaScript)<br>
-                    <a href="https://github.com/d-w-arnold/Reflective-Journal_CSV-to-TXT-Converter">CSV to TXT
+                    <a target="_blank" href="https://github.com/d-w-arnold/Reflective-Journal_CSV-to-TXT-Converter">CSV
+                        to TXT
                         Converter</a>
                     (Java)<br>
-                    <a href="https://github.com/d-w-arnold/AppleScript_Timestamp-Media">Timestamp Media</a>
+                    <a target="_blank" href="https://github.com/d-w-arnold/AppleScript_Timestamp-Media">Timestamp
+                        Media</a>
                     (AppleScript)<br>
-                    <a href="https://github.com/d-w-arnold/CO634-Assignment-2">Ciphertext Decryption</a> (Java)<br>
-                    <a href="https://github.com/d-w-arnold/CO657-IoT_Device">IoT BLE & Motion Detection Device</a>
+                    <a target="_blank" href="https://github.com/d-w-arnold/CO634-Assignment-2">Ciphertext Decryption</a>
+                    (Java)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Device">IoT BLE & Motion Detection
+                        Device</a>
                     (C++)<br>
-                    <a href="https://github.com/d-w-arnold/CO657-IoT_Admin_Web_App">IoT Admin Web App</a>
+                    <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Admin_Web_App">IoT Admin Web
+                        App</a>
                     (PHP, HTML & CSS, MySQL)<br>
-                    <a href="https://github.com/d-w-arnold/CO657-IoT_Server">IoT Central Server</a>
+                    <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Server">IoT Central Server</a>
                     (Java)
-                    <!--<a href="https://github.com/d-w-arnold/Golf-Club-Secretary">Golf Club Secretary</a> (Java)-->
+                    <!--<a target="_blank" href="https://github.com/d-w-arnold/Golf-Club-Secretary">Golf Club Secretary</a> (Java)-->
                 </td>
             </tr>
             <tr>
                 <td class="computingSubTitle">Events</td>
                 <td class="computingWriting"><a
+                            target="_blank"
                             href="https://www.cisco.com/c/m/en_uk/training-events/university-challenge.html">2017 Cisco
                         University Challenge</a></td>
             </tr>
@@ -60,7 +67,7 @@ include "./topHTML.php";
         <table class="marginBottom2">
             <tr>
                 <td class="employerName"><span class="iconLap" aria-hidden="true"></span><b><a
-                                href="https://redbullracing.redbull.com/careers">Red Bull Technology /
+                                target="_blank" href="https://redbullracing.redbull.com/careers">Red Bull Technology /
                             Red Bull Racing</a></b></td>
                 <td class="location">Milton Keynes, U.K.</td>
             </tr>
@@ -116,7 +123,7 @@ include "./topHTML.php";
         <table class="marginBottom2">
             <tr>
                 <td class="employerName"><span class="iconLap" aria-hidden="true"></span><b><a
-                                href="http://www.it-alan.co.uk/">IT-Alan</a></b></td>
+                                target="_blank" href="http://www.it-alan.co.uk/">IT-Alan</a></b></td>
                 <td class="location">Burmarsh, Kent, U.K.</td>
             </tr>
         </table>

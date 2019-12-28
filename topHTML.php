@@ -20,13 +20,14 @@
     <title><?php echo 'David W. Arnold : ∆WA'.$title ?></title>
 </head>
 <body>
+<?php $cv_path = '/resources/CV_(Resume).pdf' ?>
 <header>
     <div class="alignRight">
-        <a id="cv" target="_blank" href="/resources/CV_(Resume).pdf">** CV (Résumé) **</a>
+        <a id="cv" target="_blank" href="<?php echo $cv_path ?>">** CV (Résumé) **</a>
     </div>
     <p id="delta"><a href="/">∆WA</a></p>
     <p id="intro"><i>Home of Computer Scientist and University of Kent undergraduate ...</i></p>
-    <h1 id="myName">David W. Arnold</h1>
+    <h1 id="myName"><a class="link-color" target="_blank" href="<?php echo $cv_path ?>">David W. Arnold</a></h1>
     <nav>
         <ul>
             <li><a href="/">Home</a></li>
