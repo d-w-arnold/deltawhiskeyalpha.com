@@ -90,6 +90,10 @@ table tr td a:hover {
     text-decoration-color: #ffffff;
 }
 
+#top {
+    height: 60pt
+}
+
 #button {
     background-color: #ffffff;
     font-size: 14pt;
@@ -101,18 +105,17 @@ table tr td a:hover {
     font-size: 10pt;
     padding: 1.4% 2%;
     border-radius: 20px;
-    background-color: #ffffff;
+    background-color: lightgrey;
     color: #282828;
+}
+
+#cv:hover {
+    background-color: #ffffff;
 }
 
 #delta {
     line-height: 1;
-    font-size: 120pt;
-}
-
-#intro {
-    padding-bottom: 3%;
-    font-size: 12pt;
+    font-size: 60pt;
 }
 
 #message {
@@ -129,7 +132,15 @@ table tr td a:hover {
     font-weight: normal;
 }
 
+.alignLeft {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
 .alignRight {
+    width: 50%;
+    float: right;
     text-align: right;
 }
 
@@ -180,8 +191,25 @@ table tr td a:hover {
     color: red;
 }
 
-.github {
-    padding-top: 3%;
+.logos {
+    padding-top: 5%;
+}
+
+#github {
+    width: 50%;
+    float: left;
+}
+#github:hover {
+    transform: scale(1.2);
+}
+
+#keybase {
+    width: 50%;
+    float: right;
+}
+
+#keybase:hover {
+    transform: scale(1.2);
 }
 
 .jobDates {
@@ -250,7 +278,7 @@ table tr td a:hover {
     font-size: 24pt;
     margin-bottom: 6%;
     font-family: serif !important;
-    padding: 3% 0 2% 0;
+    padding-bottom: 2%;
     border-bottom: solid #ffffff;
 }
 
@@ -312,9 +340,22 @@ table tr td a:hover {
         color: #282828;
     }
 
-    #delta {
-        line-height: 1;
-        font-size: 80pt;
+    #top {
+        height: 80pt !important;
+    }
+
+    .alignLeft {
+        text-align: center;
+        float: none;
+        width: auto;
+        height: auto;
+    }
+
+    .alignRight {
+        text-align: right;
+        float: none;
+        width: auto;
+        height: auto;
     }
 
     .statusMessage {
