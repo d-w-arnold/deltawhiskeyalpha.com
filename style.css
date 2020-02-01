@@ -11,13 +11,13 @@ body {
     font-size: 16pt;
 }
 
+form {
+    margin: 0 !important;
+}
+
 html * {
     margin: 0;
     height: 100%;
-}
-
-form {
-    margin: 0 !important;
 }
 
 label.error {
@@ -36,7 +36,7 @@ li a:hover {
 }
 
 nav {
-    padding: 2% 0 3% 0;
+    padding: 2% 0 4% 0;
 }
 
 nav ul {
@@ -90,10 +90,6 @@ table tr td a:hover {
     text-decoration-color: #ffffff;
 }
 
-#top {
-    height: 60pt
-}
-
 #button {
     background-color: #ffffff;
     font-size: 14pt;
@@ -107,6 +103,7 @@ table tr td a:hover {
     border-radius: 20px;
     background-color: lightgrey;
     color: #282828;
+    vertical-align: text-top;
 }
 
 #cv:hover {
@@ -118,18 +115,37 @@ table tr td a:hover {
     font-size: 60pt;
 }
 
+#github {
+    width: 50%;
+    float: left;
+}
+#github:hover {
+    transform: scale(1.2);
+}
+
+#keybase {
+    width: 50%;
+    float: right;
+}
+
+#keybase:hover {
+    transform: scale(1.2);
+}
+
 #message {
     resize: none;
 }
 
 #myName {
     font-size: 22pt;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin-top: 1%;
-    border-top: solid #ffffff;
+    padding-bottom: 1%;
     border-bottom: solid #ffffff;
     font-weight: normal;
+    text-align: right;
+}
+
+#top {
+    height: 40pt
 }
 
 .alignLeft {
@@ -149,6 +165,11 @@ table tr td a:hover {
     text-align: left;
 }
 
+.buttonPlacement {
+    padding: 3% 0;
+    text-align: center;
+}
+
 .center {
     text-align: center;
 }
@@ -159,14 +180,14 @@ table tr td a:hover {
     font-weight: bold;
 }
 
-.computingWriting {
-    padding-left: 2%;
-    font-size: 12pt;
-}
-
 .computingTable {
     border-spacing: 0 15px;
     margin: -15px 0 -15px 0;
+}
+
+.computingWriting {
+    padding-left: 2%;
+    font-size: 12pt;
 }
 
 .contact-details {
@@ -191,25 +212,13 @@ table tr td a:hover {
     color: red;
 }
 
-.logos {
-    padding-top: 5%;
+.iconLink {
+    font-size: 20pt;
+    color: lightgrey;
 }
 
-#github {
-    width: 50%;
-    float: left;
-}
-#github:hover {
-    transform: scale(1.2);
-}
-
-#keybase {
-    width: 50%;
-    float: right;
-}
-
-#keybase:hover {
-    transform: scale(1.2);
+.iconLink:hover {
+    color: #ffffff;
 }
 
 .jobDates {
@@ -226,11 +235,6 @@ table tr td a:hover {
     font-size: 14pt;
 }
 
-.location {
-    font-size: 14pt;
-    text-align: right;
-}
-
 .link-color {
     color: #0395DE;
 }
@@ -239,6 +243,15 @@ table tr td a:hover {
     text-decoration: underline;
     color: #ffffff;
     text-decoration-color: #ffffff;
+}
+
+.location {
+    font-size: 14pt;
+    text-align: right;
+}
+
+.logos {
+    padding-top: 5%;
 }
 
 .marginBottom2 {
@@ -257,8 +270,8 @@ table tr td a:hover {
 }
 
 .spacing {
-    margin: 6% 0 6% 0;
-    border-bottom: solid #ffffff;
+    margin: 2% 0;
+    /*border-bottom: solid #ffffff;*/
 }
 
 .spacingWithoutLine {
@@ -276,10 +289,10 @@ table tr td a:hover {
 
 .title {
     font-size: 24pt;
-    margin-bottom: 6%;
+    margin-bottom: 4%;
     font-family: serif !important;
-    padding-bottom: 2%;
-    border-bottom: solid #ffffff;
+    /*padding-bottom: 2%;*/
+    /*border-bottom: solid #ffffff;*/
 }
 
 .uniCourseDetails {
@@ -338,6 +351,11 @@ table tr td a:hover {
         border-radius: 20px;
         background-color: #ffffff;
         color: #282828;
+        vertical-align: super;
+    }
+
+    #myName {
+        text-align: center;
     }
 
     #top {
@@ -356,6 +374,16 @@ table tr td a:hover {
         float: none;
         width: auto;
         height: auto;
+    }
+
+    .buttonPlacement {
+        text-align: left;
+    }
+
+    .iconLink {
+        font-size: 16pt;
+        float: left;
+        margin-right: 4%;
     }
 
     .statusMessage {

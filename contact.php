@@ -213,7 +213,7 @@ include "./topHTML.php";
             <textarea class="response" id="message" name="message" tabindex="3" rows="10"><?php textArea(
                     $status
                 ) ?></textarea>
-            <div class="tinySpacing center">
+            <div class="buttonPlacement">
                 <button id="button" tabindex="4" class="g-recaptcha"
                         data-sitekey="6Lcl1rcUAAAAAP9cwFpK09YM8xi3Lhbc0jjgSFWs" data-callback="onSubmit">Send Your
                     Message
