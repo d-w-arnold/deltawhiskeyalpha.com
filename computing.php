@@ -18,8 +18,7 @@ include "./topHTML.php";
             </tr>
             <tr>
                 <td class="computingSubTitle">Skills</td>
-                <td class="computingWriting">UNIX CLI, Java, LaTeX, Git, HTML & CSS, PHP, Cryptography, C++, Erlang,
-                    AppleScript, JavaScript (w/ jQuery, AJAX & JQueryUI), MySQL, Markdown, Mathematics
+                <td class="computingWriting">UNIX CLI, Java, LaTeX, Git, HTML & CSS, PHP, JavaScript (w/ jQuery, AJAX & JQueryUI), MySQL, Rust, Erlang, R, C++, Haskell, OCaml, AppleScript, Cryptography, Markdown, Mathematics
                 </td>
             </tr>
             <tr>
