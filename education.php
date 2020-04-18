@@ -32,21 +32,31 @@ include "./topHTML.php";
         <table>
             <tr>
                 <div class="uniCourseDetails">
-                    <p>•&nbsp;&nbsp;Year 1: 86%</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;CO320: Introduction to Object-Orientated Programming (Java):
-                        97%</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;CO323: Database and the Web (PHP, MySQL, HTML & CSS,
-                        JavaScript): 86%</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;CO520: Further Object-Orientated Programming (Java): 94%</p>
+                    <p>•&nbsp;&nbsp;Year 3: (Predicted grade: 1st)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Research Project Title: ”Quantum Cryptography: Security for the Post-Quantum world”: (Predicted: 1st)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Computer Networks and Communication (Java): (92% Coursework) (Predicted grade: 1st)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Computer Security and Cryptography (Java): (89% Coursework) (Predicted grade: 1st)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Internet of Things (C++, Java, PHP, HTML & CSS, MySQL): 70%</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Programming Language Implementation (OCaml & C++): (Predicted grade: 1st)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Programming Languages: Application and Design (Java, Rust & Haskell): (Predicted grade: 1st)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;(Masters) Data Mining and Knowledge Discovery (R): (Predicted grade: 2:1)</p>
                 </div>
                 <div class="uniCourseDetails">
                     <p>•&nbsp;&nbsp;Year 2: 78%</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;CO518: Algorithms, Correctness and Efficiency (Java):
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Algorithms, Correctness and Efficiency (Java):
                         80%</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;CO539: Web Development: (HTML & CSS, JavaScript w/ jQuery,
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Web Development: (HTML & CSS, JavaScript w/ jQuery,
                         AJAX & JQueryUI, PHP): 95%</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;CO545: Functional and Concurrent Programming (Erlang w/
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Functional and Concurrent Programming (Erlang w/
                         Haskell): 94%</p>
+                </div>
+                <div class="uniCourseDetails">
+                    <p>•&nbsp;&nbsp;Year 1: 86%</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Introduction to Object-Orientated Programming (Java):
+                        97%</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Database and the Web (PHP, MySQL, HTML & CSS,
+                        JavaScript): 86%</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Further Object-Orientated Programming (Java): 94%</p>
                 </div>
             </tr>
         </table>
@@ -77,11 +87,10 @@ include "./topHTML.php";
             <tr>
                 <div class="uniCourseDetails">
                     <p>•&nbsp;&nbsp;I was offered a 100% scholarship (golf and academic) to play for the Newberry
-                        College
-                        NCAA (National Collegiate Athletic Association) golf team while studying as a Mathematics
+                        College NCAA (National Collegiate Athletic Association) golf team while studying as a Mathematics
                         Major.</p>
                     <p>•&nbsp;&nbsp;My GPA (Grade Point Average) for the time I was there was 3.80/4.00 (A-Grade).</p>
-                    <p>•&nbsp;&nbsp;I returned to the U.K. to pursue a degree at a U.K. university.</p>
+<!--                    <p>•&nbsp;&nbsp;I returned to the U.K. to pursue a degree at a U.K. university.</p>-->
                 </div>
             </tr>
         </table>
@@ -112,9 +121,7 @@ include "./topHTML.php";
             <tr>
                 <div class="uniCourseDetails">
                     <p>•&nbsp;&nbsp;I studied (part-time) for two years: Computing, Psychology and Mathematics.</p>
-                    <p>•&nbsp;&nbsp;Computing:</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Overall Continuous Assessment Score: 75%</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Overall Examinable Score: 89%</p>
+                    <p>•&nbsp;&nbsp;Computing: Overall Continuous Assessment Score: 75%, Overall Examinable Score: 89%</p>
                 </div>
             </tr>
         </table>
