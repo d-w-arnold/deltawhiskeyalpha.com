@@ -18,7 +18,10 @@ include "./topHTML.php";
             </tr>
             <tr>
                 <td class="computingSubTitle">Skills</td>
-                <td class="computingWriting">UNIX CLI, Java, Git, HTML & CSS, PHP, JavaScript (w/ jQuery, AJAX, jQuery UI & React), MySQL, Erlang, C & C++, Rust, Haskell, OCaml, R, AppleScript, Docker, Markdown, LATEX, JetBrains IDEs, Cryptography, Mathematics</td>
+                <td class="computingWriting">UNIX CLI, Java, Git, HTML & CSS, PHP, JavaScript (w/ jQuery, AJAX, jQuery
+                    UI & React), MySQL, Erlang, C & C++, Rust, Haskell, OCaml, R, AppleScript, Docker, Markdown, LATEX,
+                    JetBrains IDEs, Cryptography, Mathematics
+                </td>
             </tr>
             <tr>
                 <td class="computingSubTitle">Projects</td>
@@ -42,7 +45,8 @@ include "./topHTML.php";
                     (Java)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Admin_Web_App">IoT Admin Web
                         App</a> (PHP, HTML & CSS, MySQL)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/Learn_Git_GitHub_JetBrains">Learn: Git, GitHub and JetBrains IDEs</a> (Markdown) (Talks aimed at Year 1 and 2 undergraduates)
+                    <a target="_blank" href="https://github.com/d-w-arnold/Learn_Git_GitHub_JetBrains">Learn: Git,
+                        GitHub and JetBrains IDEs</a> (Markdown) (Talks aimed at Year 1 and 2 undergraduates)
                 </td>
             </tr>
             <tr>
@@ -82,20 +86,17 @@ include "./topHTML.php";
         <table>
             <tr>
                 <td class=jobDetails>
-<!--                    <p>•&nbsp;&nbsp;A Year in Industry (university sandwich year) placement with the IT Service Desk based in Milton Keynes.</p>-->
                     <p>•&nbsp;&nbsp;Responsible for supporting, maintaining and optimising internal systems.</p>
                     <p>•&nbsp;&nbsp;Expected to work well both individually and as part of a team.</p>
                     <p>•&nbsp;&nbsp;Main accountabilities during role:</p>
-<!--                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Accepting IT related issues (via telephone/email and desk support)</p>-->
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Support and manage critical business applications and tools</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Communication, building relationships and working with people across teams</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Support and manage critical business applications and
+                        tools</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Communication, building relationships and working with
+                        people across teams</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Technical approach to problem solving</p>
-<!--                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Setting up and configuring new laptops, desktops, tablets, phones and virtual machines</p>-->
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Participation in project work</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Identify and propose opportunities to improve processes and
                         systems</p>
-<!--                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Knowledge of batch/windows scripts to automate tasks</p>-->
-<!--                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Assist with inventory management of software, hardware and other IT supplies</p>-->
                 </td>
             </tr>
         </table>
@@ -126,18 +127,6 @@ include "./topHTML.php";
             <tr>
                 <td class=jobDetails>
                     <p>•&nbsp;&nbsp;Computer repair & maintenance with a Microsoft Certified Systems Engineer.</p>
-<!--                    <p>•&nbsp;&nbsp;As the Assistant Engineer, my duties included first-hand experience in dealing with-->
-<!--                        customers-->
-<!--                        while assisting the Systems Engineer in one of the many services provided.</p>-->
-<!--                    <p>•&nbsp;&nbsp;Services provided:</p>-->
-<!--                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Hardware Builds / Re-Builds / Upgrades</p>-->
-<!--                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Data Recovery</p>-->
-<!--                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Computer Re-Load: re-install the native OS</p>-->
-<!--                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;PC Tune-Up: software configuration to optimise for-->
-<!--                        performance</p>-->
-<!--                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Virus Removal</p>-->
-<!--                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Software Installation</p>-->
-<!--                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Home LAN Setup</p>-->
                 </td>
             </tr>
         </table>

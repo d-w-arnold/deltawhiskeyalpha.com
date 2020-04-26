@@ -33,13 +33,20 @@ include "./topHTML.php";
             <tr>
                 <div class="uniCourseDetails">
                     <p>•&nbsp;&nbsp;Year 3: (Predicted grade: 1st)</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Research Project Title: ”Quantum Cryptography: Security for the Post-Quantum world”: (Predicted: 1st)</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Computer Networks and Communication (Java): (92% Coursework) (Predicted grade: 1st)</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Computer Security and Cryptography (Java): (89% Coursework) (Predicted grade: 1st)</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Internet of Things (C++, Java, PHP, HTML & CSS, MySQL): 70%</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Programming Language Implementation (OCaml & C++): (Predicted grade: 1st)</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Programming Languages: Application and Design (Java, Rust & Haskell): (Predicted grade: 1st)</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;(Masters) Data Mining and Knowledge Discovery (R): (Predicted grade: 2:1)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Research Project Title: ”Quantum Cryptography: Security for
+                        the Post-Quantum world”: (Predicted: 1st)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Computer Networks and Communication (Java): (92% Coursework)
+                        (Predicted grade: 1st)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Computer Security and Cryptography (Java): (89% Coursework)
+                        (Predicted grade: 1st)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Internet of Things (C++, Java, PHP, HTML & CSS, MySQL):
+                        70%</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Programming Language Implementation (OCaml & C++):
+                        (Predicted grade: 1st)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Programming Languages: Application and Design (Java, Rust &
+                        Haskell): (Predicted grade: 1st)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;(Masters) Data Mining and Knowledge Discovery (R):
+                        (Predicted grade: 2:1)</p>
                 </div>
                 <div class="uniCourseDetails">
                     <p>•&nbsp;&nbsp;Year 2: 78%</p>
@@ -87,10 +94,9 @@ include "./topHTML.php";
             <tr>
                 <div class="uniCourseDetails">
                     <p>•&nbsp;&nbsp;I was offered a 100% scholarship (golf and academic) to play for the Newberry
-                        College NCAA (National Collegiate Athletic Association) golf team while studying as a Mathematics
-                        Major.</p>
+                        College NCAA (National Collegiate Athletic Association) golf team while studying as a
+                        Mathematics Major.</p>
                     <p>•&nbsp;&nbsp;My GPA (Grade Point Average) for the time I was there was 3.80/4.00 (A-Grade).</p>
-<!--                    <p>•&nbsp;&nbsp;I returned to the U.K. to pursue a degree at a U.K. university.</p>-->
                 </div>
             </tr>
         </table>
@@ -121,7 +127,8 @@ include "./topHTML.php";
             <tr>
                 <div class="uniCourseDetails">
                     <p>•&nbsp;&nbsp;I studied (part-time) for two years: Computing, Psychology and Mathematics.</p>
-                    <p>•&nbsp;&nbsp;Computing: Overall Continuous Assessment Score: 75%, Overall Examinable Score: 89%</p>
+                    <p>•&nbsp;&nbsp;Computing: Overall Continuous Assessment Score: 75%, Overall Examinable Score:
+                        89%</p>
                 </div>
             </tr>
         </table>
