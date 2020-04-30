@@ -20,7 +20,7 @@
     <title><?php echo 'David W. Arnold : ∆WA'.$title ?></title>
 </head>
 <body>
-<?php $cv_path = '/resources/Resume_CV.pdf' ?>
+<?php $cv_path = '/resources/cv.pdf' ?>
 <header>
     <div id="top">
         <div class="alignRight">
