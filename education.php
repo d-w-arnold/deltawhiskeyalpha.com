@@ -41,7 +41,7 @@ include "./topHTML.php";
                         (Predicted grade: 1st)</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Internet of Things (C++, Java, PHP, HTML & CSS, MySQL):
                         70%</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Programming Language Implementation (OCaml & C++):
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Programming Language Implementation (OCaml & C):
                         (Predicted grade: 1st)</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Programming Languages: Application and Design (Java, Rust &
                         Haskell): (Predicted grade: 1st)</p>
@@ -52,8 +52,8 @@ include "./topHTML.php";
                     <p>•&nbsp;&nbsp;Year 2: 78%</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Algorithms, Correctness and Efficiency (Java):
                         80%</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Web Development: (HTML & CSS, JavaScript w/ jQuery,
-                        AJAX & JQueryUI, PHP): 95%</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Web Development: (HTML, CSS, JavaScript (w/ jQuery,
+                        AJAX & JQuery UI), PHP): 95%</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Functional and Concurrent Programming (Erlang w/
                         Haskell): 94%</p>
                 </div>
@@ -61,7 +61,7 @@ include "./topHTML.php";
                     <p>•&nbsp;&nbsp;Year 1: 86%</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Introduction to Object-Orientated Programming (Java):
                         97%</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Database and the Web (PHP, MySQL, HTML & CSS,
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Database and the Web (PHP, MySQL, HTML, CSS,
                         JavaScript): 86%</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Further Object-Orientated Programming (Java): 94%</p>
                 </div>
