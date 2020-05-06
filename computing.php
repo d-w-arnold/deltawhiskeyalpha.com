@@ -18,7 +18,10 @@ include "./topHTML.php";
             </tr>
             <tr>
                 <td class="computingSubTitle">Skills</td>
-                <td class="computingWriting">UNIX CLI, Java, Git, HTML, CSS & SASS, JavaScript (w/ React, jQuery, AJAX & Node.js), TypeScript, PHP, MySQL, Docker, Shell, Erlang, C, C++, Rust, Haskell, OCaml, R, AppleScript, Markdown, LaTeX, JetBrains IDEs, Cryptography, Mathematics</td>
+                <td class="computingWriting">UNIX CLI, Java, Git, HTML, CSS & SASS, JavaScript (w/ React, jQuery, AJAX &
+                    Node.js), TypeScript, PHP, MySQL, Docker, Shell, Erlang, C, C++, Rust, Haskell, OCaml, R,
+                    AppleScript, Markdown, LaTeX, JetBrains IDEs, Cryptography, Mathematics
+                </td>
             </tr>
             <tr>
                 <td class="computingSubTitle">Projects</td>
@@ -35,6 +38,8 @@ include "./topHTML.php";
                     (AppleScript)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/CO634-Assignment-2">Ciphertext Decryption</a>
                     (Java)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/CO663-Git_Bisect">Git Bisect</a>
+                    (Java)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Device">IoT BLE & Motion Detection
                         Device</a>
                     (C++)<br>
@@ -42,6 +47,8 @@ include "./topHTML.php";
                     (Java)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Admin_Web_App">IoT Admin Web
                         App</a> (PHP, HTML & CSS, MySQL)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/Java_Sudoku-Solver">Sudoku Solver</a> (Java
+                    (w/ JavaFX))<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/Learn_Git_GitHub_JetBrains">Learn: Git,
                         GitHub and JetBrains IDEs</a> (Markdown) (Talks aimed at Year 1 and 2 undergraduates)
                 </td>
