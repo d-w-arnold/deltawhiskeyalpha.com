@@ -18,7 +18,7 @@ include "./topHTML.php";
             </tr>
             <tr>
                 <td class="computingSubTitle">Skills</td>
-                <td class="computingWriting">UNIX CLI, Java, Git, HTML, CSS & SASS, JavaScript (w/ React, jQuery, AJAX &
+                <td class="computingWriting">UNIX CLI, Java, Git, HTML, CSS & SCSS, JavaScript (w/ React, jQuery, AJAX &
                     Node.js), TypeScript, PHP, MySQL, Docker, Shell, Erlang, C, C++, Rust, Haskell, OCaml, R,
                     AppleScript, Markdown, LaTeX, JetBrains IDEs, Cryptography, Mathematics
                 </td>
@@ -27,8 +27,7 @@ include "./topHTML.php";
                 <td class="computingSubTitle">Projects</td>
                 <td class="computingWriting">
                     <a target="_blank" href="https://github.com/d-w-arnold/deltawhiskeyalpha.com">My First Website</a>
-                    (PHP, HTML & CSS,
-                    JavaScript)<br>
+                    (PHP, HTML, CSS & JavaScript)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/Reflective-Journal_CSV-to-TXT-Converter">CSV
                         to TXT
                         Converter</a>
@@ -46,9 +45,9 @@ include "./topHTML.php";
                     <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Server">IoT Central Server</a>
                     (Java)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Admin_Web_App">IoT Admin Web
-                        App</a> (PHP, HTML & CSS, MySQL)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/Java_Sudoku-Solver">Sudoku Solver</a> (Java
-                    (w/ JavaFX))<br>
+                        App</a> (PHP, HTML, CSS & MySQL)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/Java_Sudoku-Solver">Sudoku Solver</a> (Java &
+                    JavaFX)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/Learn_Git_GitHub_JetBrains">Learn: Git,
                         GitHub and JetBrains IDEs</a> (Markdown) (Talks aimed at Year 1 and 2 undergraduates)
                 </td>

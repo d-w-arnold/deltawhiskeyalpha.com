@@ -32,37 +32,36 @@ include "./topHTML.php";
         <table>
             <tr>
                 <div class="uniCourseDetails">
-                    <p>•&nbsp;&nbsp;Year 3: (Predicted grade: 1st)</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Research Project Title: ”Quantum Cryptography: Security for
+                    <p>•&nbsp;&nbsp;Year 3: (Predicted: 1st)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Research Project - ”Quantum Cryptography: Security for
                         the Post-Quantum world”: (Predicted: 1st)</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Computer Networks and Communication (Java): (92% Coursework)
-                        (Predicted grade: 1st)</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Computer Security and Cryptography (Java): (89% Coursework)
-                        (Predicted grade: 1st)</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Internet of Things (C++, Java, PHP, HTML & CSS, MySQL):
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Computer Networks and Communication (Java): 92%
+                        Coursework</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Computer Security and Cryptography (Java): 89%
+                        Coursework</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Internet of Things (C++, Java, PHP, HTML, CSS & MySQL):
                         70%</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Programming Language Implementation (OCaml & C):
-                        (Predicted grade: 1st)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Programming Language Implementation (OCaml & C): 89%
+                        Coursework</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Programming Languages: Application and Design (Java, Rust &
-                        Haskell): (Predicted grade: 1st)</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;(Masters) Data Mining and Knowledge Discovery (R):
-                        (Predicted grade: 2:1)</p>
+                        Haskell): (Predicted: 1st)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;(Masters) Data Mining and Knowledge Discovery (R): 77%
+                        Coursework</p>
                 </div>
                 <div class="uniCourseDetails">
                     <p>•&nbsp;&nbsp;Year 2: 78%</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Algorithms, Correctness and Efficiency (Java):
-                        80%</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Web Development: (HTML, CSS, JavaScript (w/ jQuery,
-                        AJAX & JQuery UI), PHP): 95%</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Functional and Concurrent Programming (Erlang w/
-                        Haskell): 94%</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Algorithms, Correctness and Efficiency (Java): 80%</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Web Development: (HTML, CSS, JavaScript, jQuery, AJAX &
+                        PHP): 95%</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Functional and Concurrent Programming (Erlang & Haskell):
+                        94%</p>
                 </div>
                 <div class="uniCourseDetails">
                     <p>•&nbsp;&nbsp;Year 1: 86%</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Introduction to Object-Orientated Programming (Java):
                         97%</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Database and the Web (PHP, MySQL, HTML, CSS,
-                        JavaScript): 86%</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Database and the Web (HTML, CSS, JavaScript, MySQL & PHP):
+                        86%</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Further Object-Orientated Programming (Java): 94%</p>
                 </div>
             </tr>
