@@ -107,10 +107,10 @@ include "./topHTML.php";
             $sparky = new SparkPost($httpClient, ['key' => ($sparkpostSecret), 'async' => false]);
             try {
                 $text = '';
-                $text .= "Name: $name".PHP_EOL;
-                $text .= "Email: $email".PHP_EOL;
-                $text .= '---'.PHP_EOL;
-                $text .= 'Message: '.$message;
+                $text .= "Name: $name" . PHP_EOL;
+                $text .= "Email: $email" . PHP_EOL;
+                $text .= '---' . PHP_EOL;
+                $text .= 'Message: ' . $message;
                 $transmissionData = [
                     'content' => [
                         'from' => [
@@ -142,7 +142,7 @@ include "./topHTML.php";
     $color = ($status == 1) ? 'green' : 'red';
 
     if (!empty($sendStatus)) {
-        echo "<p style='color:$color' class='statusMessage roboto'>".$sendStatus."</p><br>";
+        echo "<p style='color:$color' class='statusMessage roboto'>" . $sendStatus . "</p><br>";
     }
 
     function name($status)
@@ -189,10 +189,12 @@ include "./topHTML.php";
                                                                        href='https://uk.linkedin.com/in/david-w-arnold?trk=profile-badge'>David
                         W. Arnold</a></div>
                 <div id="github" class="center logos"
-                "><a href="https://github.com/d-w-arnold" target="_blank"><img src="/resources/github_white.png" alt="GitHub"
+                "><a href="https://github.com/d-w-arnold" target="_blank"><img src="/resources/github_white.png"
+                                                                               alt="GitHub"
                                                                                width="64" height="64"></a></div>
             <div id="keybase" class="center logos"
-            "><a href="https://keybase.io/d_w_arnold" target="_blank"><img src="/resources/keybase-tile.svg" alt="Keybase"
+            "><a href="https://keybase.io/d_w_arnold" target="_blank"><img src="/resources/keybase-tile.svg"
+                                                                           alt="Keybase"
                                                                            width="64" height="64"></a></div>
     </div>
     <div class="right">

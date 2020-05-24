@@ -21,7 +21,11 @@
 </head>
 <body onload="myFunction()">
 <?php $cv_path = '/resources/David_W_Arnold-CV-website.pdf' ?>
-<div id="loader"></div>
+<div id="loader">
+    <div id="loading">
+        <img id="loading-icon" src="./resources/favicon/android-chrome-192x192.png" alt="Loading ...">
+    </div>
+</div>
 <div id="myDiv" class="animate-bottom">
     <header>
         <div id="top">

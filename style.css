@@ -133,11 +133,13 @@ table tr td a:hover {
     transform: scale(1.2);
 }
 
-#loader { /* Website loader */
+#loader {
     position: absolute;
     left: 50%;
     top: 50%;
-    z-index: 1;
+}
+
+#loading { /* Website loading circle */
     margin: -75px 0 0 -75px;
     border: 16px solid #ffffff;
     border-radius: 50%;
@@ -146,6 +148,18 @@ table tr td a:hover {
     height: 120px;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
+}
+
+#loading-icon { /* Website loading icon */
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding: 25% 0;
+    -webkit-animation: spin 2s linear infinite reverse;
+    animation: spin 2s linear infinite reverse;
 }
 
 #message {
