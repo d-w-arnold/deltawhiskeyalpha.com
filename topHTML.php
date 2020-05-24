@@ -17,13 +17,15 @@
     <meta name="theme-color" content="#282828">
     <meta name="description"
           content="Home of Computer Scientist and University of Kent undergraduate, David W. Arnold.">
-    <title><?php echo 'David W. Arnold : ∆WA'.$title ?></title>
+    <title><?php echo 'David W. Arnold : ∆WA' . $title ?></title>
 </head>
-<body>
+<body onload="myFunction()">
 <?php $cv_path = '/resources/David_W_Arnold-CV-website.pdf' ?>
-<header>
-    <div id="top">
-        <div class="alignRight">
+<div id="loader"></div>
+<div id="myDiv" class="animate-bottom">
+    <header>
+        <div id="top">
+            <div class="alignRight">
                 <a class="iconLink" target="_blank" href="https://github.com/d-w-arnold">
                     <i class="fa fa-github-square" aria-hidden="true"></i>
                 </a>
@@ -33,23 +35,23 @@
                 <a class="iconLink" target="_blank" href="https://keybase.io/d_w_arnold">
                     <i class="fa fa-key" aria-hidden="true"></i>
                 </a>
-            <a id="cv" target="_blank" href="<?php echo $cv_path ?>">** CV (Résumé) **</a>
+                <a id="cv" target="_blank" href="<?php echo $cv_path ?>">** CV (Résumé) **</a>
+            </div>
+            <div class="alignLeft">
+                <p id="delta">
+                    <a href="/">∆WA</a>
+                </p>
+            </div>
         </div>
-        <div class="alignLeft">
-            <p id="delta">
-                <a href="/">∆WA</a>
-            </p>
+        <div>
+            <h1 id="myName"><a class="link-color" target="_blank" href="<?php echo $cv_path ?>">David W. Arnold</a></h1>
         </div>
-    </div>
-    <div>
-        <h1 id="myName"><a class="link-color" target="_blank" href="<?php echo $cv_path ?>">David W. Arnold</a></h1>
-    </div>
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="./education.php">Education</a></li>
-            <li><a href="./computing.php">Computing</a></li>
-            <li><a href="./contact.php">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="./education.php">Education</a></li>
+                <li><a href="./computing.php">Computing</a></li>
+                <li><a href="./contact.php">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
