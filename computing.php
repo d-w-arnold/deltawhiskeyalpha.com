@@ -27,7 +27,7 @@ include "./topHTML.php";
                 <td class="computingSubTitle">Projects</td>
                 <td class="computingWriting">
                     <a target="_blank" href="https://github.com/d-w-arnold/deltawhiskeyalpha.com">My First Website</a>
-                    (PHP, HTML, CSS & JavaScript)<br>
+                    (PHP, HTML, CSS, JavaScript & jQuery)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/Reflective-Journal_CSV-to-TXT-Converter">CSV
                         to TXT
                         Converter</a>
@@ -43,7 +43,7 @@ include "./topHTML.php";
                         Device</a>
                     (C++)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Server">IoT Central Server</a>
-                    (Java)<br>
+                    (Java & JDBC)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Admin_Web_App">IoT Admin Web
                         App</a> (PHP, HTML, CSS & MySQL)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/Java_Sudoku-Solver">Sudoku Solver</a> (Java &
