@@ -33,7 +33,7 @@
                 <a class="iconLink" target="_blank" href="https://github.com/d-w-arnold">
                     <i class="fa fa-github-square" aria-hidden="true"></i>
                 </a>
-                <a class="iconLink" target="_blank" href="https://www.linkedin.com/in/david-w-arnold">
+                <a class="iconLink" target="_blank" href="https://uk.linkedin.com/in/david-w-arnold">
                     <i class="fa fa-linkedin-square" aria-hidden="true"></i>
                 </a>
                 <a class="iconLink" target="_blank" href="https://keybase.io/d_w_arnold">
