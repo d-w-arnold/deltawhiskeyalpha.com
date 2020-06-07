@@ -139,7 +139,7 @@ include "./topHTML.php";
         }
     }
 
-    $color = ($status == 1) ? 'green' : 'red';
+    $color = ($status == 1) ? 'green' : 'orange';
 
     if (!empty($sendStatus)) {
         echo "<p style='color:$color' class='statusMessage roboto'>" . $sendStatus . "</p><br>";
