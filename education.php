@@ -33,12 +33,14 @@ include "./topHTML.php";
             <tr>
                 <div class="uniCourseDetails">
                     <p>•&nbsp;&nbsp;Year 3: (Predicted: 1st)</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;<span class="iconPaper" aria-hidden="true"></span><a class="link-color"
-                                    target="_blank"
-                                    href="/resources/David_W_Arnold-Research_Project-Technical_Report.pdf">Research
-                                Project</a> - "Quantum Cryptography: Security for
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;<span class="iconPaper" aria-hidden="true"></span><a
+                                class="link-color"
+                                target="_blank"
+                                href="/resources/David_W_Arnold-Research_Project-Technical_Report.pdf">Research
+                            Project</a> - "Quantum Cryptography: Security for
                         the Post-Quantum world": (Predicted: 1st)</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Awarded: Most Exciting Idea for Global Outreach - Sponsored by
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;Awarded: Most Exciting Idea for
+                        Global Outreach - Sponsored by
                         <a class="link-color" target="_blank" href="https://www.tmlep.com/">TMLEP</a></p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Computer Networks and Communication (Java): 92%
                         Coursework</p>

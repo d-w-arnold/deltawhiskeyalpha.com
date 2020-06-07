@@ -18,30 +18,33 @@ include "./topHTML.php";
             </tr>
             <tr>
                 <td class="computingSubTitle">Skills</td>
-                <td class="computingWriting">UNIX CLI, Java, Git, HTML, CSS & SCSS, JavaScript (w/ React, jQuery, AJAX &
-                    Node.js), TypeScript, PHP, MySQL, Docker, Shell, Erlang, C, C++, Rust, Haskell, OCaml, R,
+                <td class="computingWriting">UNIX CLI, Git, Java, JavaScript (w/ React, jQuery, AJAX &
+                    Node.js), TypeScript, Docker, PHP, MySQL, HTML, CSS, SCSS, Shell, Erlang, C, C++, Rust, R,
                     AppleScript, Markdown, LaTeX, JetBrains IDEs, Cryptography, Mathematics
                 </td>
             </tr>
             <tr>
                 <td class="computingSubTitle">Projects</td>
                 <td class="computingWriting">
+                    <a target="_blank" href="https://github.com/d-w-arnold/dwa_website_react">My First Dockerised React
+                        Website</a>
+                    (JavaScript, React, JSX, Docker, Docker-Compose, PHP, HTML & CSS)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/deltawhiskeyalpha.com">My First Website</a>
                     (PHP, HTML, CSS, JavaScript & jQuery)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/Reflective-Journal_CSV-to-TXT-Converter">CSV
                         to TXT
                         Converter</a>
                     (Java)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/AppleScript_Timestamp-Media">Timestamp
-                        Media</a>
-                    (AppleScript)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/CO634-Assignment-2">Ciphertext Decryption</a>
-                    (Java)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/CO663-Git_Bisect">Git Bisect</a>
                     (Java)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Device">IoT BLE & Motion Detection
                         Device</a>
                     (C++)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/CO663-Git_Bisect">Git Bisect</a>
+                    (Java)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/AppleScript_Timestamp-Media">Timestamp
+                        Media</a>
+                    (AppleScript)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Server">IoT Central Server</a>
                     (Java & JDBC)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Admin_Web_App">IoT Admin Web

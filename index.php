@@ -11,9 +11,8 @@ include './topHTML.php';
     <p class="title">Welcome!</p>
 
     <div class="writing roboto">
-        <p>Hello there, I’m a computer science graduate (graduating June 2020 - available for employment 25th May,
-            predicted grade: 1st) from
-            the <a class="link-color" target="_blank" href="https://www.kent.ac.uk/">University of Kent</a>. I’m eager
+        <p>Hello there, I’m a computer science graduate (graduating June 2020 - predicted: 1st) from the <a
+                    class="link-color" target="_blank" href="https://www.kent.ac.uk/">University of Kent</a>. I’m eager
             to learn new skills and take on a role where I can contribute to solving real-world challenges. I am highly
             motivated, organised, reliable and work well both independently and as part of a team.</p>
     </div>
