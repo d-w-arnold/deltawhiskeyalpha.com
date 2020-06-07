@@ -33,8 +33,13 @@ include "./topHTML.php";
             <tr>
                 <div class="uniCourseDetails">
                     <p>•&nbsp;&nbsp;Year 3: (Predicted: 1st)</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Research Project - ”Quantum Cryptography: Security for
-                        the Post-Quantum world”: (Predicted: 1st)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;<span class="iconPaper" aria-hidden="true"></span><a class="link-color"
+                                    target="_blank"
+                                    href="/resources/David_W_Arnold-Research_Project-Technical_Report.pdf">Research
+                                Project</a> - "Quantum Cryptography: Security for
+                        the Post-Quantum world": (Predicted: 1st)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Awarded: Most Exciting Idea for Global Outreach - Sponsored by
+                        <a class="link-color" target="_blank" href="https://www.tmlep.com/">TMLEP</a></p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Computer Networks and Communication (Java): 92%
                         Coursework</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Computer Security and Cryptography (Java): 89%
@@ -44,7 +49,8 @@ include "./topHTML.php";
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Programming Language Implementation (OCaml & C): 89%
                         Coursework</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Programming Languages: Application and Design (Java, Rust &
-                        Haskell): (Predicted: 1st)</p>
+                        Haskell): 84%
+                        Coursework</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;(Masters) Data Mining and Knowledge Discovery (R): 77%
                         Coursework</p>
                 </div>

@@ -66,6 +66,16 @@ span.iconUni::before {
     -moz-osx-font-smoothing: grayscale;
 }
 
+span.iconPaper::before {
+    content: "\f1ea";
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    padding-right: 10px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 span.iconLap::before {
     content: "\f109";
     font: normal normal normal 14px/1 FontAwesome;
@@ -470,6 +480,10 @@ table tr td a:hover {
     }
 
     span.iconUni::before {
+        display: none !important;
+    }
+
+    span.iconPaper::before {
         display: none !important;
     }
 
