@@ -16,7 +16,7 @@
     <meta name="msapplication-config" content="/favicon/browserconfig.xml">
     <meta name="theme-color" content="#282828">
     <meta name="description"
-          content="Home of Computer Scientist and University of Kent undergraduate, David W. Arnold.">
+          content="Home of Computer Scientist and University of Kent graduate, David W. Arnold.">
     <title><?php echo 'David W. Arnold : ∆WA' . $title ?></title>
 </head>
 <body onload="myFunction()">
