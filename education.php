@@ -36,7 +36,7 @@ include "./topHTML.php";
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;<span class="iconPaper" aria-hidden="true"></span><a
                                 class="link-color"
                                 target="_blank"
-                                href="/resources/David_W_Arnold-Research_Project-Technical_Report.pdf">Research
+                                href="/research/Quantum_Cryptography-Security_for_the_Post-Quantum_world.pdf">Research
                             Project</a> - "Quantum Cryptography: Security for
                         the Post-Quantum world": (Predicted: 1st)</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;Awarded: Most Exciting Idea for

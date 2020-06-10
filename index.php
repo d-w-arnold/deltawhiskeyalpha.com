@@ -19,6 +19,23 @@ include './topHTML.php';
 
     <div class="spacingWithoutLine"></div>
 
+    <p class="title">My Research Project</p>
+
+    <div class="writing roboto">
+        <p>As part of my final year of university, I undertook a research project
+            titled <a
+                    class="link-color"
+                    target="_blank"
+                    href="/research/Quantum_Cryptography-Security_for_the_Post-Quantum_world.pdf">"Quantum Cryptography:
+                Security for the Post-Quantum world"</a>. This project set out to survey the field of quantum
+            cryptography, providing a basic insight into various aspects of quantum cryptography - all of which could be
+            very important regarding our online security in the future! Aimed at computer scientists and people in
+            industry concerned with security.</p>
+    </div>
+
+
+    <div class="spacingWithoutLine"></div>
+
     <p class="title">About Me</p>
 
     <div class="writing roboto">
