@@ -189,6 +189,7 @@ table tr td a:hover {
     border-bottom: solid #ffffff;
     font-weight: normal;
     text-align: right;
+    margin: 0 !important;
 }
 
 #top {

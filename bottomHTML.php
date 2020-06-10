@@ -1,4 +1,3 @@
-</div>
 <script>
     function myFunction() {
         setTimeout(showPage, 1000);
