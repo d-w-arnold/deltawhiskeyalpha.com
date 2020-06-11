@@ -19,7 +19,7 @@ include './topHTML.php';
 
     <div class="spacing4"></div>
 
-    <p class="title">My Research Project</p>
+    <p class="title">Quantum Cryptography: Security for the Post-Quantum world</p>
 
     <div class="writing roboto">
         <p>As part of my final year of university, I undertook a research project
