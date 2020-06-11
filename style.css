@@ -25,29 +25,6 @@ label.error {
     font-weight: bold;
 }
 
-li a {
-    display: block;
-    text-align: center;
-    font-family: serif !important;
-}
-
-li a:hover {
-    text-decoration: underline;
-}
-
-nav {
-    padding: 2% 0 4% 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-}
-
 p {
     margin: 0;
 }
@@ -107,6 +84,10 @@ table tr td a:hover {
     padding: 2% 3%;
     margin-top: 2%;
     border-radius: 10px;
+}
+
+#contactTitle {
+    margin-bottom: 2% !important;
 }
 
 #cv {
@@ -173,6 +154,19 @@ table tr td a:hover {
     padding: 25% 0;
     -webkit-animation: spin 2s linear infinite reverse;
     animation: spin 2s linear infinite reverse;
+}
+
+#menu {
+    text-align: right;
+    font-size: 18pt;
+    cursor: pointer;
+    display: flow-root;
+    margin: 1% 0;
+    color: lightgrey;
+}
+
+#menu:hover {
+    color: #ffffff;
 }
 
 #message {
@@ -314,6 +308,48 @@ table tr td a:hover {
     margin-bottom: 2%;
 }
 
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    height: 10% !important;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
 .response {
     width: 100%;
     box-sizing: border-box;
@@ -325,11 +361,15 @@ table tr td a:hover {
     font-family: 'Roboto', sans-serif;
 }
 
-.spacing {
-    margin: 2% 0;
+.spacing2 {
+    margin-bottom: 2%;
 }
 
-.spacingWithoutLine {
+.spacing4 {
+    margin-bottom: 4%;
+}
+
+.spacing6 {
     margin-bottom: 6%;
 }
 
@@ -404,14 +444,6 @@ table tr td a:hover {
 }
 
 @media only screen and (max-width: 800px) {
-
-    li a {
-        display: block;
-        text-align: center;
-        font-family: serif !important;
-        padding: 2%;
-    }
-
     .body {
         margin: 0 0 6% 0;
         text-align: left;
@@ -432,11 +464,6 @@ table tr td a:hover {
 }
 
 @media only screen and (max-width: 600px) {
-
-    ul {
-        flex-direction: column;
-    }
-
     #cv {
         font-family: 'Roboto', sans-serif !important;
         font-size: 8pt;
@@ -445,6 +472,14 @@ table tr td a:hover {
         background-color: #ffffff;
         color: #282828;
         vertical-align: super;
+    }
+
+    #menu {
+        font-size: 24pt;
+    }
+
+    #menu-name {
+        display: none;
     }
 
     #myName {
@@ -493,6 +528,18 @@ table tr td a:hover {
 
     span.iconLap::before {
         display: none !important;
+    }
+}
+
+@media only screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
     }
 }
 

@@ -65,7 +65,7 @@ include "./topHTML.php";
         </table>
     </div>
 
-    <div class="spacingWithoutLine"></div>
+    <div class="spacing6"></div>
 
     <p class="title">Experience</p>
 
@@ -108,7 +108,7 @@ include "./topHTML.php";
         </table>
     </div>
 
-    <div class="spacing"></div>
+    <div class="spacing2"></div>
 
     <!--IT-Alan-->
     <div class="roboto">

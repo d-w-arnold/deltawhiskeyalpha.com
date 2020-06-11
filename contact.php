@@ -16,7 +16,7 @@ include "./topHTML.php";
     <script type="text/javascript" src="form-validate.js"></script>
     <?php require 'form-submission.php'; ?>
 
-    <p class="title" id="contactTitle">Contact</p>
+    <p id="contactTitle" class="title">Contact</p>
 
     <div class="roboto">
         <div class="contact-details">
@@ -52,7 +52,7 @@ include "./topHTML.php";
                         <label for="message">Message:</label>
                     </div>
                     <textarea class="response" id="message" name="message" tabindex="3"
-                              rows="10"><?php textArea($status) ?></textarea>
+                              rows="6"><?php textArea($status) ?></textarea>
                     <div class="buttonPlacement">
                         <button id="button" tabindex="4" class="g-recaptcha"
                                 data-sitekey="6Lcl1rcUAAAAAP9cwFpK09YM8xi3Lhbc0jjgSFWs" data-callback="onSubmit">Send

@@ -76,7 +76,7 @@ include "./topHTML.php";
         </table>
     </div>
 
-    <div class="spacing"></div>
+    <div class="spacing2"></div>
 
     <!--Newberry College-->
     <div class="roboto">
@@ -109,7 +109,7 @@ include "./topHTML.php";
         </table>
     </div>
 
-    <div class="spacing"></div>
+    <div class="spacing2"></div>
 
     <!--The Open University-->
     <div class="roboto">
@@ -141,7 +141,7 @@ include "./topHTML.php";
         </table>
     </div>
 
-    <div class="spacing"></div>
+    <div class="spacing2"></div>
 
     <!--The Harvey Grammar School-->
     <div class="roboto">

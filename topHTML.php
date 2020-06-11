@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="/favicon/favicon.ico">
     <link rel="stylesheet" href="/resources/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/style.css">
+    <script type="text/javascript" src="/swooping-nav.js"></script>
     <meta name="msapplication-config" content="/favicon/browserconfig.xml">
     <meta name="theme-color" content="#282828">
     <meta name="description"
@@ -33,6 +34,15 @@
 </div>
 <div id="myDiv" class="animate-bottom">
     <header>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="/">Home</a>
+                <a href="./education.php">Education</a>
+                <a href="./computing.php">Computing</a>
+                <a href="./contact.php">Contact</a>
+            </div>
+        </div>
         <div id="top">
             <div class="alignRight">
                 <a class="iconLink" target="_blank" href="https://github.com/d-w-arnold">
@@ -55,12 +65,5 @@
         <div>
             <h1 id="myName"><a class="link-color" target="_blank" href="<?php echo $cv_path ?>">David W. Arnold</a></h1>
         </div>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="./education.php">Education</a></li>
-                <li><a href="./computing.php">Computing</a></li>
-                <li><a href="./contact.php">Contact</a></li>
-            </ul>
-        </nav>
+        <span id="menu" onclick="openNav()"><span id="menu-name">Menu </span>&#9776;</span>
     </header>

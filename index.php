@@ -17,7 +17,7 @@ include './topHTML.php';
             motivated, organised, reliable and work well both independently and as part of a team.</p>
     </div>
 
-    <div class="spacingWithoutLine"></div>
+    <div class="spacing4"></div>
 
     <p class="title">My Research Project</p>
 
@@ -33,8 +33,7 @@ include './topHTML.php';
             industry concerned with security.</p>
     </div>
 
-
-    <div class="spacingWithoutLine"></div>
+    <div class="spacing4"></div>
 
     <p class="title">About Me</p>
 
@@ -46,18 +45,24 @@ include './topHTML.php';
                                                                          href="https://www.kentgolf.org/">Kent County
                 Golf Union</a> in various fixtures for their various teams: Kent Under 13's, Under 14's, Under 16's
             (Captain), Under 18's.</p>
-        <br>
+
+        <div class="spacing2"></div>
+
         <p>In January 2016, I relinquished my amateur status and turned professional (aged 19) joining the <a
                     class="link-color" target="_blank" href="http://www.europrotour.com/">EuroPro UK Golf Tour</a> for
             the 2016 season. In August 2016, I hung up my golf clubs to turn my attention to undergraduate study in
             Computer Science at the <a class="link-color" target="_blank" href="https://www.kent.ac.uk/">University of
                 Kent</a>. Golf remains a passion of mine, and will remain a lifetime hobby.</p>
-        <br>
+
+        <div class="spacing2"></div>
+
         <p>Motorsport is a strong passion of mine. I have a broad knowledge of various disciplines of motor racing, and
             I enjoy learning of new technological developments to make cars faster, safer and more efficient at speed. I
             enjoy the thrill of driving on track, having invested in multiple track day sessions with tuition from
             professional racing drivers to better my skill set.</p>
-        <br>
+
+        <div class="spacing2"></div>
+
         <p>Running used to be a big part of my regular training routine for golf. When I can I find it helps take things
             off ones mind and keep the body healthy. I participated in a half marathon in September 2016 and hope to do
             more half and full marathons in the future. I especially enjoy long runs along the coast.</p>
