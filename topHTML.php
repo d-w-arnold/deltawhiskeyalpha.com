@@ -9,6 +9,7 @@
     <link rel="manifest" href="/favicon/manifest.json">
     <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#282828">
     <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <link rel="canonical" href="https://www.deltawhiskeyalpha.com">
     <link rel="stylesheet" href="/resources/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/style.css">
     <script type="text/javascript" src="/swooping-nav.js"></script>
