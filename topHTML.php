@@ -66,4 +66,13 @@
             <h1 id="myName"><a class="link-color" target="_blank" href="<?php echo $cv_path ?>">David W. Arnold</a></h1>
         </div>
         <span id="menu" onclick="openNav()"><span id="menu-name">Menu </span>&#9776;</span>
+        <div id="myDesktopNav">
+            <a class="myDesktopNavItem" href="/">Home</a>
+            <span class="spacingNav"></span>
+            <a class="myDesktopNavItem" href="./education.php">Education</a>
+            <span class="spacingNav"></span>
+            <a class="myDesktopNavItem" href="./computing.php">Computing</a>
+            <span class="spacingNav"></span>
+            <a class="myDesktopNavItem" href="./contact.php">Contact</a>
+        </div>
     </header>

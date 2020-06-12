@@ -173,6 +173,11 @@ table tr td a:hover {
     resize: none;
 }
 
+#myDesktopNav {
+    margin: 2% 0 4% 0;
+    width: 100%;
+}
+
 #myDiv {
     display: none;
 }
@@ -308,6 +313,14 @@ table tr td a:hover {
     margin-bottom: 2%;
 }
 
+.myDesktopNavItem {
+    font-size: 20pt;
+}
+
+.myDesktopNavItem:hover {
+    text-decoration: underline;
+}
+
 .overlay {
     height: 100%;
     width: 0;
@@ -371,6 +384,10 @@ table tr td a:hover {
 
 .spacing6 {
     margin-bottom: 6%;
+}
+
+.spacingNav {
+    margin-right: 12%;
 }
 
 .statusMessage {
@@ -461,6 +478,20 @@ table tr td a:hover {
     .contact-details .right {
         padding-left: 0 !important;
     }
+
+    .spacingNav {
+        margin-right: 6%;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    #menu {
+        display: none;
+    }
+
+    #myNav {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -479,6 +510,10 @@ table tr td a:hover {
     }
 
     #menu-name {
+        display: none;
+    }
+
+    #myDesktopNav {
         display: none;
     }
 
