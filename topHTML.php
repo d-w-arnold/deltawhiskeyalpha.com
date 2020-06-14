@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="canonical" href="https://www.deltawhiskeyalpha.com">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
     <link rel="manifest" href="/favicon/manifest.json">
     <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#282828">
     <link rel="shortcut icon" href="/favicon/favicon.ico">
-    <link rel="canonical" href="https://www.deltawhiskeyalpha.com">
     <link rel="stylesheet" href="/resources/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/style.css">
     <script type="text/javascript" src="/swooping-nav.js"></script>
     <meta name="msapplication-config" content="/favicon/browserconfig.xml">
     <meta name="theme-color" content="#282828">
-    <meta name="description"
-          content="Home of Computer Scientist and University of Kent graduate, David W. Arnold.">
+    <meta name="description" content="David W. Arnold, computer scientist and University of Kent graduate.">
     <title><?php echo 'David W. Arnold : ∆WA' . $title ?></title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.min.js"></script>
