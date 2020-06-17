@@ -1,2 +1,3 @@
+Sitemap: https://www.deltawhiskeyalpha.com/sitemap.xml
 User-agent: *
 Disallow: /resources/
