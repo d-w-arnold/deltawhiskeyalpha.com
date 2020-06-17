@@ -1,3 +1,5 @@
 Sitemap: https://www.deltawhiskeyalpha.com/sitemap.xml
 User-agent: *
-Disallow: /resources/
+Disallow: /resources/font-awesome-4.7.0
+Disallow: /resources/github_white.png
+Disallow: /resources/keybase-tile.svg
