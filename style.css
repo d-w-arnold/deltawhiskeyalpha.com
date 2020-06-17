@@ -17,7 +17,6 @@ form {
 
 html * {
     margin: 0;
-    height: 100%;
 }
 
 label.error {
@@ -189,6 +188,10 @@ table tr td a:hover {
     font-weight: normal;
     text-align: right;
     margin: 0 !important;
+}
+
+#pph-hireme {
+    padding-bottom: 2%;
 }
 
 #top {
@@ -519,6 +522,10 @@ table tr td a:hover {
 
     #myName {
         text-align: center;
+    }
+
+    #pph-hireme {
+        padding-bottom: 0 !important;
     }
 
     #top {
