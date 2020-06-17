@@ -2,7 +2,7 @@
 
 $title = ' - Contact';
 
-include "./topHTML.php";
+include "./topHTMLnoIndex.php";
 
 ?>
 

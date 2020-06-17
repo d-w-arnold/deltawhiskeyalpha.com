@@ -2,7 +2,7 @@
 
 $title = ' - Education';
 
-include "./topHTML.php";
+include "./topHTMLnoIndex.php";
 
 ?>
 
