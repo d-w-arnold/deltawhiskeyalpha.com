@@ -2,7 +2,7 @@
 
 $title = ' - Computing';
 
-include "./topHTML.php";
+include "./topHTMLnoIndex.php";
 
 ?>
 
