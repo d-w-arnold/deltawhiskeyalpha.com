@@ -28,7 +28,7 @@ include "./topHTMLnoIndex.php";
                 <td class="computingWriting">
                     <a target="_blank" href="https://github.com/d-w-arnold/dwa_website_react">My First Dockerised React
                         Website</a>
-                    (JavaScript, React, JSX, Docker, Docker-Compose, PHP, HTML & CSS)<br>
+                    (React, TypeScript, Docker, Docker-Compose, PHP, HTML & SCSS)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/deltawhiskeyalpha.com">My First Website</a>
                     (PHP, HTML, CSS, JavaScript & jQuery)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/Reflective-Journal_CSV-to-TXT-Converter">CSV
