@@ -1,5 +1,9 @@
 Sitemap: https://www.deltawhiskeyalpha.com/sitemap.xml
 User-agent: *
+Disallow: /cv/David_W_Arnold-CV-website.pdf
 Disallow: /resources/font-awesome-4.7.0
 Disallow: /resources/github_white.png
 Disallow: /resources/keybase-tile.svg
+Disallow: /education.php
+Disallow: /computing.php
+Disallow: /contact.php
