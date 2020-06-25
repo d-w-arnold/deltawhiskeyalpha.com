@@ -22,7 +22,7 @@ include "./topHTMLnoIndex.php";
 
         <table class="marginBottom2">
             <tr>
-                <td class="jobTitle">BSc Computer Science with a Year in Industry</td>
+                <td class="jobTitle">BSc Computer Science with a Year in Industry - First Class Honours</td>
             </tr>
             <tr>
                 <td class="jobDates">Sep. 2016 - Jun. 2020</td>
@@ -32,29 +32,24 @@ include "./topHTMLnoIndex.php";
         <table>
             <tr>
                 <div class="uniCourseDetails">
-                    <p>•&nbsp;&nbsp;Year 3: (Predicted: 1st)</p>
+                    <p>•&nbsp;&nbsp;Year 3: 82%</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;<span class="iconPaper" aria-hidden="true"></span><a
                                 class="link-color"
                                 target="_blank"
                                 href="/research/Quantum_Cryptography-Security_for_the_Post-Quantum_world.pdf">Research
                             Project</a> - "Quantum Cryptography: Security for
-                        the Post-Quantum world": (Predicted: 1st)</p>
+                        the Post-Quantum world": 1st class</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;Awarded: Most Exciting Idea for
                         Global Outreach - Sponsored by
                         <a class="link-color" target="_blank" href="https://www.tmlep.com/">TMLEP</a></p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Computer Networks and Communication (Java): 92%
-                        Coursework</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Computer Security and Cryptography (Java): 89%
-                        Coursework</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Computer Networks and Communication (Java): 88%</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Computer Security and Cryptography (Java): 92%</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Internet of Things (C++, Java, PHP, HTML, CSS & MySQL):
                         70%</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Programming Language Implementation (OCaml & C): 89%
-                        Coursework</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Programming Language Implementation (OCaml & C): 88%</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Programming Languages: Application and Design (Java, Rust &
-                        Haskell): 84%
-                        Coursework</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;(Masters) Data Mining and Knowledge Discovery (R): 77%
-                        Coursework</p>
+                        Haskell): 88%</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;(Masters) Data Mining and Knowledge Discovery (R): 82%</p>
                 </div>
                 <div class="uniCourseDetails">
                     <p>•&nbsp;&nbsp;Year 2: 78%</p>

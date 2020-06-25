@@ -27,30 +27,26 @@ include "./topHTMLnoIndex.php";
                 <td class="computingSubTitle">Projects</td>
                 <td class="computingWriting">
                     <a target="_blank" href="https://github.com/d-w-arnold/dwa_website_react">My First Dockerised React
-                        Website</a>
-                    (React, TypeScript, Docker, Docker-Compose, PHP, HTML & SCSS)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/deltawhiskeyalpha.com">My First Website</a>
-                    (PHP, HTML, CSS, JavaScript & jQuery)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/Reflective-Journal_CSV-to-TXT-Converter">CSV
-                        to TXT
-                        Converter</a>
-                    (Java)<br>
+                        Website</a> (React, TypeScript, Docker, Docker-Compose, PHP, HTML & SCSS)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/CO634-Assignment-2">Ciphertext Decryption</a>
                     (Java)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Device">IoT BLE & Motion Detection
                         Device</a>
                     (C++)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/CO663-Git_Bisect">Git Bisect</a>
-                    (Java)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/AppleScript_Timestamp-Media">Timestamp
-                        Media</a>
-                    (AppleScript)<br>
+                    (Java & Maven)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/Reflective-Journal_CSV-to-TXT-Converter">CSV
+                        to TXT Converter</a> (Java)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Server">IoT Central Server</a>
                     (Java & JDBC)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Admin_Web_App">IoT Admin Web
-                        App</a> (PHP, HTML, CSS & MySQL)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/Java_Sudoku-Solver">Sudoku Solver</a> (Java &
                     JavaFX)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Admin_Web_App">IoT Admin Web
+                        App</a> (PHP, HTML, CSS & MySQL)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/AppleScript_Timestamp-Media">Timestamp
+                        Media</a> (AppleScript)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/deltawhiskeyalpha.com">My First Website</a>
+                    (PHP, HTML, CSS, JavaScript & jQuery)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/Learn_Git_GitHub_JetBrains">Learn: Git,
                         GitHub and JetBrains IDEs</a> (Markdown) (Talks aimed at Year 1 and 2 undergraduates)
                 </td>
