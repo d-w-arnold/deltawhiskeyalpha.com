@@ -115,7 +115,7 @@ include "./topHTMLnoIndex.php";
         <table class="marginBottom2">
             <tr>
                 <td class="employerName"><span class="iconLap" aria-hidden="true"></span><b><a
-                                target="_blank" href="http://www.it-alan.co.uk/">IT-Alan</a></b></td>
+                                target="_blank" href="https://www.it-alan.co.uk/">IT-Alan</a></b></td>
                 <td class="location">Burmarsh, Kent, U.K.</td>
             </tr>
         </table>
