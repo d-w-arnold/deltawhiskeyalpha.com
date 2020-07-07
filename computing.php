@@ -18,8 +18,8 @@ include "./topHTMLnoIndex.php";
             </tr>
             <tr>
                 <td class="computingSubTitle">Skills</td>
-                <td class="computingWriting">UNIX CLI, Git, Java, JavaScript (w/ React, jQuery, AJAX &
-                    Node.js), TypeScript, Docker, PHP, MySQL, HTML, CSS, SCSS, Shell, Erlang, C, C++, Rust, R,
+                <td class="computingWriting">UNIX CLI, Git, Java, C, C++, Python, JavaScript (w/ React, jQuery, AJAX &
+                    Node.js), TypeScript, Docker, PHP, MySQL, HTML, CSS, SCSS, Shell, Erlang, Rust, R,
                     AppleScript, Markdown, LaTeX, JetBrains IDEs, Cryptography, Mathematics
                 </td>
             </tr>
@@ -37,16 +37,20 @@ include "./topHTMLnoIndex.php";
                     (Java & Maven)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/Reflective-Journal_CSV-to-TXT-Converter">CSV
                         to TXT Converter</a> (Java)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Server">IoT Central Server</a>
-                    (Java & JDBC)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/Java_Sudoku-Solver">Sudoku Solver</a> (Java &
                     JavaFX)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Server">IoT Central Server</a>
+                    (Java & JDBC)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/local_news-data_collection">Local News Web Crawler</a>
+                    (Python)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/Python_Sudoku-Solver">Sudoku Solver</a>
+                    (Python)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Admin_Web_App">IoT Admin Web
                         App</a> (PHP, HTML, CSS & MySQL)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/AppleScript_Timestamp-Media">Timestamp
-                        Media</a> (AppleScript)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/deltawhiskeyalpha.com">My First Website</a>
                     (PHP, HTML, CSS, JavaScript & jQuery)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/AppleScript_Timestamp-Media">Timestamp
+                        Media</a> (AppleScript)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/Learn_Git_GitHub_JetBrains">Learn: Git,
                         GitHub and JetBrains IDEs</a> (Markdown) (Talks aimed at Year 1 and 2 undergraduates)
                 </td>
