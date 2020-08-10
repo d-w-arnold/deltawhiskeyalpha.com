@@ -14,53 +14,75 @@ include "./topHTMLnoIndex.php";
         <table class="computingTable">
             <tr>
                 <td class="computingSubTitle">OS's</td>
-                <td class="computingWriting">Mac OS, iOS, Windows 7/10, Ubuntu</td>
+                <td class="computingWriting">Mac OS, iOS, Ubuntu, Windows 7/10</td>
             </tr>
             <tr>
                 <td class="computingSubTitle">Skills</td>
-                <td class="computingWriting">UNIX CLI, Git, Java, C, C++, Python, JavaScript (w/ React, jQuery, AJAX &
-                    Node.js), TypeScript, Docker, PHP, MySQL, HTML, CSS, SCSS, Shell, Erlang, Rust, R,
-                    AppleScript, Markdown, LaTeX, JetBrains IDEs, Cryptography, Mathematics
+                <td class="computingWriting">Unix CLI, Git, JetBrains IDEs, Java, C, C++, Python, Erlang, JavaScript (w/
+                    React, jQuery, AJAX &
+                    Node.js), TypeScript, Docker, PHP, MySQL, HTML, SCSS, Shell, Rust, R,
+                    AppleScript, Markdown, LaTeX, Cryptography, Mathematics
                 </td>
             </tr>
             <tr>
                 <td class="computingSubTitle">Projects</td>
                 <td class="computingWriting">
+                    <!-- Web Dev -->
                     <a target="_blank" href="https://github.com/d-w-arnold/dwa_website_react">My First Dockerised React
-                        Website</a> (React, TypeScript, Docker, Docker-Compose, PHP, HTML & SCSS)<br>
+                        Website</a> (React, TypeScript, Docker, Docker-Compose, PHP & SCSS)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/online_test_DWP">My First OpenAPI</a> (Java,
+                    OpenAPI & Docker-Compose)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/technical_challenge_D3.js">CV Visualisation</a>
+                    (React, D3.js, TypeScript & SCSS)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/deltawhiskeyalpha.com">My First Website</a>
+                    (PHP, HTML, CSS & jQuery)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Admin_Web_App">IoT Admin Web
+                        App</a> (PHP, MySQL & CSS)<br>
+                    <!-- Java -->
                     <a target="_blank" href="https://github.com/d-w-arnold/CO634-Assignment-2">Ciphertext Decryption</a>
                     (Java)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Device">IoT BLE & Motion Detection
-                        Device</a>
-                    (C++)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/CO663-Git_Bisect">Git Bisect</a>
-                    (Java & Maven)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/CO663-Git_Bisect">Git Bisect</a> (Java &
+                    Maven)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Server">IoT Server</a> (Java &
+                    JDBC)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/CO633-Computer_Networks_Assignments">Simple
+                        Data-Link Protocol</a> (Java)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/Reflective-Journal_CSV-to-TXT-Converter">CSV
                         to TXT Converter</a> (Java)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/Java_Sudoku-Solver">Sudoku Solver</a> (Java &
                     JavaFX)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Server">IoT Central Server</a>
-                    (Java & JDBC)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/local_news-data_collection">Local News Web Crawler</a>
-                    (Python)<br>
+                    <!-- C/C++ -->
+                    <a target="_blank" href="https://github.com/d-w-arnold/Command_Line_Address_Book">Command-Line
+                        Address Book</a> (C)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Device">IoT BLE & Motion
+                        Detection</a> (C++)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/C_Test_Bench">C Test Bench</a> (C)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/online_test_PetaGene_C">Coderbyte Online
+                        Test</a> (C++)<br>
+                    <!-- Python -->
+                    <a target="_blank" href="https://github.com/d-w-arnold/local_news-data_collection">News Web
+                        Crawler</a> (Python)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/Python_Sudoku-Solver">Sudoku Solver</a>
                     (Python)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Admin_Web_App">IoT Admin Web
-                        App</a> (PHP, HTML, CSS & MySQL)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/deltawhiskeyalpha.com">My First Website</a>
-                    (PHP, HTML, CSS, JavaScript & jQuery)<br>
+                    <!-- Erlang -->
+                    <a target="_blank" href="https://github.com/d-w-arnold/CO545-Assignment-4">Simple TCP Packets</a>
+                    (Erlang)<br>
+                    <!-- Misc. -->
+                    <a target="_blank" href="https://github.com/d-w-arnold/Gambit_Cipher_Quiz">Cipher Quiz</a> (C++,
+                    Python & Erlang)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/Fast_Food_Ranker">Randomiser</a> (Shell)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/AppleScript_Timestamp-Media">Timestamp
                         Media</a> (AppleScript)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/Learn_Git_GitHub_JetBrains">Learn: Git,
-                        GitHub and JetBrains IDEs</a> (Markdown) (Talks aimed at Year 1 and 2 undergraduates)
                 </td>
             </tr>
             <tr>
                 <td class="computingSubTitle">Events</td>
-                <td class="computingWriting"><a
-                            target="_blank"
-                            href="https://www.cisco.com/c/m/en_uk/training-events/university-challenge.html">2017 Cisco
-                        University Challenge</a></td>
+                <td class="computingWriting">
+                    <a target="_blank" href="https://www.cisco.com/c/m/en_uk/training-events/university-challenge.html">2017
+                        Cisco University Challenge</a><br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/Learn_Git_GitHub_JetBrains">Learn: Git,
+                        GitHub and JetBrains IDEs</a> (University talks)
+                </td>
             </tr>
         </table>
     </div>

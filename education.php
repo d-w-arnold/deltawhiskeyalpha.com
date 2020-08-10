@@ -22,7 +22,7 @@ include "./topHTMLnoIndex.php";
 
         <table class="marginBottom2">
             <tr>
-                <td class="jobTitle">BSc Computer Science with a Year in Industry - First Class Honours</td>
+                <td class="jobTitle">BSc Computer Science with a Year in Industry (First-Class Honours)</td>
             </tr>
             <tr>
                 <td class="jobDates">Sep. 2016 - Jun. 2020</td>
@@ -44,7 +44,7 @@ include "./topHTMLnoIndex.php";
                         <a class="link-color" target="_blank" href="https://www.tmlep.com/">TMLEP</a></p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Computer Networks and Communication (Java): 88%</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Computer Security and Cryptography (Java): 92%</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Internet of Things (C++, Java, PHP, HTML, CSS & MySQL):
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Internet of Things (C++, Java, PHP, MySQL, HTML & CSS):
                         70%</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Programming Language Implementation (OCaml & C): 88%</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Programming Languages: Application and Design (Java, Rust &
