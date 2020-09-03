@@ -32,7 +32,8 @@ include "./topHTMLnoIndex.php";
                         Website</a> (React, TypeScript, Docker, Docker-Compose, PHP & SCSS)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/online_test_DWP">My First OpenAPI</a> (Java,
                     OpenAPI & Docker-Compose)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/technical_challenge_D3.js">CV Visualisation</a>
+                    <a target="_blank" href="https://github.com/d-w-arnold/technical_challenge_D3.js">CV
+                        Visualisation</a>
                     (React, D3.js, TypeScript & SCSS)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/deltawhiskeyalpha.com">My First Website</a>
                     (PHP, HTML, CSS & jQuery)<br>
@@ -45,8 +46,10 @@ include "./topHTMLnoIndex.php";
                     Maven)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Server">IoT Server</a> (Java &
                     JDBC)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/CO633-Computer_Networks_Assignments">Simple
-                        Data-Link Protocol</a> (Java)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/Fairy_Lights_Controller">Lights
+                        Controller</a> (Java & JUnit)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/CO633-Computer_Networks_Assignments">Data-Link
+                        Protocol</a> (Java)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/Reflective-Journal_CSV-to-TXT-Converter">CSV
                         to TXT Converter</a> (Java)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/Java_Sudoku-Solver">Sudoku Solver</a> (Java &
@@ -57,16 +60,16 @@ include "./topHTMLnoIndex.php";
                     <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Device">IoT BLE & Motion
                         Detection</a> (C++)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/C_Test_Bench">C Test Bench</a> (C)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/online_test_PetaGene_C">Coderbyte Online
-                        Test</a> (C++)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/online_test_PetaGene_C">Coderbyte Test</a>
+                    (C++)<br>
                     <!-- Python -->
                     <a target="_blank" href="https://github.com/d-w-arnold/local_news-data_collection">News Web
                         Crawler</a> (Python)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/Python_Sudoku-Solver">Sudoku Solver</a>
                     (Python)<br>
                     <!-- Erlang -->
-                    <a target="_blank" href="https://github.com/d-w-arnold/CO545-Assignment-4">Simple TCP Packets</a>
-                    (Erlang)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/CO545-Assignment-4">TCP
+                        Packets</a>(Erlang)<br>
                     <!-- Misc. -->
                     <a target="_blank" href="https://github.com/d-w-arnold/Gambit_Cipher_Quiz">Cipher Quiz</a> (C++,
                     Python & Erlang)<br>
@@ -114,17 +117,26 @@ include "./topHTMLnoIndex.php";
         <table>
             <tr>
                 <td class=jobDetails>
-                    <p>•&nbsp;&nbsp;Responsible for supporting, maintaining and optimising internal systems.</p>
-                    <p>•&nbsp;&nbsp;Expected to work well both individually and as part of a team.</p>
-                    <p>•&nbsp;&nbsp;Main accountabilities during role:</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Support and manage critical business applications and
-                        tools</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Communication, building relationships and working with
-                        people across teams</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Technical approach to problem solving</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Participation in project work</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Identify and propose opportunities to improve processes and
-                        systems</p>
+                    <p>•&nbsp;&nbsp;Achievements:</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Designed and implemented a custom Java program to improve
+                        productivity.</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Project lead the organisation of new starter hardware and
+                        software delivery.</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Volunteered during busy F1 race weekend.</p>
+                    <p>•&nbsp;&nbsp;Responsibilities:</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Supporting, maintaining and optimising internal systems on
+                        an individual and team level.</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Liaising with personnel across all levels of the business,
+                        providing excellent communications to explain procedures in a practical, and user-friendly
+                        way.</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Providing a level-headed and rational approach to problem
+                        solving, resulting in time efficient, cost effective, and creative solutions.</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Acting as first point of contact for business-wide
+                        hardware/software issues, including critical incidents.</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Logging incidents and service requests, as well as managing
+                        response times.</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Identify and propose opportunities to improve existing
+                        processes and systems.</p>
                 </td>
             </tr>
         </table>
