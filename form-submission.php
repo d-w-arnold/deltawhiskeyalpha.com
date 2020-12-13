@@ -76,10 +76,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             ];
             $promise = $sparky->transmissions->post($transmissionData);
         } catch (Exception $e) {
-            $sendStatus = "Message not sent. Please try again at a later time.";
             $status = 0;
         }
-        $sendStatus = "Message sent, I'll be in touch!";
+
+        if ($status == 1) {
+            $sendStatus = "Message sent, I'll be in touch!";
+        } else {
+            $sendStatus = "Message not sent. Please try again at a later time.";
+        }
     }
 }
 
