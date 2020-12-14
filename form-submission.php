@@ -48,7 +48,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if ($status == 1) {
         $httpClient = new GuzzleAdapter(new GuzzleClient());
-        $sparky = new SparkPost($httpClient, ['key' => ($sparkpostSecret), 'async' => false]);
+        $sparkpostHost = 'api.eu.sparkpost.com';
+        $sparky = new SparkPost($httpClient, ['key' => $sparkpostSecret, 'host' => $sparkpostHost, 'async' => false]);
         try {
             $text = '';
             $text .= "Name: $name" . PHP_EOL;
