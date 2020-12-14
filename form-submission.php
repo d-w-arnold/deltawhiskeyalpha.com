@@ -1,8 +1,8 @@
 <?php
 
 require './vendor/autoload.php';
-require 'reCAPTCHAsecret.php'; // Provides $reCAPTCHAsecret, add your own ReCAPTCH API key secret to this variable.
-require 'sparkpostSecret.php'; // Provides $sparkpostSecret, add your own Sparkpost API key secret to this variable.
+require 'reCAPTCHAsecret.php'; // Provides $reCAPTCHAsecret, add your own ReCAPTCHA API key.
+require 'sparkpostSecret.php'; // Provides $sparkpostSecret, add your own Sparkpost API key.
 
 use GuzzleHttp\Client as GuzzleClient;
 use Http\Adapter\Guzzle6\Client as GuzzleAdapter;
