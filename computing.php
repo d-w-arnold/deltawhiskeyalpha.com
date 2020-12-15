@@ -99,7 +99,7 @@ include "./topHTMLnoIndex.php";
         <table class="marginBottom2">
             <tr>
                 <td class="employerName"><span class="iconLap" aria-hidden="true"></span><b><a
-                                target="_blank" href="https://www.peachvideo.com/en-gb/media/">Peach Media</a></b></td>
+                                target="_blank" href="https://www.peachvideo.com/en-gb/">Peach</a></b></td>
                 <td class="location">London, U.K.</td>
             </tr>
         </table>
