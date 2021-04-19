@@ -18,10 +18,9 @@ include "./topHTMLnoIndex.php";
             </tr>
             <tr>
                 <td class="computingSubTitle">Skills</td>
-                <td class="computingWriting">Unix CLI, Git, JetBrains IDEs, Java, Python, C, C++, Erlang, JavaScript (w/
-                    React, jQuery, AJAX &
-                    Node.js), TypeScript, Docker, PHP, MySQL, HTML, SCSS, Shell, Rust, R,
-                    AppleScript, Markdown, LaTeX, Cryptography, Mathematics
+                <td class="computingWriting">Unix CLI, Git, JetBrains IDEs, Java, Python, Shell, Docker, JavaScript (w/
+                    React, jQuery, AJAX & Node.js), TypeScript, PHP, SQL, HTML, SCSS, C/C++, Erlang, AppleScript,
+                    Markdown, LaTeX, Cryptography, Mathematics
                 </td>
             </tr>
             <tr>
@@ -34,43 +33,47 @@ include "./topHTMLnoIndex.php";
                     Maven)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Server">IoT Server</a> (Java &
                     JDBC)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/CO633-Computer_Networks_Assignments">Data-Link
-                        Protocol</a> (Java)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/Fairy_Lights_Controller">Lights
-                        Controller</a> (Java & JUnit)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/Reflective-Journal_CSV-to-TXT-Converter">CSV
-                        to TXT Converter</a> (Java)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/Java_countdown">Countdown Game</a> (Java)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/Java_Sudoku-Solver">Sudoku Solver</a> (Java &
                     JavaFX)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/Reflective-Journal_CSV-to-TXT-Converter">CSV
+                        to TXT Converter</a> (Java)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/Fairy_Lights_Controller">Lights
+                        Controller</a> (Java & JUnit)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/CO633-Computer_Networks_Assignments">Data-Link
+                        Protocol</a> (Java)<br>
                     <!-- Python -->
-                    <a target="_blank" href="https://github.com/d-w-arnold/local_news-data_collection">News Web
-                        Crawler</a> (Python)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/Python_Sudoku-Solver">Sudoku Solver</a>
                     (Python)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/local_news-data_collection">News Web
+                        Crawler</a> (Python)<br>
+                    <!-- Shell -->
+                    <a target="_blank" href="https://github.com/d-w-arnold/check_homebrew_update">Homebrew Package
+                        Auto-Upgrade</a> (Shell)<br>
+                    <!-- Web Dev -->
+                    <a target="_blank" href="https://github.com/d-w-arnold/dwa_website_react">My Dockerised React
+                        Website</a> (React, TypeScript, Docker, Docker-Compose, PHP & SCSS)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/online_test_DWP">My First OpenAPI</a> (Java,
+                    OpenAPI & Docker-Compose)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/deltawhiskeyalpha.com">My Website</a>
+                    (PHP, HTML, CSS & jQuery)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/technical_challenge_D3.js">CV
+                        Visualisation</a> (React, D3.js, TypeScript & SCSS)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/laravel-test">Simple Questionnaire</a> (PHP,
+                    Laravel & MySQL)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Admin_Web_App">IoT Admin Web
+                        App</a> (PHP, MySQL & CSS)<br>
                     <!-- C/C++ -->
-                    <a target="_blank" href="https://github.com/d-w-arnold/Command_Line_Address_Book">CLI Address
-                        Book</a> (C)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Device">IoT BLE & Motion
                         Detection</a> (C++)<br>
+                    <a target="_blank" href="https://github.com/d-w-arnold/Command_Line_Address_Book">CLI Address
+                        Book</a> (C)<br>
                     <!-- Erlang -->
                     <a target="_blank" href="https://github.com/d-w-arnold/CO545-Assignment-4">TCP
                         Packets</a> (Erlang)<br>
                     <!-- Misc. -->
                     <a target="_blank" href="https://github.com/d-w-arnold/Gambit_Cipher_Quiz">Cipher Quiz</a> (Python,
                     C++ & Erlang)<br>
-                    <!-- Web Dev -->
-                    <a target="_blank" href="https://github.com/d-w-arnold/online_test_DWP">My First OpenAPI</a> (Java,
-                    OpenAPI & Docker-Compose)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/technical_challenge_D3.js">CV
-                        Visualisation</a> (React, D3.js, TypeScript & SCSS)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/laravel-test">Simple Questionnaire</a> (PHP,
-                    Laravel & MySQL)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/dwa_website_react">My First Dockerised React
-                        Website</a> (React, TypeScript, Docker, Docker-Compose, PHP & SCSS)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Admin_Web_App">IoT Admin Web
-                        App</a> (PHP, MySQL & CSS)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/deltawhiskeyalpha.com">My First Website</a>
-                    (PHP, HTML, CSS & jQuery)<br>
                     <!-- Non-CV -->
                     <a target="_blank" href="https://github.com/d-w-arnold/Fast_Food_Ranker">Fast Food Randomiser</a>
                     (Shell)<br>
