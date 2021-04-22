@@ -75,6 +75,8 @@ include "./topHTMLnoIndex.php";
                     <a target="_blank" href="https://github.com/d-w-arnold/Gambit_Cipher_Quiz">Cipher Quiz</a> (Python,
                     C++ & Erlang)<br>
                     <!-- Non-CV -->
+                    <a target="_blank" href="https://github.com/d-w-arnold/open_all_images_shell">Open All Images</a>
+                    (Shell & AppleScript)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/Fast_Food_Ranker">Fast Food Randomiser</a>
                     (Shell)<br>
                     <a target="_blank" href="https://github.com/d-w-arnold/AppleScript_Timestamp-Media">Timestamp
