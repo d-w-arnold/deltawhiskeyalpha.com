@@ -46,16 +46,16 @@
         </div>
         <div id="top">
             <div class="alignRight">
-                <a class="iconLink" target="_blank" href="https://github.com/d-w-arnold">
+                <a class="iconLink" target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold">
                     <i class="fa fa-github-square" aria-hidden="true"></i>
                 </a>
-                <a class="iconLink" target="_blank" href="https://uk.linkedin.com/in/david-w-arnold">
+                <a class="iconLink" target="_blank" rel="noopener noreferrer" href="https://uk.linkedin.com/in/david-w-arnold">
                     <i class="fa fa-linkedin-square" aria-hidden="true"></i>
                 </a>
-                <a class="iconLink" target="_blank" href="https://keybase.io/d_w_arnold">
+                <a class="iconLink" target="_blank" rel="noopener noreferrer" href="https://keybase.io/d_w_arnold">
                     <i class="fa fa-key" aria-hidden="true"></i>
                 </a>
-                <a id="cv" target="_blank" href="<?php echo $cv_path ?>">** CV (Résumé) **</a>
+                <a id="cv" target="_blank" rel="noopener noreferrer" href="<?php echo $cv_path ?>">** CV (Résumé) **</a>
             </div>
             <div class="alignLeft">
                 <p id="delta">
@@ -64,7 +64,7 @@
             </div>
         </div>
         <div>
-            <h1 id="myName"><a class="link-color" target="_blank" href="<?php echo $cv_path ?>">David W. Arnold</a></h1>
+            <h1 id="myName"><a class="link-color" target="_blank" rel="noopener noreferrer" href="<?php echo $cv_path ?>">David W. Arnold</a></h1>
         </div>
         <span id="menu" onclick="openNav()"><span id="menu-name">Menu </span>&#9776;</span>
         <div id="myDesktopNav">

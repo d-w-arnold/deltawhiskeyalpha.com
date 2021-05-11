@@ -27,69 +27,82 @@ include "./topHTMLnoIndex.php";
                 <td class="computingSubTitle">Projects</td>
                 <td class="computingWriting">
                     <!-- Java -->
-                    <a target="_blank" href="https://github.com/d-w-arnold/CO634-Assignment-2">Ciphertext Decryption</a>
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="https://github.com/d-w-arnold/CO634-Assignment-2">Ciphertext Decryption</a>(Java)<br>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/CO663-Git_Bisect">Git
+                        Bisect</a> (Java & Maven)<br>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/CO657-IoT_Server">IoT
+                        Server</a> (Java & JDBC)<br>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/Java_countdown">Countdown
+                        Game</a> (Java)<br>
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="https://github.com/d-w-arnold/Java_Sudoku-Solver">Sudoku Solver</a> (Java & JavaFX)<br>
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="https://github.com/d-w-arnold/Reflective-Journal_CSV-to-TXT-Converter">CSV to TXT
+                        Converter</a> (Java)<br>
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="https://github.com/d-w-arnold/Fairy_Lights_Controller">Lights Controller</a> (Java & JUnit)<br>
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="https://github.com/d-w-arnold/CO633-Computer_Networks_Assignments">Data-Link Protocol</a>
                     (Java)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/CO663-Git_Bisect">Git Bisect</a> (Java &
-                    Maven)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Server">IoT Server</a> (Java &
-                    JDBC)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/Java_countdown">Countdown Game</a> (Java)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/Java_Sudoku-Solver">Sudoku Solver</a> (Java &
-                    JavaFX)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/Reflective-Journal_CSV-to-TXT-Converter">CSV
-                        to TXT Converter</a> (Java)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/Fairy_Lights_Controller">Lights
-                        Controller</a> (Java & JUnit)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/CO633-Computer_Networks_Assignments">Data-Link
-                        Protocol</a> (Java)<br>
                     <!-- Python -->
-                    <a target="_blank" href="https://github.com/d-w-arnold/Python_Sudoku-Solver">Sudoku Solver</a>
-                    (Python)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/local_news-data_collection">News Web
-                        Crawler</a> (Python)<br>
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="https://github.com/d-w-arnold/Python_Sudoku-Solver">Sudoku Solver</a>(Python)<br>
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="https://github.com/d-w-arnold/local_news-data_collection">News Web Crawler</a> (Python)<br>
                     <!-- Shell -->
-                    <a target="_blank" href="https://github.com/d-w-arnold/check_homebrew_update">Homebrew Package
-                        Auto-Upgrade</a> (Shell)<br>
-                    <!-- Web Dev -->
-                    <a target="_blank" href="https://github.com/d-w-arnold/dwa_website_react">My Dockerised React
-                        Website</a> (React, TypeScript, Docker, Docker-Compose, PHP & SCSS)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/online_test_DWP">My First OpenAPI</a> (Java,
-                    OpenAPI & Docker-Compose)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/deltawhiskeyalpha.com">My Website</a>
-                    (PHP, HTML, CSS & jQuery)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/technical_challenge_D3.js">CV
-                        Visualisation</a> (React, D3.js, TypeScript & SCSS)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/laravel-test">Simple Questionnaire</a> (PHP,
-                    Laravel & MySQL)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Admin_Web_App">IoT Admin Web
-                        App</a> (PHP, MySQL & CSS)<br>
-                    <!-- C/C++ -->
-                    <a target="_blank" href="https://github.com/d-w-arnold/CO657-IoT_Device">IoT BLE & Motion
-                        Detection</a> (C++)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/Command_Line_Address_Book">CLI Address
-                        Book</a> (C)<br>
-                    <!-- Erlang -->
-                    <a target="_blank" href="https://github.com/d-w-arnold/CO545-Assignment-4">TCP
-                        Packets</a> (Erlang)<br>
-                    <!-- Misc. -->
-                    <a target="_blank" href="https://github.com/d-w-arnold/Gambit_Cipher_Quiz">Cipher Quiz</a> (Python,
-                    C++ & Erlang)<br>
-                    <!-- Non-CV -->
-                    <a target="_blank" href="https://github.com/d-w-arnold/open_all_images_shell">Open All Images</a>
-                    (Shell & AppleScript)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/Fast_Food_Ranker">Fast Food Randomiser</a>
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="https://github.com/d-w-arnold/check_homebrew_update">Homebrew Package Auto-Upgrade</a>
                     (Shell)<br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/AppleScript_Timestamp-Media">Timestamp
-                        Media</a> (AppleScript)<br>
+                    <!-- Web Dev -->
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/dwa_website_react">My
+                        Dockerised React Website</a> (React, TypeScript, Docker, Docker-Compose, PHP & SCSS)<br>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/online_test_DWP">My
+                        First OpenAPI</a> (Java, OpenAPI & Docker-Compose)<br>
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="https://github.com/d-w-arnold/deltawhiskeyalpha.com">My Website</a>(PHP, HTML, CSS &
+                    jQuery)<br>
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="https://github.com/d-w-arnold/technical_challenge_D3.js">CV Visualisation</a> (React,
+                    D3.js, TypeScript & SCSS)<br>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/laravel-test">Simple
+                        Questionnaire</a> (PHP, Laravel & MySQL)<br>
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="https://github.com/d-w-arnold/CO657-IoT_Admin_Web_App">IoT Admin Web App</a> (PHP, MySQL &
+                    CSS)<br>
+                    <!-- C/C++ -->
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/CO657-IoT_Device">IoT
+                        BLE & Motion Detection</a> (C++)<br>
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="https://github.com/d-w-arnold/Command_Line_Address_Book">CLI Address Book</a> (C)<br>
+                    <!-- Erlang -->
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="https://github.com/d-w-arnold/CO545-Assignment-4">TCP Packets</a> (Erlang)<br>
+                    <!-- Misc. -->
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="https://github.com/d-w-arnold/Gambit_Cipher_Quiz">Cipher Quiz</a> (Python, C++ &
+                    Erlang)<br>
+                    <!-- Non-CV -->
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="https://github.com/d-w-arnold/open_all_images_shell">Open All Images</a>(Shell &
+                    AppleScript)<br>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/Fast_Food_Ranker">Fast
+                        Food Randomiser</a>
+                    (Shell)<br>
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="https://github.com/d-w-arnold/AppleScript_Timestamp-Media">Timestamp Media</a>
+                    (AppleScript)<br>
                 </td>
             </tr>
             <tr>
                 <td class="computingSubTitle">Events</td>
                 <td class="computingWriting">
-                    <a target="_blank" href="https://www.cisco.com/c/m/en_uk/training-events/university-challenge.html">2017
-                        Cisco University Challenge</a><br>
-                    <a target="_blank" href="https://github.com/d-w-arnold/Learn_Git_GitHub_JetBrains">Learn: Git,
-                        GitHub and JetBrains IDEs</a> (University talks)
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="https://www.cisco.com/c/m/en_uk/training-events/university-challenge.html">2017 Cisco
+                        University Challenge</a><br>
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="https://github.com/d-w-arnold/Learn_Git_GitHub_JetBrains">Learn: Git, GitHub and JetBrains
+                        IDEs</a> (University talks)
                 </td>
             </tr>
         </table>
@@ -104,7 +117,8 @@ include "./topHTMLnoIndex.php";
         <table class="marginBottom2">
             <tr>
                 <td class="employerName"><span class="iconLap" aria-hidden="true"></span><b><a
-                                target="_blank" href="https://www.peachvideo.com/en-gb/">Peach</a></b></td>
+                                target="_blank" rel="noopener noreferrer"
+                                href="https://www.peachvideo.com/en-gb/">Peach</a></b></td>
                 <td class="location">London, U.K.</td>
             </tr>
         </table>
@@ -124,8 +138,9 @@ include "./topHTMLnoIndex.php";
         <table class="marginBottom2">
             <tr>
                 <td class="employerName"><span class="iconLap" aria-hidden="true"></span><b><a
-                                target="_blank" href="https://redbullracing.redbull.com/careers">Red Bull Technology /
-                            Red Bull Racing</a></b></td>
+                                target="_blank" rel="noopener noreferrer"
+                                href="https://redbullracing.redbull.com/careers">Red Bull Technology / Red Bull
+                            Racing</a></b></td>
                 <td class="location">Milton Keynes, U.K.</td>
             </tr>
         </table>

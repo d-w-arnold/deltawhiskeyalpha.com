@@ -15,7 +15,7 @@ include "./topHTMLnoIndex.php";
         <table class="marginBottom2">
             <tr>
                 <td class="employerName"><span class="iconUni" aria-hidden="true"></span><b><a
-                                target="_blank" href="https://www.kent.ac.uk">University of Kent</a></b></td>
+                                target="_blank" rel="noopener noreferrer" href="https://www.kent.ac.uk">University of Kent</a></b></td>
                 <td class="location">Canterbury, U.K.</td>
             </tr>
         </table>
@@ -35,13 +35,13 @@ include "./topHTMLnoIndex.php";
                     <p>•&nbsp;&nbsp;Year 3: 82%</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;<span class="iconPaper" aria-hidden="true"></span><a
                                 class="link-color"
-                                target="_blank"
+                                target="_blank" rel="noopener noreferrer"
                                 href="/research/Quantum_Cryptography-Security_for_the_Post-Quantum_world.pdf">Research
                             Project</a> - "Quantum Cryptography: Security for
                         the Post-Quantum world": 1st class</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;Awarded: Most Exciting Idea for
                         Global Outreach - Sponsored by
-                        <a class="link-color" target="_blank" href="https://www.tmlep.com/">TMLEP</a></p>
+                        <a class="link-color" target="_blank" rel="noopener noreferrer" href="https://www.tmlep.com/">TMLEP</a></p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Computer Networks and Communication (Java): 88%</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Computer Security and Cryptography (Java): 92%</p>
                     <p>&nbsp;&nbsp;&nbsp;&nbsp;–&nbsp;&nbsp;Internet of Things (C++, Java, PHP, MySQL, HTML & CSS):
@@ -78,7 +78,7 @@ include "./topHTMLnoIndex.php";
         <table class="marginBottom2">
             <tr>
                 <td class="employerName"><span class="iconUni" aria-hidden="true"></span><b><a
-                                target="_blank" href="https://www.newberry.edu">Newberry College</a></b></td>
+                                target="_blank" rel="noopener noreferrer" href="https://www.newberry.edu">Newberry College</a></b></td>
                 <td class="location">Newberry, South Carolina, U.S.A.</td>
             </tr>
         </table>
@@ -111,7 +111,7 @@ include "./topHTMLnoIndex.php";
         <table class="marginBottom2">
             <tr>
                 <td class="employerName"><span class="iconUni" aria-hidden="true"></span><b><a
-                                target="_blank" href="http://www.open.ac.uk">The Open University</a></b></td>
+                                target="_blank" rel="noopener noreferrer" href="http://www.open.ac.uk">The Open University</a></b></td>
                 <td class="location">Milton Keynes, U.K.</td>
             </tr>
         </table>
@@ -143,7 +143,7 @@ include "./topHTMLnoIndex.php";
         <table class="marginBottom2">
             <tr>
                 <td class="employerName"><span class="iconUni" aria-hidden="true"></span><b><a
-                                target="_blank" href="http://www.harveygs.kent.sch.uk">The Harvey Grammar School</a></b>
+                                target="_blank" rel="noopener noreferrer" href="http://www.harveygs.kent.sch.uk">The Harvey Grammar School</a></b>
                 </td>
                 <td class="location">Folkestone, U.K.</td>
             </tr>
