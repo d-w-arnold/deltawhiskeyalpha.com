@@ -28,7 +28,7 @@ include "./topHTMLnoIndex.php";
                 <td class="computingWriting">
                     <!-- Java -->
                     <a target="_blank" rel="noopener noreferrer"
-                       href="https://github.com/d-w-arnold/CO634-Assignment-2">Ciphertext Decryption</a>(Java)<br>
+                       href="https://github.com/d-w-arnold/CO634-Assignment-2">Ciphertext Decryption</a> (Java)<br>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/CO663-Git_Bisect">Git
                         Bisect</a> (Java & Maven)<br>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/CO657-IoT_Server">IoT
@@ -47,7 +47,7 @@ include "./topHTMLnoIndex.php";
                     (Java)<br>
                     <!-- Python -->
                     <a target="_blank" rel="noopener noreferrer"
-                       href="https://github.com/d-w-arnold/Python_Sudoku-Solver">Sudoku Solver</a>(Python)<br>
+                       href="https://github.com/d-w-arnold/Python_Sudoku-Solver">Sudoku Solver</a> (Python)<br>
                     <a target="_blank" rel="noopener noreferrer"
                        href="https://github.com/d-w-arnold/local_news-data_collection">News Web Crawler</a> (Python)<br>
                     <!-- Shell -->
@@ -60,7 +60,7 @@ include "./topHTMLnoIndex.php";
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/online_test_DWP">My
                         First OpenAPI</a> (Java, OpenAPI & Docker-Compose)<br>
                     <a target="_blank" rel="noopener noreferrer"
-                       href="https://github.com/d-w-arnold/deltawhiskeyalpha.com">My Website</a>(PHP, HTML, CSS &
+                       href="https://github.com/d-w-arnold/deltawhiskeyalpha.com">My Website</a> (PHP, HTML, CSS &
                     jQuery)<br>
                     <a target="_blank" rel="noopener noreferrer"
                        href="https://github.com/d-w-arnold/technical_challenge_D3.js">CV Visualisation</a> (React,
@@ -84,7 +84,7 @@ include "./topHTMLnoIndex.php";
                     Erlang)<br>
                     <!-- Non-CV -->
                     <a target="_blank" rel="noopener noreferrer"
-                       href="https://github.com/d-w-arnold/open_all_images_shell">Open All Images</a>(Shell &
+                       href="https://github.com/d-w-arnold/open_all_images_shell">Open All Images</a> (Shell &
                     AppleScript)<br>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/Fast_Food_Ranker">Fast
                         Food Randomiser</a>
