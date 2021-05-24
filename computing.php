@@ -18,9 +18,9 @@ include "./topHTMLnoIndex.php";
             </tr>
             <tr>
                 <td class="computingSubTitle">Skills</td>
-                <td class="computingWriting">Unix CLI, Git, JetBrains IDEs, Java, Python, Shell, Docker, JavaScript (w/
-                    React, jQuery, AJAX & Node.js), TypeScript, PHP, SQL, HTML, SCSS, C/C++, Erlang, AppleScript,
-                    Markdown, LaTeX, Cryptography, Mathematics
+                <td class="computingWriting">Unix CLI, Git, JetBrains IDEs, Java, Python (w/ Django), Shell, Docker,
+                    JavaScript (w/ React, jQuery, AJAX & Node.js), TypeScript, PHP, SQL, HTML, SCSS, C/C++, Erlang,
+                    AppleScript, Markdown, LaTeX, Cryptography, Mathematics
                 </td>
             </tr>
             <tr>
