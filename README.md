@@ -1,5 +1,5 @@
-# <https://deltawhiskeyalpha.com>
+# My first website 💻 🌎
 
-My first website 💻 🌎
+DEPRECATED, see https://github.com/d-w-arnold/dwa-website-react for latest website.
 
 
