@@ -14,83 +14,76 @@ include "./topHTMLnoIndex.php";
         <table class="computingTable">
             <tr>
                 <td class="computingSubTitle">OS's</td>
-                <td class="computingWriting">Mac OS, iOS, Ubuntu, Windows 7/10</td>
+                <td class="computingWriting">macOS, iOS, Ubuntu, Amazon Linux, Windows 7/10</td>
             </tr>
             <tr>
                 <td class="computingSubTitle">Skills</td>
-                <td class="computingWriting">Unix CLI, Git, JetBrains IDEs, Java, Python (w/ Django), Shell, Docker,
-                    JavaScript (w/ React, jQuery, AJAX & Node.js), TypeScript, PHP, SQL, HTML, SCSS, C/C++, Erlang,
-                    AppleScript, Markdown, LaTeX, Cryptography, Mathematics
+                <td class="computingWriting">Unix CLI, Git, AWS, JetBrains IDEs, Java, Python (w/ Django), Shell,
+                    Docker, JavaScript (w/ React, TypeScript, jQuery, AJAX & Node.js), SQL, PHP, HTML, SCSS, C/C++,
+                    Erlang, AppleScript, Markdown, LaTeX, Cryptography, Mathematics
                 </td>
             </tr>
             <tr>
                 <td class="computingSubTitle">Projects</td>
                 <td class="computingWriting">
-                    <!-- Java -->
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/dwa-website-react">My
+                        React Website</a> (React, TypeScript, SCSS & AWS Lambda Python)<br>
                     <a target="_blank" rel="noopener noreferrer"
-                       href="https://github.com/d-w-arnold/CO634-Assignment-2">Ciphertext Decryption</a> (Java)<br>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/CO663-Git_Bisect">Git
+                       href="https://github.com/d-w-arnold/ciphertext-decryption">Ciphertext Decryption</a> (Java)<br>
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="https://github.com/d-w-arnold/homebrew-auto-upgrade">Homebrew Package Auto-Upgrade</a>
+                    (Shell)<br>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/java-hackerrank">Java
+                        Hackerrank</a> (Java & JUnit)<br>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/CO663-git-bisect">Git
                         Bisect</a> (Java & Maven)<br>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/CO657-IoT_Server">IoT
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="https://github.com/d-w-arnold/fairy-lights-controller">Lights Controller</a> (Java & JUnit)<br>
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="https://github.com/d-w-arnold/java-sudoku-solver">Sudoku Solver</a> (Java & JavaFX)<br>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/CO657-IoT-server">IoT
                         Server</a> (Java & JDBC)<br>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/Java_countdown">Countdown
-                        Game</a> (Java)<br>
                     <a target="_blank" rel="noopener noreferrer"
-                       href="https://github.com/d-w-arnold/Java_Sudoku-Solver">Sudoku Solver</a> (Java & JavaFX)<br>
+                       href="https://github.com/d-w-arnold/CO633-computer-networks-assignments">Data-Link Protocol</a>
+                    (Java)<br>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/java-countdown">Countdown
+                        CLI Game</a> (Java)<br>
                     <a target="_blank" rel="noopener noreferrer"
-                       href="https://github.com/d-w-arnold/Reflective-Journal_CSV-to-TXT-Converter">CSV to TXT
+                       href="https://github.com/d-w-arnold/reflective-journal-CSV-to-TXT-converter">CSV to TXT
                         Converter</a> (Java)<br>
                     <a target="_blank" rel="noopener noreferrer"
-                       href="https://github.com/d-w-arnold/Fairy_Lights_Controller">Lights Controller</a> (Java & JUnit)<br>
+                       href="https://github.com/d-w-arnold/python-sudoku-solver">Sudoku Solver</a> (Python)<br>
                     <a target="_blank" rel="noopener noreferrer"
-                       href="https://github.com/d-w-arnold/CO633-Computer_Networks_Assignments">Data-Link Protocol</a>
-                    (Java)<br>
-                    <!-- Python -->
+                       href="https://github.com/d-w-arnold/local-news-data-collection">News Web Crawler</a> (Python)<br>
                     <a target="_blank" rel="noopener noreferrer"
-                       href="https://github.com/d-w-arnold/Python_Sudoku-Solver">Sudoku Solver</a> (Python)<br>
-                    <a target="_blank" rel="noopener noreferrer"
-                       href="https://github.com/d-w-arnold/local_news-data_collection">News Web Crawler</a> (Python)<br>
-                    <!-- Shell -->
-                    <a target="_blank" rel="noopener noreferrer"
-                       href="https://github.com/d-w-arnold/check_homebrew_update">Homebrew Package Auto-Upgrade</a>
-                    (Shell)<br>
-                    <!-- Web Dev -->
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/dwa_website_react">My
-                        Dockerised React Website</a> (React, TypeScript, Docker, Docker-Compose, PHP & SCSS)<br>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/online_test_DWP">My
+                       href="https://github.com/d-w-arnold/bluetooth-IoT-device">IoT BLE Device</a> (C++ Arduino)<br>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/my-first-openAPI">My
                         First OpenAPI</a> (Java, OpenAPI & Docker-Compose)<br>
                     <a target="_blank" rel="noopener noreferrer"
-                       href="https://github.com/d-w-arnold/deltawhiskeyalpha.com">My Website</a> (PHP, HTML, CSS &
+                       href="https://github.com/d-w-arnold/dwa-website-first">My First Website</a> (PHP, HTML, CSS &
                     jQuery)<br>
                     <a target="_blank" rel="noopener noreferrer"
-                       href="https://github.com/d-w-arnold/technical_challenge_D3.js">CV Visualisation</a> (React,
+                       href="https://github.com/d-w-arnold/technical-challenge-D3.js">CV Visualisation</a> (React,
                     D3.js, TypeScript & SCSS)<br>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/laravel-test">Simple
-                        Questionnaire</a> (PHP, Laravel & MySQL)<br>
+                        Questionnaire</a> (MySQL, PHP & Laravel)<br>
                     <a target="_blank" rel="noopener noreferrer"
-                       href="https://github.com/d-w-arnold/CO657-IoT_Admin_Web_App">IoT Admin Web App</a> (PHP, MySQL &
+                       href="https://github.com/d-w-arnold/CO657-IoT-admin-web-app">IoT Admin Web App</a> (MySQL, PHP &
                     CSS)<br>
-                    <!-- C/C++ -->
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/CO657-IoT_Device">IoT
-                        BLE & Motion Detection</a> (C++)<br>
                     <a target="_blank" rel="noopener noreferrer"
-                       href="https://github.com/d-w-arnold/Command_Line_Address_Book">CLI Address Book</a> (C)<br>
-                    <!-- Erlang -->
+                       href="https://github.com/d-w-arnold/command-line-address-book">CLI Address Book</a> (C)<br>
                     <a target="_blank" rel="noopener noreferrer"
-                       href="https://github.com/d-w-arnold/CO545-Assignment-4">TCP Packets</a> (Erlang)<br>
-                    <!-- Misc. -->
+                       href="https://github.com/d-w-arnold/CO545-assignment-4">TCP Packets</a> (Erlang)<br>
                     <a target="_blank" rel="noopener noreferrer"
-                       href="https://github.com/d-w-arnold/Gambit_Cipher_Quiz">Cipher Quiz</a> (Python, C++ &
+                       href="https://github.com/d-w-arnold/gambit-cipher-quiz">Cipher Quiz</a> (Python, C++ &
                     Erlang)<br>
-                    <!-- Non-CV -->
                     <a target="_blank" rel="noopener noreferrer"
-                       href="https://github.com/d-w-arnold/open_all_images_shell">Open All Images</a> (Shell &
+                       href="https://github.com/d-w-arnold/macOS-open-all-images">Open All Images</a> (Shell &
                     AppleScript)<br>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/d-w-arnold/Fast_Food_Ranker">Fast
-                        Food Randomiser</a>
-                    (Shell)<br>
                     <a target="_blank" rel="noopener noreferrer"
-                       href="https://github.com/d-w-arnold/AppleScript_Timestamp-Media">Timestamp Media</a>
+                       href="https://github.com/d-w-arnold/fast-food-randomiser">Fast Food Randomiser</a> (Shell)<br>
+                    <a target="_blank" rel="noopener noreferrer"
+                       href="https://github.com/d-w-arnold/applescript-timestamp-media">Timestamp Media</a>
                     (AppleScript)<br>
                 </td>
             </tr>
@@ -118,7 +111,7 @@ include "./topHTMLnoIndex.php";
             <tr>
                 <td class="employerName"><span class="iconLap" aria-hidden="true"></span><b><a
                                 target="_blank" rel="noopener noreferrer"
-                                href="https://www.peachvideo.com/en-gb/">Peach</a></b></td>
+                                href="https://www.peach.me/en-gb/">Peach</a></b></td>
                 <td class="location">London, U.K.</td>
             </tr>
         </table>
@@ -139,7 +132,7 @@ include "./topHTMLnoIndex.php";
             <tr>
                 <td class="employerName"><span class="iconLap" aria-hidden="true"></span><b><a
                                 target="_blank" rel="noopener noreferrer"
-                                href="https://redbullracing.redbull.com/careers">Red Bull Technology / Red Bull
+                                href="https://www.redbull.com/int-en/redbullracing">Red Bull Technology / Red Bull
                             Racing</a></b></td>
                 <td class="location">Milton Keynes, U.K.</td>
             </tr>
